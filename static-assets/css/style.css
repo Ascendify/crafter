@@ -1,0 +1,6442 @@
+/* line 26, ../scss/base/config/mixins.scss */
+.hide {
+  position: absolute;
+  left: -9999px;
+}
+
+/* line 31, ../scss/base/config/mixins.scss */
+.clear {
+  clear: both;
+}
+
+/* line 5, ../scss/base/config/type.scss */
+body {
+  font-family: "Proxima Nova", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: normal;
+  color: #072942;
+}
+
+/* line 17, ../scss/base/config/type.scss */
+p,
+a,
+li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+/* line 24, ../scss/base/config/type.scss */
+p strong,
+a strong,
+li strong {
+  font-weight: 600;
+}
+
+/* line 31, ../scss/base/config/type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Proxima Nova", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 0 10px;
+  font-weight: 600;
+  color: #051b2b;
+}
+/* line 37, ../scss/base/config/type.scss */
+h1.hr, h2.hr, h3.hr, h4.hr, h5.hr, h6.hr {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+/* line 42, ../scss/base/config/type.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* line 48, ../scss/base/config/type.scss */
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #072942;
+}
+
+/* line 54, ../scss/base/config/type.scss */
+h5, h2 {
+  color: #2AB3D0;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+/* line 60, ../scss/base/config/type.scss */
+h6 {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+/* line 71, ../scss/base/config/type.scss */
+p.large {
+  font-size: 1.2em;
+}
+/* line 73, ../scss/base/config/type.scss */
+p.p-quote {
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 43px;
+}
+@media (max-width: 639px) {
+  /* line 73, ../scss/base/config/type.scss */
+  p.p-quote {
+    word-wrap: break-word;
+  }
+}
+/* line 84, ../scss/base/config/type.scss */
+p.p-caption {
+  font-size: 14px;
+  font-style: italic;
+  color: #878787;
+}
+
+/* line 95, ../scss/base/config/type.scss */
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+/* line 99, ../scss/base/config/type.scss */
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+/* line 104, ../scss/base/config/type.scss */
+a:active {
+  color: inherit;
+}
+/* line 105, ../scss/base/config/type.scss */
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* line 108, ../scss/base/config/type.scss */
+a.link {
+  color: #1d9ff2;
+}
+/* line 110, ../scss/base/config/type.scss */
+a.link:hover {
+  color: #0c84d0;
+}
+/* line 111, ../scss/base/config/type.scss */
+a.link:active {
+  color: #1d9ff2;
+}
+/* line 112, ../scss/base/config/type.scss */
+a.link:hover, a.link:focus {
+  text-decoration: underlined;
+}
+
+/* line 119, ../scss/base/config/type.scss */
+ul {
+  margin: 0 0 10px;
+  list-style: none;
+}
+/* line 123, ../scss/base/config/type.scss */
+ul.bullet {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* line 128, ../scss/base/config/type.scss */
+#jobdetail ul {
+  list-style: inherit;
+  list-style-type: disc;
+}
+
+/* line 132, ../scss/base/config/type.scss */
+#jobdetail ul li ul {
+  list-style: inherit;
+  list-style: circle;
+}
+
+/* line 140, ../scss/base/config/type.scss */
+.asc-survey-question {
+  color: #2AB3D0;
+}
+
+/* line 7, ../scss/base/plugins/jquery-ui.scss */
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: none;
+  border-radius: 0;
+  background: #2AB3D0;
+  top: -2px;
+  border: medium none;
+  height: 16px;
+  width: 12px;
+}
+
+/* line 23, ../scss/base/plugins/jquery-ui.scss */
+.ui-datepicker-calendar .ui-state-default,
+.ui-datepicker-calendar .ui-widget-content .ui-state-default,
+.ui-datepicker-calendar .ui-widget-header .ui-state-default {
+  width: auto;
+  height: auto;
+}
+
+/* line 31, ../scss/base/plugins/jquery-ui.scss */
+.ui-widget-header {
+  background: #072942;
+}
+
+/* line 35, ../scss/base/plugins/jquery-ui.scss */
+.ui-slider-horizontal {
+  height: 12px;
+  background: #f2f2f2;
+}
+
+/* line 45, ../scss/base/plugins/jquery-ui.scss */
+.ui-autocomplete {
+  border-radius: 0;
+}
+
+/* line 49, ../scss/base/plugins/jquery-ui.scss */
+.ui-menu .ui-menu-item a.ui-state-focus {
+  background: #fff;
+  border-radius: 0;
+  border: medium none;
+  /*	height: 16px; */
+  /*	top: -2px; */
+  /*	width: 12px; */
+}
+
+/* line 8, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control {
+  width: 30px;
+  height: 75px;
+  background: rgba(124, 127, 136, 0.8);
+  top: 50%;
+  margin-top: -37px;
+  opacity: 1;
+  border: none;
+  border-radius: 0;
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  -webkit-transition: background 0.25s;
+  transition: background 0.25s;
+}
+/* line 18, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control.left {
+  left: -8px;
+}
+/* line 20, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control.left span {
+  left: 4px;
+}
+/* line 22, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control.right {
+  right: -8px;
+}
+/* line 24, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control:hover {
+  background: rgba(112, 114, 123, 0.8);
+}
+/* line 26, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control:hover span {
+  color: #dddddf;
+}
+/* line 29, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-control span {
+  font-size: 50px;
+  text-shadow: none;
+  height: 50px;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  margin-top: -25px;
+  color: #d0d0d3;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+/* line 41, ../scss/base/plugins/bootstrap.scss */
+.carousel .carousel-indicators {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  /* line 46, ../scss/base/plugins/bootstrap.scss */
+  .carousel-control.right {
+    left: 92%;
+  }
+}
+@media (max-width: 639px) {
+  /* line 54, ../scss/base/plugins/bootstrap.scss */
+  .carousel-control.right {
+    left: 96%;
+  }
+}
+@media (max-width: 360px) {
+  /* line 62, ../scss/base/plugins/bootstrap.scss */
+  .carousel-control.right {
+    left: 93%;
+  }
+}
+/* line 77, ../scss/base/plugins/bootstrap.scss */
+.panel-group .panel + .panel {
+  margin: 0;
+}
+
+/* line 81, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  padding: 0 0 10px;
+}
+
+/* line 85, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading {
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-top: 1px solid #d9d9d9;
+  border-radius: 0;
+}
+/* line 92, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading h4.panel-title {
+  font-size: 13px;
+  color: #878787;
+}
+/* line 95, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading h4.panel-title a {
+  padding: 8px 0;
+  display: block;
+}
+/* line 98, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading h4.panel-title a i {
+  float: right;
+  margin: -1px 10px 0 0;
+  font-size: 15px;
+}
+/* line 104, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading h4.panel-title a:hover,
+.panel-default > .panel-heading h4.panel-title a:active {
+  color: #878787;
+}
+
+/* line 110, ../scss/base/plugins/bootstrap.scss */
+.panel-default:last-child > .panel-heading {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+/* line 113, ../scss/base/plugins/bootstrap.scss */
+.panel-group .panel {
+  box-shadow: none;
+  border-radius: 0;
+  background: none;
+  border: none;
+}
+
+/* line 119, ../scss/base/plugins/bootstrap.scss */
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+  border: none;
+}
+
+/* line 127, ../scss/base/plugins/bootstrap.scss */
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* line 134, ../scss/base/plugins/bootstrap.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fff;
+}
+
+/* line 6, ../scss/base/components/button.scss */
+input.btn,
+button.btn,
+a.btn,
+.btn {
+  font-weight: 300;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 16, ../scss/base/components/button.scss */
+input.btn:active, input.btn.active,
+button.btn:active,
+button.btn.active,
+a.btn:active,
+a.btn.active,
+.btn:active,
+.btn.active {
+  box-shadow: none;
+}
+
+/* line 25, ../scss/base/components/button.scss */
+.btn.btn-default {
+  color: #2AB3D0;
+  border: 1px solid #2AB3D0;
+  background: transparent;
+  font-weight: normal;
+}
+/* line 30, ../scss/base/components/button.scss */
+.btn.btn-default:hover {
+  color: #26a1bb;
+  border-color: #26a1bb;
+  background: #d0eff6;
+}
+
+/* line 37, ../scss/base/components/button.scss */
+.btn.btn-primary {
+  color: white;
+  border: none;
+  background: #2AB3D0;
+  border-radius: 2px;
+}
+/* line 42, ../scss/base/components/button.scss */
+.btn.btn-primary:hover {
+  background: #27a8c3;
+  color: white;
+}
+/* line 46, ../scss/base/components/button.scss */
+.btn.btn-primary:active {
+  background: #218ea6;
+}
+
+/* line 51, ../scss/base/components/button.scss */
+.btn.btn-secondary {
+  color: white;
+  border: none;
+  background: #072942;
+}
+/* line 55, ../scss/base/components/button.scss */
+.btn.btn-secondary:hover {
+  background: #062034;
+}
+/* line 58, ../scss/base/components/button.scss */
+.btn.btn-secondary:active {
+  background: #020c14;
+}
+
+/* line 63, ../scss/base/components/button.scss */
+.btn.btn-plain,
+.btn-cancel,
+.btn.asc-cancel {
+  color: #072942;
+  background: #edeff2;
+}
+/* line 71, ../scss/base/components/button.scss */
+.btn.btn-plain:active,
+.btn-cancel:active,
+.btn.asc-cancel:active {
+  background: #cfd5dd;
+}
+
+/* line 77, ../scss/base/components/button.scss */
+.btn.btn-plain.btn-danger:hover, .btn.btn-plain.btn-danger:active {
+  color: white;
+}
+/* line 84, ../scss/base/components/button.scss */
+.btn.btn-plain.btn-danger:active {
+  background: #c72f29;
+}
+
+/* line 89, ../scss/base/components/button.scss */
+.btn.btn-success {
+  color: white;
+  background: #98ca4a;
+  opacity: 1;
+}
+/* line 96, ../scss/base/components/button.scss */
+.btn.btn-success:active {
+  background: #7eae33;
+}
+
+/* line 100, ../scss/base/components/button.scss */
+.asc-trash .btn:last-child, .asc-trash-wrapper .btn:last-child {
+  border-radius: 0px;
+}
+
+/* line 104, ../scss/base/components/button.scss */
+.asc-trash .btn:nth-child(1), .asc-trash-wrapper .btn:nth-child(1) {
+  background-image: none;
+  background-color: #E15650;
+}
+/* line 108, ../scss/base/components/button.scss */
+.asc-trash .btn:nth-child(1):hover, .asc-trash-wrapper .btn:nth-child(1):hover {
+  background-color: #E15650;
+}
+
+/* line 114, ../scss/base/components/button.scss */
+.btn.btn-danger {
+  color: white;
+  background: #DA4F49;
+  opacity: 1;
+}
+/* line 118, ../scss/base/components/button.scss */
+.btn.btn-danger:hover {
+  background: #da4f49;
+}
+/* line 121, ../scss/base/components/button.scss */
+.btn.btn-danger:active {
+  background: #c72f29;
+}
+
+/* line 125, ../scss/base/components/button.scss */
+#asc-cta-upload-resume-button {
+  cursor: pointer;
+}
+
+/* line 129, ../scss/base/components/button.scss */
+.fa-cloud-upload {
+  cursor: pointer;
+}
+
+/* line 140, ../scss/base/components/button.scss */
+.btn.btn-social {
+  border-radius: 0;
+  padding: 12px 18px;
+  padding-left: 58px;
+  position: relative;
+  text-align: left;
+  font-weight: 300;
+  font-size: 16px;
+}
+/* line 148, ../scss/base/components/button.scss */
+.btn.btn-social:hover {
+  border: none;
+}
+/* line 151, ../scss/base/components/button.scss */
+.btn.btn-social.connected {
+  opacity: .6;
+}
+/* line 153, ../scss/base/components/button.scss */
+.btn.btn-social.connected:hover {
+  cursor: default;
+}
+/* line 155, ../scss/base/components/button.scss */
+.btn.btn-social i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 22px;
+}
+
+/* line 164, ../scss/base/components/button.scss */
+.btn.btn-facebook {
+  background: #3b5998;
+  color: white;
+}
+/* line 167, ../scss/base/components/button.scss */
+.btn.btn-facebook i {
+  border-right: 1px solid #30487b;
+}
+/* line 170, ../scss/base/components/button.scss */
+.btn.btn-facebook:hover {
+  background: #344e86;
+}
+
+/* line 175, ../scss/base/components/button.scss */
+.btn.btn-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+/* line 178, ../scss/base/components/button.scss */
+.btn.btn-linkedin i {
+  border-right: 1px solid #0b5c82;
+}
+/* line 181, ../scss/base/components/button.scss */
+.btn.btn-linkedin:hover {
+  background: #0c6590;
+}
+
+/* line 190, ../scss/base/components/button.scss */
+.btn.btn-lg {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+/* line 195, ../scss/base/components/button.scss */
+.btn.btn-wide {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+/* line 198, ../scss/base/components/button.scss */
+.btn.btn-wide.btn-lg {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 203, ../scss/base/components/button.scss */
+.btn.btn-xwide {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+/* line 206, ../scss/base/components/button.scss */
+.btn.btn-xwide.btn-lg {
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+/* line 212, ../scss/base/components/button.scss */
+.btn.btn-short {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* line 217, ../scss/base/components/button.scss */
+.btn.btn-block {
+  display: block;
+}
+
+/* line 5, ../scss/base/components/panel.scss */
+.asc-panel {
+  background: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.14);
+  padding: 20px;
+}
+
+/* line 5, ../scss/base/components/forms.scss */
+textarea {
+  min-height: 100px;
+}
+
+/* line 47, ../scss/base/config/mixins.scss */
+.form-group.search-form:before, .form-group.search-form:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+.form-group.search-form:after {
+  clear: both;
+}
+/* line 11, ../scss/base/components/forms.scss */
+.form-group.search-form input[type="text"] {
+  display: block;
+  width: 80%;
+}
+/* line 15, ../scss/base/components/forms.scss */
+.form-group.search-form button[type="submit"] {
+  float: right;
+  width: 16%;
+  display: block;
+}
+
+/* line 22, ../scss/base/components/forms.scss */
+label > span.small-label {
+  font-size: 11px;
+  vertical-align: top;
+}
+
+/* line 27, ../scss/base/components/forms.scss */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  margin-top: 6px;
+}
+
+/* line 34, ../scss/base/components/forms.scss */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 6px 8px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  font-weight: 300;
+}
+/* line 58, ../scss/base/components/forms.scss */
+textarea.input-border,
+input[type="text"].input-border,
+input[type="password"].input-border,
+input[type="datetime"].input-border,
+input[type="datetime-local"].input-border,
+input[type="date"].input-border,
+input[type="month"].input-border,
+input[type="time"].input-border,
+input[type="week"].input-border,
+input[type="number"].input-border,
+input[type="email"].input-border,
+input[type="url"].input-border,
+input[type="search"].input-border,
+input[type="tel"].input-border,
+input[type="color"].input-border,
+.uneditable-input.input-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 67, ../scss/base/components/forms.scss */
+.dynamic_form_element_error {
+  margin: 0;
+}
+/* line 69, ../scss/base/components/forms.scss */
+.dynamic_form_element_error li {
+  text-align: right;
+  font-size: 12px;
+  color: #c9533e;
+  font-weight: 600;
+  padding: 2px 0;
+}
+
+/* line 82, ../scss/base/components/forms.scss */
+div.input-icon {
+  position: relative;
+}
+/* line 84, ../scss/base/components/forms.scss */
+div.input-icon input {
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  padding-left: 58px !important;
+  padding: 11px 10px;
+  height: 44px;
+}
+/* line 93, ../scss/base/components/forms.scss */
+div.input-icon i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 14px;
+  border-right: 1px solid #cccccc;
+  width: 44px;
+  text-align: center;
+  display: block;
+  color: #878787;
+}
+
+/* line 6, ../scss/base/components/section.scss */
+section.section {
+  padding: 40px 0;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  /* line 6, ../scss/base/components/section.scss */
+  section.section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* line 15, ../scss/base/components/section.scss */
+section.section-dark {
+  background: #f2f2f2;
+}
+
+/* line 19, ../scss/base/components/section.scss */
+section.section-hr-top {
+  border-top: 1px solid #d9d9d9;
+}
+
+/* line 13, ../scss/base/components/articles.scss */
+article.slideshow h5 {
+  margin-top: 30px;
+}
+
+/* line 21, ../scss/base/components/articles.scss */
+article.video h5 {
+  margin-top: 30px;
+}
+/* line 32, ../scss/base/components/articles.scss */
+article.video .video-wrap {
+  max-height: 500px;
+  max-width: 845px;
+  position: relative;
+}
+/* line 36, ../scss/base/components/articles.scss */
+article.video .video-wrap .video-thumb {
+  position: absolute;
+}
+
+/* line 51, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-wrap .video {
+  position: relative;
+}
+/* line 53, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-wrap.playing .video-preview {
+  display: none;
+}
+/* line 54, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-wrap.playing .play-button {
+  display: none;
+}
+/* line 57, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-preview {
+  position: absolute;
+  background: url("/static-assets/stuff/video-large.jpg") no-repeat;
+  background-size: cover;
+  z-index: 200;
+}
+/* line 63, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-preview:hover {
+  cursor: pointer;
+}
+/* line 65, ../scss/base/components/articles.scss */
+article.video.video-thumbnails .video-preview:hover + span {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 69, ../scss/base/components/articles.scss */
+article.video.video-thumbnails span.play-button {
+  position: absolute;
+  font-size: 180px;
+  color: rgba(255, 255, 255, 0.6);
+  left: 50%;
+  top: 50%;
+  margin: -90px 0 0 -77px;
+  z-index: 201;
+  -moz-transition: color 0.25s 0.05s;
+  -o-transition: color 0.25s 0.05s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-delay: 0.05s;
+  transition: color 0.25s 0.05s;
+}
+/* line 78, ../scss/base/components/articles.scss */
+article.video.video-thumbnails span.play-button:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 84, ../scss/base/components/articles.scss */
+article.video.video-thumbnails ul.video-thumbs {
+  margin-top: 2.66%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+article.video.video-thumbnails ul.video-thumbs:before, article.video.video-thumbnails ul.video-thumbs:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+article.video.video-thumbnails ul.video-thumbs:after {
+  clear: both;
+}
+/* line 89, ../scss/base/components/articles.scss */
+article.video.video-thumbnails ul.video-thumbs li {
+  width: 23%;
+  float: left;
+}
+/* line 92, ../scss/base/components/articles.scss */
+article.video.video-thumbnails ul.video-thumbs li > a {
+  display: block;
+  width: 100%;
+  height: 90px;
+  background-size: cover;
+  opacity: .6;
+  -moz-transition: opacity 0.25s 0.15s;
+  -o-transition: opacity 0.25s 0.15s;
+  -webkit-transition: opacity 0.25s;
+  -webkit-transition-delay: 0.15s;
+  transition: opacity 0.25s 0.15s;
+}
+@media (max-width: 639px) {
+  /* line 92, ../scss/base/components/articles.scss */
+  article.video.video-thumbnails ul.video-thumbs li > a {
+    height: 60px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 92, ../scss/base/components/articles.scss */
+  article.video.video-thumbnails ul.video-thumbs li > a {
+    height: 40px;
+  }
+}
+/* line 102, ../scss/base/components/articles.scss */
+article.video.video-thumbnails ul.video-thumbs li.active a, article.video.video-thumbnails ul.video-thumbs li:hover a {
+  opacity: 1;
+}
+/* line 107, ../scss/base/components/articles.scss */
+article.video.video-thumbnails ul.video-thumbs li + li {
+  margin-left: 2.66%;
+}
+
+/* line 113, ../scss/base/components/articles.scss */
+.video-container {
+  padding-bottom: 56.9%;
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden;
+  transition: color 0.25s 0.05s;
+}
+
+/* line 119, ../scss/base/components/articles.scss */
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container .video-preview {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 135, ../scss/base/components/articles.scss */
+article.pull-quote-two-column div.pull-quote {
+  text-align: center;
+}
+/* line 137, ../scss/base/components/articles.scss */
+article.pull-quote-two-column div.pull-quote h5 {
+  max-width: 220px;
+  margin: 0 auto 20px;
+}
+/* line 141, ../scss/base/components/articles.scss */
+article.pull-quote-two-column div.pull-quote p {
+  margin-bottom: 40px;
+}
+
+/* line 149, ../scss/base/components/articles.scss */
+article.collage {
+  width: 100%;
+  height: 345px;
+  background-size: cover;
+  background-position: center top;
+}
+@media (max-width: 1023px) {
+  /* line 149, ../scss/base/components/articles.scss */
+  article.collage {
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 149, ../scss/base/components/articles.scss */
+  article.collage {
+    height: 220px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 149, ../scss/base/components/articles.scss */
+  article.collage {
+    height: 170px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 149, ../scss/base/components/articles.scss */
+  article.collage {
+    height: 120px;
+  }
+}
+
+/* line 165, ../scss/base/components/articles.scss */
+article.locations {
+  text-align: center;
+}
+/* line 167, ../scss/base/components/articles.scss */
+article.locations > h5 {
+  max-width: 220px;
+  margin: 0 auto 30px;
+}
+/* line 173, ../scss/base/components/articles.scss */
+article.locations div.map-container div.map-wrap {
+  margin-bottom: 30px;
+  padding: 25px;
+}
+/* line 176, ../scss/base/components/articles.scss */
+article.locations div.map-container div.map-wrap div.map-image {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+@media (max-width: 1023px) {
+  /* line 173, ../scss/base/components/articles.scss */
+  article.locations div.map-container div.map-wrap {
+    padding: 18px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 173, ../scss/base/components/articles.scss */
+  article.locations div.map-container div.map-wrap {
+    padding: 10px;
+  }
+}
+/* line 187, ../scss/base/components/articles.scss */
+article.locations div.map-container h5 {
+  color: #878787;
+  margin-bottom: 8px;
+}
+/* line 191, ../scss/base/components/articles.scss */
+article.locations div.map-container p {
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  /* line 195, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container {
+    width: 30%;
+    float: left;
+  }
+  /* line 198, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container + div {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 639px) {
+  /* line 203, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container {
+    display: block;
+    float: none;
+    width: 70%;
+    margin: 0 auto 30px;
+  }
+  /* line 208, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container + div {
+    margin: 0 auto 30px;
+  }
+  /* line 209, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container div.map-wrap {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 213, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container {
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+  /* line 218, ../scss/base/components/articles.scss */
+  article.locations div.content-panels > div.map-container div.map-wrap {
+    margin-bottom: 16px;
+  }
+}
+
+/* line 229, ../scss/base/components/articles.scss */
+article.photo-text .text-content h5 {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-right: 100px;
+}
+/* line 234, ../scss/base/components/articles.scss */
+article.photo-text .text-content div.lists {
+  margin-top: 30px;
+}
+/* line 236, ../scss/base/components/articles.scss */
+article.photo-text .text-content div.lists h6 {
+  margin-bottom: 8px;
+}
+/* line 239, ../scss/base/components/articles.scss */
+article.photo-text .text-content div.lists ul li {
+  font-size: 14px;
+  color: #878787;
+}
+@media (max-width: 767px) {
+  /* line 246, ../scss/base/components/articles.scss */
+  article.photo-text div.photo {
+    margin-bottom: 30px;
+    max-height: 800px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 252, ../scss/base/components/articles.scss */
+  article.photo-text .text-content div.lists > * {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 265, ../scss/base/components/articles.scss */
+section.section.post-banner {
+  height: 300px;
+  background-image: url("/img/articles/article-banner.jpg");
+  background-size: cover;
+  background-position: bottom center;
+}
+
+/* line 271, ../scss/base/components/articles.scss */
+section.section.posts.with-banner {
+  margin-top: 0;
+}
+/* line 273, ../scss/base/components/articles.scss */
+section.section.posts.with-banner div.asc-post-side-nav {
+  margin-top: -50px;
+}
+
+/* line 280, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav {
+  padding: 16px 20px;
+}
+/* line 282, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav h5 {
+  margin-bottom: 8px;
+}
+/* line 283, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav h5 a {
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 287, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav ul {
+  margin: 0;
+}
+/* line 288, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav li {
+  border-top: 1px solid #d9d9d9;
+}
+/* line 290, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav li a {
+  padding: 6px 8px;
+  font-size: 12px;
+  display: block;
+  color: #878787;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  transition: color 0.25s;
+}
+/* line 296, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-side-nav li a:hover {
+  color: #474747;
+}
+@media (max-width: 767px) {
+  /* line 280, ../scss/base/components/articles.scss */
+  article.asc-post div.asc-post-side-nav {
+    margin-bottom: 30px;
+  }
+}
+/* line 304, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-content .asc-post-title h3 {
+  color: #072942;
+  font-size: 19px;
+  margin-bottom: 4px;
+}
+/* line 309, ../scss/base/components/articles.scss */
+article.asc-post div.asc-post-content .asc-post-title p {
+  font-size: 12px;
+  font-weight: 600;
+}
+/* line 316, ../scss/base/components/articles.scss */
+article.asc-post div.post-img {
+  margin: 30px 0;
+}
+/* line 318, ../scss/base/components/articles.scss */
+article.asc-post div.post-img p.caption {
+  margin-top: 10px;
+  font-size: .8em;
+  padding: 0 20px;
+}
+/* line 328, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list li.asc-post-li {
+  padding-bottom: 20px;
+}
+/* line 330, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list li.asc-post-li div.post-img {
+  margin: 0 0 20px;
+}
+/* line 331, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list li.asc-post-li h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.1em;
+}
+/* line 336, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list li.asc-post-li p.by-line {
+  margin: 0 0 8px;
+}
+/* line 337, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list li.asc-post-li .asc-post-inner-content p {
+  margin: 0 0 10px;
+}
+/* line 339, ../scss/base/components/articles.scss */
+article.asc-post ul.asc-post-list > li + li {
+  border-top: 1px solid #d9d9d9;
+  padding: 26px 0;
+}
+
+/* line 1, ../scss/base/sections/_base.scss */
+body {
+  background: #fff;
+  overflow: scroll;
+}
+
+/* line 6, ../scss/base/sections/_base.scss */
+#main_container {
+  padding-bottom: 50px;
+  position: relative;
+  min-height: 500px;
+  height: 100%;
+}
+
+/* line 13, ../scss/base/sections/_base.scss */
+.page-content {
+  margin-top: 120px;
+}
+@media (max-width: 767px) {
+  /* line 13, ../scss/base/sections/_base.scss */
+  .page-content {
+    margin-top: 30px;
+  }
+}
+
+/* line 21, ../scss/base/sections/_base.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 27, ../scss/base/sections/_base.scss */
+.asc-widget-parent-div h4 {
+  color: #2AB3D0;
+}
+
+/* line 33, ../scss/base/sections/_base.scss */
+.link {
+  cursor: hand;
+}
+
+@media (max-width: 767px) {
+  /* line 42, ../scss/base/sections/_base.scss */
+  body {
+    padding: 0;
+  }
+}
+/* line 45, ../scss/base/sections/_base.scss */
+.asc-clear-filters {
+  text-decoration: none;
+}
+
+/* line 52, ../scss/base/sections/_base.scss */
+.hero-controls a {
+  text-decoration: none;
+}
+
+/* line 60, ../scss/base/sections/_base.scss */
+#article-info a {
+  text-decoration: none;
+}
+
+/* line 68, ../scss/base/sections/_base.scss */
+.asc-post-side-nav a {
+  text-decoration: none;
+}
+
+/************************* Concert One *************************/
+@font-face {
+  font-family: 'concert_one_bold';
+  src: url("/fonts/google-fonts/concert_one/concertone-regular.woff2") format("woff2"), url("/fonts/google-fonts/concert_one/concertone-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'concert_one_bold_italic';
+  src: url("/fonts/google-fonts/concert_one/concertone-regular.woff2") format("woff2"), url("/fonts/google-fonts/concert_one/concertone-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'concert_one_italic';
+  src: url("/fonts/google-fonts/concert_one/concertone-regular.woff2") format("woff2"), url("/fonts/google-fonts/concert_one/concertone-regular.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'concert_one_regular';
+  src: url("/fonts/google-fonts/concert_one/concertone-regular.woff2") format("woff2"), url("/fonts/google-fonts/concert_one/concertone-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Lato *************************/
+@font-face {
+  font-family: 'lato_bold';
+  src: url("/fonts/google-fonts/lato/lato-bold.woff2") format("woff2"), url("/fonts/google-fonts/lato/lato-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato_bold_italic';
+  src: url("/fonts/google-fonts/lato/lato-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/lato/lato-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato_italic';
+  src: url("/fonts/google-fonts/lato/lato-italic.woff2") format("woff2"), url("/fonts/google-fonts/lato/lato-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato_regular';
+  src: url("/fonts/google-fonts/lato/lato-regular.woff2") format("woff2"), url("/fonts/google-fonts/lato/lato-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Merriweather *************************/
+@font-face {
+  font-family: 'merriweather_bold';
+  src: url("/fonts/google-fonts/merriweather/merriweather-bold.woff2") format("woff2"), url("/fonts/google-fonts/merriweather/merriweather-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'merriweather_bold_italic';
+  src: url("/fonts/google-fonts/merriweather/merriweather-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/merriweather/merriweather-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'merriweather_italic';
+  src: url("/fonts/google-fonts/merriweather/merriweather-italic.woff2") format("woff2"), url("/fonts/google-fonts/merriweather/merriweather-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'merriweather_regular';
+  src: url("/fonts/google-fonts/merriweather/merriweather-regular.woff2") format("woff2"), url("/fonts/google-fonts/merriweather/merriweather-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Montserrat *************************/
+@font-face {
+  font-family: 'montserrat_bold';
+  src: url("/fonts/google-fonts/montserrat/montserrat-bold.woff2") format("woff2"), url("/fonts/google-fonts/montserrat/montserrat-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'montserrat_bold_italic';
+  src: url("/fonts/google-fonts/montserrat/montserrat-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/montserrat/montserrat-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'montserrat_italic';
+  src: url("/fonts/google-fonts/montserrat/montserrat-italic.woff2") format("woff2"), url("/fonts/google-fonts/montserrat/montserrat-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'montserrat_regular';
+  src: url("/fonts/google-fonts/montserrat/montserrat-regular.woff2") format("woff2"), url("/fonts/google-fonts/montserrat/montserrat-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Noto Sans *************************/
+@font-face {
+  font-family: 'noto_sans_bold';
+  src: url("/fonts/google-fonts/noto_sans/notosans-bold.woff2") format("woff2"), url("/fonts/google-fonts/noto_sans/notosans-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_sans_bold_italic';
+  src: url("/fonts/google-fonts/noto_sans/notosans-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/noto_sans/notosans-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_sans_italic';
+  src: url("/fonts/google-fonts/noto_sans/notosans-italic.woff2") format("woff2"), url("/fonts/google-fonts/noto_sans/notosans-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_sans_regular';
+  src: url("/fonts/google-fonts/noto_sans/notosans-regular.woff2") format("woff2"), url("/fonts/google-fonts/noto_sans/notosans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Noto Serif *************************/
+@font-face {
+  font-family: 'noto_serif_bold';
+  src: url("/fonts/google-fonts/noto_serif/notoserif-bold.woff2") format("woff2"), url("/fonts/google-fonts/noto_serif/notoserif-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_serif_bold_italic';
+  src: url("/fonts/google-fonts/noto_serif/notoserif-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/noto_serif/notoserif-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_serif_italic';
+  src: url("/fonts/google-fonts/noto_serif/notoserif-italic.woff2") format("woff2"), url("/fonts/google-fonts/noto_serif/notoserif-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'noto_serif_regular';
+  src: url("/fonts/google-fonts/noto_serif/notoserif-regular.woff2") format("woff2"), url("/fonts/google-fonts/noto_serif/notoserif-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Nunito Sans *************************/
+@font-face {
+  font-family: 'nunito_sans_bold';
+  src: url("/fonts/google-fonts/nunito_sans/nunitosans-bold.woff2") format("woff2"), url("/fonts/google-fonts/nunito_sans/nunitosans-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'nunito_sans_bold_italic';
+  src: url("/fonts/google-fonts/nunito_sans/nunitosans-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/nunito_sans/nunitosans-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'nunito_sans_italic';
+  src: url("/fonts/google-fonts/nunito_sans/nunitosans-italic.woff2") format("woff2"), url("/fonts/google-fonts/nunito_sans/nunitosans-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'nunito_sans_regular';
+  src: url("/fonts/google-fonts/nunito_sans/nunitosans-regular.woff2") format("woff2"), url("/fonts/google-fonts/nunito_sans/nunitosans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Opens Sans *************************/
+@font-face {
+  font-family: 'open_sans_bold';
+  src: url("/fonts/google-fonts/open_sans/opensans-bold.woff2") format("woff2"), url("/fonts/google-fonts/open_sans/opensans-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'open_sans_bold_italic';
+  src: url("/fonts/google-fonts/open_sans/opensans-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/open_sans/opensans-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'open_sans_italic';
+  src: url("/fonts/google-fonts/open_sans/opensans-italic.woff2") format("woff2"), url("/fonts/google-fonts/open_sans/opensans-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'open_sans_regular';
+  src: url("/fonts/google-fonts/open_sans/opensans-regular.woff2") format("woff2"), url("/fonts/google-fonts/open_sans/opensans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Oswald *************************/
+/*** NOTE: Oswald Font May Not Display Italic Properly ***/
+@font-face {
+  font-family: 'oswald_bold';
+  src: url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'oswald_bold_italic';
+  src: url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'oswald_italic';
+  src: url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'oswald_regular';
+  src: url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/oswald/oswald-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Prompt *************************/
+@font-face {
+  font-family: 'prompt_bold';
+  src: url("/fonts/google-fonts/prompt/prompt-bold.woff2") format("woff2"), url("/fonts/google-fonts/prompt/prompt-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'prompt_bold_italic';
+  src: url("/fonts/google-fonts/prompt/prompt-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/prompt/prompt-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'prompt_italic';
+  src: url("/fonts/google-fonts/prompt/prompt-italic.woff2") format("woff2"), url("/fonts/google-fonts/prompt/prompt-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'prompt_regular';
+  src: url("/fonts/google-fonts/prompt/prompt-regular.woff2") format("woff2"), url("/fonts/google-fonts/prompt/prompt-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* PT Sans *************************/
+@font-face {
+  font-family: 'pt_sans_bold';
+  src: url("/fonts/google-fonts/pt_sans/ptsans-bold.woff2") format("woff2"), url("/fonts/google-fonts/pt_sans/ptsans-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pt_sans_bold_italic';
+  src: url("/fonts/google-fonts/pt_sans/ptsans-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/pt_sans/ptsans-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pt_sans_italic';
+  src: url("/fonts/google-fonts/pt_sans/ptsans-italic.woff2") format("woff2"), url("/fonts/google-fonts/pt_sans/ptsans-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pt_sans_regular';
+  src: url("/fonts/google-fonts/pt_sans/ptsans-regular.woff2") format("woff2"), url("/fonts/google-fonts/pt_sans/ptsans-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Raleway *************************/
+@font-face {
+  font-family: 'raleway_bold';
+  src: url("/fonts/google-fonts/raleway/raleway-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/raleway/raleway-variablefont_wght.woff") format("wofff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'raleway_bold_italic';
+  src: url("/fonts/google-fonts/raleway/raleway-italic-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/raleway/raleway-italic-variablefont_wght.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'raleway_italic';
+  src: url("/fonts/google-fonts/raleway/raleway-italic-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/raleway/raleway-italic-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'raleway_regular';
+  src: url("/fonts/google-fonts/raleway/raleway-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/raleway/raleway-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Roboto *************************/
+@font-face {
+  font-family: 'roboto_bold';
+  src: url("/fonts/google-fonts/roboto/roboto-bold.woff2") format("woff2"), url("/fonts/google-fonts/roboto/roboto-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'roboto_bold_italic';
+  src: url("/fonts/google-fonts/roboto/roboto-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/roboto/roboto-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'roboto_italic';
+  src: url("/fonts/google-fonts/roboto/roboto-italic.woff2") format("woff2"), url("/fonts/google-fonts/roboto/roboto-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'roboto_regular';
+  src: url("/fonts/google-fonts/roboto/roboto-regular.woff2") format("woff2"), url("/fonts/google-fonts/roboto/roboto-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Slabo 13px *************************/
+@font-face {
+  font-family: 'slabo_13px_bold';
+  src: url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_13px_bold_italic';
+  src: url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_13px_italic';
+  src: url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_13px_regular';
+  src: url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_13px/slabo13px-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Slabo 27px *************************/
+@font-face {
+  font-family: 'slabo_27px_bold';
+  src: url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_27px_bold_italic';
+  src: url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_27px_italic';
+  src: url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'slabo_27px_regular';
+  src: url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff2") format("woff2"), url("/fonts/google-fonts/slabo_27px/slabo27px-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Source Sans Pro *************************/
+@font-face {
+  font-family: 'source_sans_pro_bold';
+  src: url("/fonts/google-fonts/source_sans_pro/sourcesanspro-bold.woff2") format("woff2"), url("/fonts/google-fonts/source_sans_pro/sourcesanspro-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'source_sans_pro_bold_italic';
+  src: url("/fonts/google-fonts/source_sans_pro/sourcesanspro-bold-italic.woff2") format("woff2"), url("/fonts/google-fonts/source_sans_pro/sourcesanspro-bold-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'source_sans_pro_italic';
+  src: url("/fonts/google-fonts/source_sans_pro/sourcesanspro-italic.woff2") format("woff2"), url("/fonts/google-fonts/source_sans_pro/sourcesanspro-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'source_sans_pro_regular';
+  src: url("/fonts/google-fonts/source_sans_pro/sourcesanspro-regular.woff2") format("woff2"), url("/fonts/google-fonts/source_sans_pro/sourcesanspro-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/************************* Work Sans *************************/
+@font-face {
+  font-family: 'work_sans_bold';
+  src: url("/fonts/google-fonts/work_sans/worksans-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/work_sans/worksans-variablefont_wght.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'work_sans_bold_italic';
+  src: url("/fonts/google-fonts/work_sans/worksans-italic-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/work_sans/worksans-italic-variablefont_wght.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'work_sans_italic';
+  src: url("/fonts/google-fonts/work_sans/worksans-italic-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/work_sans/worksans-italic-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'work_sans_regular';
+  src: url("/fonts/google-fonts/work_sans/worksans-variablefont_wght.woff2") format("woff2"), url("/fonts/google-fonts/work_sans/worksans-variablefont_wght.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/** For Landing Pages -- Font Override For Signup Forms**/
+/* line 568, ../scss/base/sections/google-fonts.scss */
+.concert_one_bold #signup-form {
+  font-family: 'concert_one_bold';
+}
+
+/* line 569, ../scss/base/sections/google-fonts.scss */
+.concert_one_bold_italic #signup-form {
+  font-family: 'concert_one_bold_italic';
+}
+
+/* line 570, ../scss/base/sections/google-fonts.scss */
+.concert_one_italic #signup-form {
+  font-family: 'concert_one_italic';
+}
+
+/* line 571, ../scss/base/sections/google-fonts.scss */
+.concert_one_regular #signup-form {
+  font-family: 'concert_one_regular';
+}
+
+/* line 573, ../scss/base/sections/google-fonts.scss */
+.lato_bold #signup-form {
+  font-family: 'lato_bold';
+}
+
+/* line 574, ../scss/base/sections/google-fonts.scss */
+.lato_bold_italic #signup-form {
+  font-family: 'lato_bold_italic';
+}
+
+/* line 575, ../scss/base/sections/google-fonts.scss */
+.lato_italic #signup-form {
+  font-family: 'lato_italic';
+}
+
+/* line 576, ../scss/base/sections/google-fonts.scss */
+.lato_regular #signup-form {
+  font-family: 'lato_regular';
+}
+
+/* line 578, ../scss/base/sections/google-fonts.scss */
+.merriweather_bold #signup-form {
+  font-family: 'merriweather_bold';
+}
+
+/* line 579, ../scss/base/sections/google-fonts.scss */
+.merriweather_bold_italic #signup-form {
+  font-family: 'merriweather_bold_italic';
+}
+
+/* line 580, ../scss/base/sections/google-fonts.scss */
+.merriweather_italic #signup-form {
+  font-family: 'merriweather_italic';
+}
+
+/* line 581, ../scss/base/sections/google-fonts.scss */
+.merriweather_regular #signup-form {
+  font-family: 'merriweather_regular';
+}
+
+/* line 583, ../scss/base/sections/google-fonts.scss */
+.montserrat_bold #signup-form {
+  font-family: 'montserrat_bold';
+}
+
+/* line 584, ../scss/base/sections/google-fonts.scss */
+.montserrat_bold_italic #signup-form {
+  font-family: 'montserrat_bold_italic';
+}
+
+/* line 585, ../scss/base/sections/google-fonts.scss */
+.montserrat_italic #signup-form {
+  font-family: 'montserrat_italic';
+}
+
+/* line 586, ../scss/base/sections/google-fonts.scss */
+.montserrat_regular #signup-form {
+  font-family: 'montserrat_regular';
+}
+
+/* line 588, ../scss/base/sections/google-fonts.scss */
+.noto_sans_bold #signup-form {
+  font-family: 'noto_sans_bold';
+}
+
+/* line 589, ../scss/base/sections/google-fonts.scss */
+.noto_sans_bold_italic #signup-form {
+  font-family: 'noto_sans_bold_italic';
+}
+
+/* line 590, ../scss/base/sections/google-fonts.scss */
+.noto_sans_italic #signup-form {
+  font-family: 'noto_sans_italic';
+}
+
+/* line 591, ../scss/base/sections/google-fonts.scss */
+.noto_sans_regular #signup-form {
+  font-family: 'noto_sans_regular';
+}
+
+/* line 593, ../scss/base/sections/google-fonts.scss */
+.noto_serif_bold #signup-form {
+  font-family: 'noto_serif_bold';
+}
+
+/* line 594, ../scss/base/sections/google-fonts.scss */
+.noto_serif_bold_italic #signup-form {
+  font-family: 'noto_serif_bold_italic';
+}
+
+/* line 595, ../scss/base/sections/google-fonts.scss */
+.noto_serif_italic #signup-form {
+  font-family: 'noto_serif_italic';
+}
+
+/* line 596, ../scss/base/sections/google-fonts.scss */
+.noto_serif_regular #signup-form {
+  font-family: 'noto_serif_regular';
+}
+
+/* line 598, ../scss/base/sections/google-fonts.scss */
+.nunito_sans_bold #signup-form {
+  font-family: 'nunito_sans_bold';
+}
+
+/* line 599, ../scss/base/sections/google-fonts.scss */
+.nunito_sans_bold_italic #signup-form {
+  font-family: 'nunito_sans_bold_italic';
+}
+
+/* line 600, ../scss/base/sections/google-fonts.scss */
+.nunito_sans_italic #signup-form {
+  font-family: 'nunito_sans_italic';
+}
+
+/* line 601, ../scss/base/sections/google-fonts.scss */
+.nunito_sans_regular #signup-form {
+  font-family: 'nunito_sans_regular';
+}
+
+/* line 603, ../scss/base/sections/google-fonts.scss */
+.open_sans_bold #signup-form {
+  font-family: 'open_sans_bold';
+}
+
+/* line 604, ../scss/base/sections/google-fonts.scss */
+.open_sans_bold_italic #signup-form {
+  font-family: 'open_sans_bold_italic';
+}
+
+/* line 605, ../scss/base/sections/google-fonts.scss */
+.open_sans_italic #signup-form {
+  font-family: 'open_sans_italic';
+}
+
+/* line 606, ../scss/base/sections/google-fonts.scss */
+.open_sans_regular #signup-form {
+  font-family: 'open_sans_regular';
+}
+
+/* line 608, ../scss/base/sections/google-fonts.scss */
+.oswald_bold #signup-form {
+  font-family: 'oswald_bold';
+}
+
+/* line 609, ../scss/base/sections/google-fonts.scss */
+.oswald_bold_italic #signup-form {
+  font-family: 'oswald_bold_italic';
+}
+
+/* line 610, ../scss/base/sections/google-fonts.scss */
+.oswald_italic #signup-form {
+  font-family: 'oswald_italic';
+}
+
+/* line 611, ../scss/base/sections/google-fonts.scss */
+.oswald_regular #signup-form {
+  font-family: 'oswald_regular';
+}
+
+/* line 613, ../scss/base/sections/google-fonts.scss */
+.prompt_bold #signup-form {
+  font-family: 'prompt_bold';
+}
+
+/* line 614, ../scss/base/sections/google-fonts.scss */
+.prompt_bold_italic #signup-form {
+  font-family: 'prompt_bold_italic';
+}
+
+/* line 615, ../scss/base/sections/google-fonts.scss */
+.prompt_italic #signup-form {
+  font-family: 'prompt_italic';
+}
+
+/* line 616, ../scss/base/sections/google-fonts.scss */
+.prompt_regular #signup-form {
+  font-family: 'prompt_regular';
+}
+
+/* line 618, ../scss/base/sections/google-fonts.scss */
+.pt_sans_bold #signup-form {
+  font-family: 'pt_sans_bold';
+}
+
+/* line 619, ../scss/base/sections/google-fonts.scss */
+.pt_sans_bold_italic #signup-form {
+  font-family: 'pt_sans_bold_italic';
+}
+
+/* line 620, ../scss/base/sections/google-fonts.scss */
+.pt_sans_italic #signup-form {
+  font-family: 'pt_sans_italic';
+}
+
+/* line 621, ../scss/base/sections/google-fonts.scss */
+.pt_sans_regular #signup-form {
+  font-family: 'pt_sans_regular';
+}
+
+/* line 623, ../scss/base/sections/google-fonts.scss */
+.raleway_bold #signup-form {
+  font-family: 'raleway_bold';
+}
+
+/* line 624, ../scss/base/sections/google-fonts.scss */
+.raleway_bold_italic #signup-form {
+  font-family: 'raleway_bold_italic';
+}
+
+/* line 625, ../scss/base/sections/google-fonts.scss */
+.raleway_italic #signup-form {
+  font-family: 'raleway_italic';
+}
+
+/* line 626, ../scss/base/sections/google-fonts.scss */
+.raleway_regular #signup-form {
+  font-family: 'raleway_regular';
+}
+
+/* line 628, ../scss/base/sections/google-fonts.scss */
+.roboto_bold #signup-form {
+  font-family: 'roboto_bold';
+}
+
+/* line 629, ../scss/base/sections/google-fonts.scss */
+.roboto_bold_italic #signup-form {
+  font-family: 'roboto_bold_italic';
+}
+
+/* line 630, ../scss/base/sections/google-fonts.scss */
+.roboto_italic #signup-form {
+  font-family: 'roboto_italic';
+}
+
+/* line 631, ../scss/base/sections/google-fonts.scss */
+.roboto_regular #signup-form {
+  font-family: 'roboto_regular';
+}
+
+/* line 633, ../scss/base/sections/google-fonts.scss */
+.slabo_13px_bold #signup-form {
+  font-family: 'slabo_13px_bold';
+}
+
+/* line 634, ../scss/base/sections/google-fonts.scss */
+.slabo_13px_bold_italic #signup-form {
+  font-family: 'slabo_13px_bold_italic';
+}
+
+/* line 635, ../scss/base/sections/google-fonts.scss */
+.slabo_13px_italic #signup-form {
+  font-family: 'slabo_13px_italic';
+}
+
+/* line 636, ../scss/base/sections/google-fonts.scss */
+.slabo_13px_regular #signup-form {
+  font-family: 'slabo_13px_regular';
+}
+
+/* line 638, ../scss/base/sections/google-fonts.scss */
+.slabo_27px_bold #signup-form {
+  font-family: 'slabo_27px_bold';
+}
+
+/* line 639, ../scss/base/sections/google-fonts.scss */
+.slabo_27px_bold_italic #signup-form {
+  font-family: 'slabo_27px_bold_italic';
+}
+
+/* line 640, ../scss/base/sections/google-fonts.scss */
+.slabo_27px_italic #signup-form {
+  font-family: 'slabo_27px_italic';
+}
+
+/* line 641, ../scss/base/sections/google-fonts.scss */
+.slabo_27px_regular #signup-form {
+  font-family: 'slabo_27px_regular';
+}
+
+/* line 643, ../scss/base/sections/google-fonts.scss */
+.source_sans_pro_bold #signup-form {
+  font-family: 'source_sans_pro_bold';
+}
+
+/* line 644, ../scss/base/sections/google-fonts.scss */
+.source_sans_pro_bold_italic #signup-form {
+  font-family: 'source_sans_pro_bold_italic';
+}
+
+/* line 645, ../scss/base/sections/google-fonts.scss */
+.source_sans_pro_italic #signup-form {
+  font-family: 'source_sans_pro_italic';
+}
+
+/* line 646, ../scss/base/sections/google-fonts.scss */
+.source_sans_pro_regular #signup-form {
+  font-family: 'source_sans_pro_regular';
+}
+
+/* line 648, ../scss/base/sections/google-fonts.scss */
+.work_sans_bold #signup-form {
+  font-family: 'work_sans_bold';
+}
+
+/* line 649, ../scss/base/sections/google-fonts.scss */
+.work_sans_bold_italic #signup-form {
+  font-family: 'work_sans_bold_italic';
+}
+
+/* line 650, ../scss/base/sections/google-fonts.scss */
+.work_sans_italic #signup-form {
+  font-family: 'work_sans_italic';
+}
+
+/* line 651, ../scss/base/sections/google-fonts.scss */
+.work_sans_regular #signup-form {
+  font-family: 'work_sans_regular';
+}
+
+/* line 5, ../scss/base/sections/header.scss */
+nav#main-nav {
+  position: fixed;
+  height: 90px;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: none;
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  /* line 5, ../scss/base/sections/header.scss */
+  nav#main-nav {
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 23, ../scss/base/sections/header.scss */
+  nav#main-nav .navbar-toggle {
+    margin-top: 25px;
+  }
+}
+/* line 28, ../scss/base/sections/header.scss */
+nav#main-nav .navbar-inner {
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+/* line 35, ../scss/base/sections/header.scss */
+nav#main-nav .navbar-nav.pull-right {
+  width: 423px;
+}
+/* line 42, ../scss/base/sections/header.scss */
+nav#main-nav li a {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  /* line 5, ../scss/base/sections/header.scss */
+  nav#main-nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 55, ../scss/base/sections/header.scss */
+  nav#main-nav .navbar-nav.pull-right {
+    float: none;
+    width: 100%;
+    margin: 6px 0 0 10px;
+  }
+}
+
+/*body.scrolled-down nav#main-nav {
+  height: 50px;
+  background: $header-background-scrolled;
+  box-shadow: 0 1px 7px rgba(black,.15);
+  a.brand { margin-top: -3px; }
+  .navbar-nav { margin-top: 6px; }
+  a.navbar-toggle { margin-top: 4px; }
+  .navbar-collapse { margin-top: 0; }
+  .navbar-collapse.in { top: -3px; }
+}*/
+/* line 77, ../scss/base/sections/header.scss */
+#main-nav .container {
+  padding: 0 15px;
+}
+
+/* line 82, ../scss/base/sections/header.scss */
+#main-nav a.brand {
+  margin-top: 14px;
+  display: block;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: -20px;
+  text-decoration: none;
+  -moz-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  -webkit-transition: margin 0.5s;
+  transition: margin 0.5s;
+}
+@media (max-width: 767px) {
+  /* line 82, ../scss/base/sections/header.scss */
+  #main-nav a.brand {
+    margin-left: 0;
+  }
+}
+/* line 97, ../scss/base/sections/header.scss */
+#main-nav a.brand img {
+  height: 35px;
+}
+/* line 102, ../scss/base/sections/header.scss */
+#main-nav a.brand span.careers {
+  margin-left: 5px;
+  font-weight: 300;
+  vertical-align: -3px;
+  color: #051b2b;
+}
+/* line 107, ../scss/base/sections/header.scss */
+#main-nav a.brand span.careers span.pipe {
+  position: relative;
+  top: -2px;
+  color: #093759;
+}
+
+/* line 115, ../scss/base/sections/header.scss */
+#main-nav .navbar-nav {
+  margin-top: 23px;
+  -moz-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  -webkit-transition: margin 0.5s;
+  transition: margin 0.5s;
+}
+/* line 119, ../scss/base/sections/header.scss */
+#main-nav .navbar-nav li > a {
+  font-size: 16px;
+  line-height: 1em;
+  color: #051b2b;
+  text-shadow: none;
+  padding: 10px 15px;
+}
+/* line 127, ../scss/base/sections/header.scss */
+#main-nav .navbar-nav li > a.btn {
+  font-size: 14px;
+  color: #2AB3D0;
+  padding: 6px 12px;
+  margin: 4px 0 0 6px;
+}
+/* line 134, ../scss/base/sections/header.scss */
+#main-nav .navbar-nav a.dropdown-toggle i {
+  position: relative;
+  top: -2px;
+  right: 0px;
+}
+
+/* line 144, ../scss/base/sections/header.scss */
+#main-nav .navbar-collapse {
+  font-weight: 300;
+}
+/* line 149, ../scss/base/sections/header.scss */
+#main-nav .navbar-collapse .nav > li > a,
+#main-nav .navbar-collapse .dropdown-menu a {
+  font-weight: inherit;
+  border-radius: 0;
+}
+
+/* line 156, ../scss/base/sections/header.scss */
+#main-nav .navbar-collapse.in,
+#main-nav .navbar-collapse.collapsing {
+  /* top: 18px; */
+}
+/* line 161, ../scss/base/sections/header.scss */
+#main-nav .navbar-collapse.in a.btn,
+#main-nav .navbar-collapse.collapsing a.btn {
+  display: inline-block;
+  width: 200px;
+}
+
+/* line 168, ../scss/base/sections/header.scss */
+#main-nav ul.dropdown-menu {
+  min-width: 200px;
+}
+/* line 171, ../scss/base/sections/header.scss */
+#main-nav ul.dropdown-menu li > a {
+  font-size: 16px;
+  padding: 13px 20px;
+  -moz-transition: background 0.1s, color 0.1s;
+  -o-transition: background 0.1s, color 0.1s;
+  -webkit-transition: background 0.1s, color 0.1s;
+  transition: background 0.1s, color 0.1s;
+}
+/* line 175, ../scss/base/sections/header.scss */
+#main-nav ul.dropdown-menu li > a:hover {
+  -moz-transition: background 0.25s 0.1s, color 0.25s 0.1s;
+  -o-transition: background 0.25s 0.1s, color 0.25s 0.1s;
+  -webkit-transition: background 0.25s, color 0.25s;
+  -webkit-transition-delay: 0.1s, 0.1s;
+  transition: background 0.25s 0.1s, color 0.25s 0.1s;
+  background: #2AB3D0;
+}
+/* line 180, ../scss/base/sections/header.scss */
+#main-nav ul.dropdown-menu:before {
+  display: none;
+}
+/* line 181, ../scss/base/sections/header.scss */
+#main-nav ul.dropdown-menu:after {
+  right: 13px;
+}
+
+/* line 187, ../scss/base/sections/header.scss */
+#main-nav span.navbar-toggle {
+  margin-top: 26px;
+  border-radius: 0;
+  color: #d9d9d9;
+  background: none;
+  border: 1px solid #d9d9d9;
+  padding: 8px 6px;
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  -webkit-transition: background 0.25s;
+  transition: background 0.25s;
+}
+/* line 196, ../scss/base/sections/header.scss */
+#main-nav span.navbar-toggle:hover {
+  background: white;
+}
+/* line 200, ../scss/base/sections/header.scss */
+#main-nav span.navbar-toggle .icon-bar {
+  background: #d9d9d9;
+  box-shadow: none;
+  border-radius: 5px;
+  width: 28px;
+}
+/* line 206, ../scss/base/sections/header.scss */
+#main-nav span.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (max-width: 767px) {
+  /* line 211, ../scss/base/sections/header.scss */
+  #main-nav .navbar-collapse {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  /* line 215, ../scss/base/sections/header.scss */
+  #main-nav .navbar-collapse #sign-in {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* line 224, ../scss/base/sections/header.scss */
+#cookies-acceptance-wrapper {
+  background-color: #999999;
+  height: auto;
+  padding: 15px 20px;
+}
+/* line 229, ../scss/base/sections/header.scss */
+#cookies-acceptance-wrapper .message {
+  color: #FFFFFF;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+/* line 236, ../scss/base/sections/header.scss */
+#cookies-acceptance-wrapper .text-right .ok-button {
+  padding: 5px;
+  color: #999999;
+  background-color: #ffffff;
+  border: none;
+}
+/* line 243, ../scss/base/sections/header.scss */
+#cookies-acceptance-wrapper .text-right .tell-me-more-link {
+  border: 1px solid #FFFFFF;
+  width: 130px;
+  color: #ffffff;
+  padding: 5px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 5, ../scss/base/sections/footer.scss */
+footer {
+  margin-top: 30px;
+  z-index: 2;
+}
+/* line 9, ../scss/base/sections/footer.scss */
+footer p {
+  color: #093759;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 14, ../scss/base/sections/footer.scss */
+footer p span.asc-logo {
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 22, ../scss/base/sections/footer.scss */
+footer a {
+  font-size: 12px;
+}
+/* line 27, ../scss/base/sections/footer.scss */
+footer .asc-social-share-wrap {
+  margin: 0 auto;
+  max-width: 180px;
+  width: 100%;
+  padding: 5px 0;
+}
+/* line 35, ../scss/base/sections/footer.scss */
+footer .share-span {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 10px;
+  text-align: right;
+  font-weight: 600;
+  float: left;
+  display: block;
+  position: relative;
+  top: 5px;
+  color: #878787;
+}
+
+/* line 5, ../scss/base/sections/landing.scss */
+#background-image {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 500px;
+  background-size: cover;
+  background-position: bottom center;
+  z-index: 0;
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  /* line 5, ../scss/base/sections/landing.scss */
+  #background-image {
+    background-position: center top;
+  }
+}
+@media (max-width: 639px) {
+  /* line 5, ../scss/base/sections/landing.scss */
+  #background-image {
+    background-position: center top;
+    background-size: auto 100%;
+    top: -110px;
+  }
+}
+@media (max-width: 320px) {
+  /* line 5, ../scss/base/sections/landing.scss */
+  #background-image {
+    background-position: center top;
+  }
+}
+
+/* line 33, ../scss/base/sections/landing.scss */
+._landing > .hero-wrap {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+/* line 38, ../scss/base/sections/landing.scss */
+._landing > .hero-wrap .hero-controls {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  width: 90%;
+}
+/* line 47, ../scss/base/sections/landing.scss */
+._landing > .hero-wrap .hero-controls h1 {
+  font-size: 52px;
+  line-height: 55px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: 200;
+  margin-bottom: 26px;
+}
+/* line 56, ../scss/base/sections/landing.scss */
+._landing > .hero-wrap .hero-controls a.btn {
+  color: white;
+  border-color: white;
+  -moz-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  -webkit-transition: background 0.25s;
+  transition: background 0.25s;
+}
+/* line 60, ../scss/base/sections/landing.scss */
+._landing > .hero-wrap .hero-controls a.btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 767px) {
+  /* line 33, ../scss/base/sections/landing.scss */
+  ._landing > .hero-wrap {
+    height: 390px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 33, ../scss/base/sections/landing.scss */
+  ._landing > .hero-wrap {
+    height: 280px;
+  }
+  /* line 70, ../scss/base/sections/landing.scss */
+  ._landing > .hero-wrap .hero-controls h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+}
+
+/* line 84, ../scss/base/sections/landing.scss */
+body[data-device-type="tablet"] #background-image,
+body[data-device-type="tv"] #background-image,
+body[data-device-type="mobile"] #background-image {
+  position: relative;
+}
+/* line 88, ../scss/base/sections/landing.scss */
+body[data-device-type="tablet"] ._landing > .hero-wrap,
+body[data-device-type="tv"] ._landing > .hero-wrap,
+body[data-device-type="mobile"] ._landing > .hero-wrap {
+  margin-top: -580px;
+}
+@media (max-width: 639px) {
+  /* line 93, ../scss/base/sections/landing.scss */
+  body[data-device-type="tablet"] ._landing > .hero-wrap,
+  body[data-device-type="tv"] ._landing > .hero-wrap,
+  body[data-device-type="mobile"] ._landing > .hero-wrap {
+    margin-top: -400px;
+  }
+}
+
+/* line 103, ../scss/base/sections/landing.scss */
+._landing > .content {
+  position: relative;
+  z-index: 1;
+}
+/* line 107, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels {
+  margin-top: -70px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  z-index: 5;
+}
+/* line 114, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels > div {
+  padding-left: 0;
+  padding-right: 0;
+  width: 31.6239%;
+}
+@media (max-width: 767px) {
+  /* line 114, ../scss/base/sections/landing.scss */
+  ._landing > .content div.content-panels > div {
+    min-width: 317px;
+    width: 95%;
+  }
+}
+@media (max-width: 320px) {
+  /* line 114, ../scss/base/sections/landing.scss */
+  ._landing > .content div.content-panels > div {
+    min-width: 95%;
+    width: 95%;
+  }
+}
+/* line 130, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels > div:nth-child(n+2) {
+  margin-left: 2.5641%;
+}
+/* line 134, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels .asc-panel {
+  padding: 0;
+}
+/* line 135, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels .panel-image {
+  height: 195px;
+  background-size: cover;
+  background-position: bottom center;
+}
+/* line 140, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels .panel-bottom {
+  padding: 16px 20px;
+}
+/* line 143, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels .panel-bottom h5 {
+  margin-bottom: 6px;
+}
+/* line 147, ../scss/base/sections/landing.scss */
+._landing > .content div.content-panels .panel-bottom a.btn {
+  margin-left: -20px;
+  padding-left: 20px;
+}
+@media (max-width: 767px) {
+  /* line 156, ../scss/base/sections/landing.scss */
+  ._landing > .content div.content-panels > * {
+    width: 60%;
+    margin: 0 auto 20px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 163, ../scss/base/sections/landing.scss */
+  ._landing > .content div.content-panels > * {
+    width: 100%;
+  }
+}
+
+/* line 175, ../scss/base/sections/landing.scss */
+._landing section.our-people div.people-content h5, ._landing section.our-people div.people-content p {
+  text-align: center;
+}
+/* line 176, ../scss/base/sections/landing.scss */
+._landing section.our-people div.people-content h5 {
+  width: 230px;
+  margin: 0 auto 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d9d9d9;
+}
+/* line 182, ../scss/base/sections/landing.scss */
+._landing section.our-people div.people-content p {
+  margin-bottom: 16px;
+}
+
+/* line 192, ../scss/base/sections/landing.scss */
+._landing section.join-community div.join p {
+  margin-bottom: 30px;
+}
+/* line 193, ../scss/base/sections/landing.scss */
+._landing section.join-community div.join a {
+  margin-right: 10px;
+}
+/* line 196, ../scss/base/sections/landing.scss */
+._landing section.join-community div.description h5 {
+  margin-bottom: 10px;
+}
+/* line 197, ../scss/base/sections/landing.scss */
+._landing section.join-community div.description li {
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+@media (max-width: 767px) {
+  /* line 195, ../scss/base/sections/landing.scss */
+  ._landing section.join-community div.description {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 215, ../scss/base/sections/landing.scss */
+  ._landing section.section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 223, ../scss/base/sections/landing.scss */
+  ._landing section.section {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 9, ../scss/base/sections/careers.scss */
+#jobmenu .asc-navbar {
+  background: none;
+}
+
+/* line 47, ../scss/base/config/mixins.scss */
+#jobs-sidebar div:nth-child(1):before, #jobs-sidebar div:nth-child(1):after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#jobs-sidebar div:nth-child(1):after {
+  clear: both;
+}
+/* line 19, ../scss/base/sections/careers.scss */
+#jobs-sidebar div:nth-child(1) > h5 {
+  width: 100px;
+  font-size: 15px;
+  font-weight: normal;
+  float: left;
+}
+@media (max-width: 767px) {
+  /* line 19, ../scss/base/sections/careers.scss */
+  #jobs-sidebar div:nth-child(1) > h5 {
+    float: none;
+  }
+}
+/* line 31, ../scss/base/sections/careers.scss */
+#jobs-sidebar div:nth-child(1) .asc-clear-filters {
+  float: right;
+  color: #999;
+  font-size: .9em;
+}
+/* line 38, ../scss/base/sections/careers.scss */
+#jobs-sidebar #candidate-custom {
+  display: block !important;
+}
+/* line 41, ../scss/base/sections/careers.scss */
+#jobs-sidebar #candidate-custom .asc-dynamic-picklist .asc-client-filters {
+  display: block !important;
+}
+/* line 46, ../scss/base/sections/careers.scss */
+#jobs-sidebar #job-location {
+  display: block !important;
+}
+/* line 52, ../scss/base/sections/careers.scss */
+#jobs-sidebar .jobs-module > h5 {
+  width: auto !important;
+}
+/* line 59, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #candidate-category-select {
+  height: 34px;
+  overflow: hidden;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+/* line 67, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #asc-map-viewall {
+  display: none;
+}
+/* line 72, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu .asc-dynamic-picklist-title {
+  color: #878787 !important;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 5px;
+}
+/* line 79, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #candidate-custom > div > div:nth-child(2) {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+/* line 84, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu .asc-custom-title {
+  display: block;
+  color: #2AB3D0;
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+/* line 93, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu .region-label {
+  padding-left: 15px;
+}
+/* line 99, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #asc-job-map-location-label {
+  display: none;
+}
+/* line 103, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #job-location-text {
+  height: 34px;
+  padding: 10px 10px 8px;
+  width: 100% !important;
+}
+/* line 109, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #jobs-sidebar .submenu-dropdown-inner {
+  padding: 0px 0;
+}
+/* line 113, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #job-location > div {
+  padding: 0;
+}
+/* line 117, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #asc-null-location {
+  margin-top: 0;
+}
+/* line 121, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #candidate-category-select {
+  display: block;
+}
+/* line 124, ../scss/base/sections/careers.scss */
+#jobs-sidebar #jobmenu #candidate_category_select_chosen, #jobs-sidebar #jobmenu .asc-app-chosen, #jobs-sidebar #jobmenu .asc-client-filters {
+  display: none;
+}
+/* line 128, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-nav-search {
+  float: none;
+  margin-bottom: 10px;
+}
+/* line 133, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-nav-search #asc-map-primary-search {
+  border-radius: 0;
+  width: 100%;
+  height: 34px;
+  line-height: 1em;
+  font-size: 14px;
+  box-shadow: none;
+  border: none;
+  position: relative;
+  top: 0;
+  right: 0;
+  display: inherit;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 10px 5px;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  /* line 133, ../scss/base/sections/careers.scss */
+  #jobs-sidebar #map-nav-search #asc-map-primary-search {
+    margin-left: 6px;
+    right: 6px;
+  }
+}
+/* line 154, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-nav-search i {
+  border-radius: 0;
+  border: none;
+  color: white;
+  font-size: 14px;
+  right: 0;
+  background: #072942;
+  top: 0;
+  bottom: 0;
+  height: 34px;
+  margin: 0;
+  padding-top: 7px;
+  text-align: center;
+  width: 33px;
+  display: inherit;
+}
+/* line 172, ../scss/base/sections/careers.scss */
+#jobs-sidebar #submenu-filter {
+  display: none;
+}
+/* line 176, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-map-always-show-menu {
+  display: none;
+  margin-bottom: 10px;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#jobs-sidebar .asc-map-always-show-menu:before, #jobs-sidebar .asc-map-always-show-menu:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#jobs-sidebar .asc-map-always-show-menu:after {
+  clear: both;
+}
+/* line 181, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-map-always-show-menu #candidate-category-select {
+  width: 100%;
+  margin: 0;
+}
+/* line 187, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-navbar-full {
+  display: none;
+}
+/* line 191, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-navbar-full .asc-filter {
+  display: none !important;
+}
+/* line 195, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-navbar-full button {
+  color: #072942;
+  border: none;
+  border-bottom: 4px solid transparent;
+  -webkit-appearance: none;
+}
+/* line 201, ../scss/base/sections/careers.scss */
+#jobs-sidebar #map-navbar-full button.subopen {
+  border-color: #072942;
+  box-shadow: none;
+}
+/* line 208, ../scss/base/sections/careers.scss */
+#jobs-sidebar #header-sub-meu label {
+  display: inline;
+}
+/* line 213, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown {
+  border: none;
+  color: #878787;
+}
+/* line 218, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner {
+  padding: 20px 0;
+}
+/* line 221, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .search-wrap {
+  position: relative;
+  margin-bottom: 10px;
+  float: none !important;
+  width: 100%;
+}
+/* line 227, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .search-wrap input {
+  margin: 0;
+  padding-right: 0px;
+}
+/* line 232, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .search-wrap button {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  bottom: 0;
+  width: 30px;
+  background: #072942;
+  border-radius: 0;
+  opacity: 1;
+  height: auto;
+  width: 33px;
+  -webkit-appearance: none;
+}
+/* line 246, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .search-wrap button i {
+  color: white;
+  text-shadow: none;
+}
+/* line 253, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .region-label {
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  float: left;
+}
+/* line 259, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .region-label input {
+  margin-left: 0 !important;
+}
+@media (max-width: 1023px) {
+  /* line 266, ../scss/base/sections/careers.scss */
+  #jobs-sidebar .submenu-dropdown-inner .region-label {
+    white-space: normal;
+    padding: 0px;
+  }
+}
+@media (max-width: 1199px) {
+  /* line 273, ../scss/base/sections/careers.scss */
+  #jobs-sidebar .submenu-dropdown-inner .region-label {
+    white-space: normal;
+    padding: 0px;
+  }
+}
+/* line 278, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner .asc-location-slider {
+  /*  @include clearfix; */
+  width: 100% !important;
+}
+/* line 282, ../scss/base/sections/careers.scss */
+#jobs-sidebar .submenu-dropdown-inner #asc-location-spinner {
+  display: none !important;
+}
+/* line 286, ../scss/base/sections/careers.scss */
+#jobs-sidebar #asc-map-viewall {
+  background: #f2f2f2;
+  color: #072942;
+  padding: 0 5px 5px;
+  margin-top: 20px;
+  height: auto;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#jobs-sidebar #asc-map-viewall:before, #jobs-sidebar #asc-map-viewall:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#jobs-sidebar #asc-map-viewall:after {
+  clear: both;
+}
+/* line 294, ../scss/base/sections/careers.scss */
+#jobs-sidebar #asc-map-viewall a {
+  display: block !important;
+  margin: 0;
+  background: #2AB3D0;
+  color: #072942 !important;
+  border-radius: 0;
+  padding: 6px 8px;
+}
+/* line 304, ../scss/base/sections/careers.scss */
+#jobs-sidebar .jobs-module {
+  margin-top: 30px;
+}
+/* line 308, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist-title {
+  margin: 0 0 5px;
+  font-weight: 600;
+  color: #072942;
+  border-bottom: 1px solid #d9d9d9;
+}
+/* line 315, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist-title {
+  margin-bottom: 5px;
+}
+/* line 319, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist {
+  margin-bottom: 20px;
+}
+/* line 322, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist,
+#jobs-sidebar #job-type .submenu-dropdown-inner > div {
+  background: none;
+  border: none;
+  padding-left: 20px;
+  font-size: 14px;
+}
+/* line 329, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist input,
+#jobs-sidebar #job-type .submenu-dropdown-inner > div input {
+  margin: 0 3px 0 -20px;
+}
+/* line 334, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist-more {
+  margin-top: -15px;
+}
+/* line 337, ../scss/base/sections/careers.scss */
+#jobs-sidebar .asc-dynamic-picklist-more a {
+  background: none;
+}
+/* line 342, ../scss/base/sections/careers.scss */
+#jobs-sidebar #asc-job-organizations {
+  margin-bottom: 10px !important;
+  width: 100%;
+}
+/* line 347, ../scss/base/sections/careers.scss */
+#jobs-sidebar #candidate-search-org-btn {
+  float: right;
+}
+/* line 351, ../scss/base/sections/careers.scss */
+#jobs-sidebar #asc-org-holder {
+  margin-top: 40px;
+}
+/* line 354, ../scss/base/sections/careers.scss */
+#jobs-sidebar #asc-org-holder .asc-label-skills {
+  background: #e6e6e6;
+  color: #072942;
+  text-shadow: none;
+  border-radius: 3px;
+  padding: 4px 5px 4px 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 365, ../scss/base/sections/careers.scss */
+  #jobs-sidebar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 366, ../scss/base/sections/careers.scss */
+  .jobs-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* line 368, ../scss/base/sections/careers.scss */
+#mile-range {
+  bottom: 38px;
+  left: 18%;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  /* line 378, ../scss/base/sections/careers.scss */
+  #mile-range {
+    left: 45px;
+  }
+}
+@media (max-width: 1199px) {
+  /* line 385, ../scss/base/sections/careers.scss */
+  #mile-range {
+    left: 45px;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 392, ../scss/base/sections/careers.scss */
+  #asc-map-primary-search {
+    display: block;
+  }
+
+  /* line 396, ../scss/base/sections/careers.scss */
+  #jobs-sidebar #map-nav-search i {
+    display: block;
+  }
+
+  /* line 400, ../scss/base/sections/careers.scss */
+  .asc-mobile-search-button {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 407, ../scss/base/sections/careers.scss */
+  .asc-submenu-list {
+    display: block;
+  }
+
+  /* line 411, ../scss/base/sections/careers.scss */
+  #submenu-filter {
+    display: none;
+  }
+}
+/* line 421, ../scss/base/sections/careers.scss */
+#jobs-map {
+  height: 460px;
+  border: 24px solid #FFF;
+  border-left: 19px solid #FFF;
+  margin-bottom: 18px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 767px) {
+  /* line 421, ../scss/base/sections/careers.scss */
+  #jobs-map {
+    display: none;
+  }
+}
+
+/* line 431, ../scss/base/sections/careers.scss */
+.jvectormap-zoomin, .jvectormap-zoomout {
+  background: none repeat scroll 0 0 #98CA4A;
+  transition: background 0.25s ease 0s;
+  border-radius: 0;
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  left: 96%;
+  text-align: center;
+  width: 20px;
+}
+
+/* line 444, ../scss/base/sections/careers.scss */
+.jvectormap-zoomin {
+  top: 87%;
+}
+
+/* line 449, ../scss/base/sections/careers.scss */
+.jvectormap-zoomout {
+  top: 93%;
+}
+
+/* line 454, ../scss/base/sections/careers.scss */
+#client-job-menu-system {
+  background-color: #ebebeb;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#client-job-menu-system:before, #client-job-menu-system:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#client-job-menu-system:after {
+  clear: both;
+}
+/* line 461, ../scss/base/sections/careers.scss */
+#client-job-menu-system div:nth-child(1) {
+  float: left;
+}
+/* line 466, ../scss/base/sections/careers.scss */
+#client-job-menu-system div:nth-child(2) {
+  float: right;
+}
+/* line 470, ../scss/base/sections/careers.scss */
+#client-job-menu-system .asc-clear-filters {
+  float: right;
+  color: #999;
+  font-size: .9em;
+}
+
+/* line 483, ../scss/base/sections/careers.scss */
+#job-listings .listing-results {
+  padding: 14px 30px;
+  background: #f2f2f2;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}
+/* line 487, ../scss/base/sections/careers.scss */
+#job-listings .listing-results h6 {
+  margin: 0;
+}
+
+/* line 491, ../scss/base/sections/careers.scss */
+.asc-job-public-tile {
+  margin-right: 0;
+  padding: 16px 10px;
+}
+/* line 495, ../scss/base/sections/careers.scss */
+.asc-job-public-tile .asc-job-public-name a {
+  font-size: 19px;
+  color: #072942;
+  font-weight: 600;
+}
+/* line 504, ../scss/base/sections/careers.scss */
+.asc-job-public-tile .asc-job-public-stats .pub-description {
+  margin: 0 0 5px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #051b2b;
+}
+/* line 511, ../scss/base/sections/careers.scss */
+.asc-job-public-tile .asc-job-public-stats p {
+  margin: 0;
+}
+
+/* line 518, ../scss/base/sections/careers.scss */
+.asc-end-of-list {
+  border: none;
+  padding: 5px 0;
+  background: none;
+}
+
+/* line 523, ../scss/base/sections/careers.scss */
+#job-location-text {
+  border-radius: 0;
+  color: #555555;
+  display: inline-block;
+  font-size: 14px;
+  height: 36px;
+  max-width: 100%;
+  vertical-align: middle;
+  position: relative;
+  bottom: 55%;
+}
+
+@media (max-width: 1023px) {
+  /* line 13, ../scss/base/sections/career-single.scss */
+  ._career-single .col-sm-8 {
+    width: 100%;
+  }
+}
+
+/* line 19, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar {
+  padding-left: 5%;
+}
+@media (max-width: 1023px) {
+  /* line 19, ../scss/base/sections/career-single.scss */
+  ._career-single div.asc-position-sidebar {
+    padding-left: 0;
+    margin-left: 5%;
+  }
+}
+/* line 27, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section {
+  padding: 0 0 20px;
+}
+/* line 30, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section p, ._career-single div.asc-position-sidebar section li {
+  font-size: 14px;
+}
+/* line 36, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.contact-manager {
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0;
+  margin: 5px 2px 11px 1px;
+  display: none;
+}
+/* line 47, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.position-information h6 {
+  margin-bottom: 6px;
+}
+/* line 48, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.position-information p {
+  margin: 0 0 2px;
+}
+/* line 49, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.position-information li {
+  font-weight: 300;
+}
+/* line 50, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.position-information > div {
+  margin-bottom: 24px;
+}
+/* line 52, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.position-information > div:last-child {
+  margin-bottom: 0;
+  display: none;
+}
+/* line 57, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.other-positions #asc-recommended-job-header {
+  color: #2AB3D0;
+  text-transform: uppercase;
+  font-size: .9em;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 6px;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+/* line 67, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.other-positions a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 68, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-sidebar section.other-positions span {
+  font-weight: 300;
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+}
+
+@media (max-width: 767px) {
+  /* line 78, ../scss/base/sections/career-single.scss */
+  ._career-single {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* line 85, ../scss/base/sections/career-single.scss */
+._career-single .asc-job-header {
+  font-size: 30px;
+  line-height: 36px;
+  color: #072942;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+/* line 94, ../scss/base/sections/career-single.scss */
+.asc-job-listing-container .asc-job-header.description {
+  display: none;
+}
+
+/* line 99, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-content div.asc-position-title {
+  margin-bottom: 16px;
+}
+/* line 103, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-content .asc-jobs-hr {
+  display: none;
+}
+/* line 105, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-content .asc-job-description {
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  /* line 98, ../scss/base/sections/career-single.scss */
+  ._career-single div.asc-position-content {
+    margin-bottom: 30px;
+  }
+}
+/* line 113, ../scss/base/sections/career-single.scss */
+._career-single div.asc-position-content #asc-job-apply-btn {
+  margin: 0;
+  float: right;
+  position: inherit;
+}
+
+/* line 120, ../scss/base/sections/career-single.scss */
+.asc-apply-container {
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+/* line 129, ../scss/base/sections/career-single.scss */
+.asc-job-listing-container .asc-apply-container {
+  background: #FFF;
+  padding: 25px 0px 12px;
+}
+/* line 134, ../scss/base/sections/career-single.scss */
+.asc-job-listing-container .asc-apply-container h3 {
+  color: #A4A4B1;
+}
+/* line 139, ../scss/base/sections/career-single.scss */
+.asc-job-listing-container .asc-apply-container .asc-first-step-lower-block p {
+  color: #A4A4B1;
+}
+
+/* line 47, ../scss/base/config/mixins.scss */
+.asc-apply-now:before, .asc-apply-now:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+.asc-apply-now:after {
+  clear: both;
+}
+/* line 151, ../scss/base/sections/career-single.scss */
+.asc-apply-now .button-applied {
+  padding-left: 26px;
+  position: relative;
+  float: right;
+}
+/* line 155, ../scss/base/sections/career-single.scss */
+.asc-apply-now .button-applied .asc-applied-text {
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  height: 20px;
+  line-height: 16px;
+  position: absolute;
+  left: 83px;
+  top: -10px;
+  width: 20px;
+  z-index: 7;
+}
+/* line 168, ../scss/base/sections/career-single.scss */
+.asc-apply-now div.asc-withdraw {
+  float: right;
+  width: auto !important;
+  margin: 4px 10px 0 0;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 173, ../scss/base/sections/career-single.scss */
+.asc-apply-now div.asc-withdraw a:hover {
+  color: #c9533e;
+}
+
+/* line 179, ../scss/base/sections/career-single.scss */
+.btn-success {
+  background-color: #5CB85C;
+  color: #FFFFFF;
+}
+
+/* line 185, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey {
+  padding: 0;
+  background: none;
+}
+/* line 189, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey div.muted,
+#asc-job-app-second-step #asc-job-application-survey div.muted a {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* line 193, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey div.muted a {
+  color: #1d9ff2;
+}
+/* line 197, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey #asc-survey-form {
+  margin: 10px 0 0;
+}
+/* line 198, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey .asc-edit-block-header {
+  padding: 0;
+  background: none;
+  margin-bottom: 8px;
+  border-bottom: none;
+}
+/* line 203, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey .asc-edit-block-header h4 {
+  color: #072942;
+  margin-bottom: 0;
+}
+/* line 208, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey .asc-edit-block-inner {
+  padding: 0;
+}
+/* line 211, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey .asc-edit-edit {
+  padding: 0 10px;
+  background: none !important;
+  margin: 0 0 10px;
+  border: none;
+  font-weight: 300;
+  font-size: 14px;
+}
+/* line 218, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-job-application-survey .asc-edit-edit input {
+  margin-right: 6px;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#asc-job-app-second-step #asc-button-holder:before, #asc-job-app-second-step #asc-button-holder:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#asc-job-app-second-step #asc-button-holder:after {
+  clear: both;
+}
+/* line 226, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step #asc-button-holder button {
+  float: left;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+/* line 234, ../scss/base/sections/career-single.scss */
+#asc-job-listing-container .asc-inline-mini-help {
+  font-size: 14px;
+  position: absolute;
+}
+
+/* line 240, ../scss/base/sections/career-single.scss */
+#asc-job-listing-container
+#asc-top-buffer-20 {
+  margin: 25px 0;
+}
+
+/* line 246, ../scss/base/sections/career-single.scss */
+#asc-job-app-second-step
+#asc-signup-container
+#asc-profile-picture-button {
+  font-size: 12px;
+}
+
+/* line 254, ../scss/base/sections/career-single.scss */
+._career-single #asc-msg {
+  margin: 0 0 20px;
+  border-radius: 0;
+}
+/* line 257, ../scss/base/sections/career-single.scss */
+._career-single #asc-msg li {
+  font-weight: normal;
+  padding: 5px 10px;
+}
+/* line 260, ../scss/base/sections/career-single.scss */
+._career-single #asc-msg li a {
+  font-weight: normal;
+  color: #1d9ff2;
+}
+
+/* line 269, ../scss/base/sections/career-single.scss */
+._career-single div.asc-apply-confirmation h1 {
+  margin-bottom: 16px;
+}
+/* line 270, ../scss/base/sections/career-single.scss */
+._career-single div.asc-apply-confirmation p.congrats {
+  margin-bottom: 40px;
+}
+
+/* line 1, ../scss/base/sections/profile.scss */
+.asc-navbar {
+  background-color: #e4e4e4;
+}
+
+/* line 25, ../scss/base/sections/profile.scss */
+#profile #asc-candidate-expanded-image a#asc-profile-change-picture {
+  color: #878787;
+}
+
+/* line 31, ../scss/base/sections/profile.scss */
+#asc-user-image-container {
+  padding: 20px 0;
+  width: 100%;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#asc-user-image-container:before, #asc-user-image-container:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#asc-user-image-container:after {
+  clear: both;
+}
+/* line 35, ../scss/base/sections/profile.scss */
+#asc-user-image-container h3 {
+  line-height: 1em;
+}
+/* line 36, ../scss/base/sections/profile.scss */
+#asc-user-image-container #asc-profile-picture {
+  margin: 0;
+}
+/* line 37, ../scss/base/sections/profile.scss */
+#asc-user-image-container #asc-user-upload-image-button {
+  margin: 0;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#asc-user-image-container #asc-user-upload-image:before, #asc-user-image-container #asc-user-upload-image:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#asc-user-image-container #asc-user-upload-image:after {
+  clear: both;
+}
+/* line 41, ../scss/base/sections/profile.scss */
+#asc-user-image-container p.small-text {
+  font-size: .8em;
+  margin-bottom: 20px;
+}
+/* line 42, ../scss/base/sections/profile.scss */
+#asc-user-image-container .asc-file-upload-holder-outer {
+  width: 100%;
+}
+
+/* line 49, ../scss/base/sections/profile.scss */
+#asc-client-record-profile-view .asc-del-cancel {
+  background: none repeat scroll 0 0 #EDEFF2;
+  background-image: none;
+  border-width: 0px;
+}
+
+/* line 57, ../scss/base/sections/profile.scss */
+#asc-client-record-profile-view .asc-edit-readonly span.asc-edit-icon {
+  min-width: 70px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 2px 5px;
+  margin: 0;
+}
+/* line 67, ../scss/base/sections/profile.scss */
+#asc-client-record-profile-view .asc-edit-readonly.communication-options-readonly {
+  margin-left: 15px;
+}
+/* line 69, ../scss/base/sections/profile.scss */
+#asc-client-record-profile-view .asc-edit-readonly.communication-options-readonly .asc-edit-icon {
+  top: 25px;
+}
+
+/* line 74, ../scss/base/sections/profile.scss */
+#asc-client-record-profile-view .asc-profile-top-hr {
+  display: none;
+}
+
+/* line 77, ../scss/base/sections/profile.scss */
+#asc-dashboard-rec-jobs .asc-recommended-job-row {
+  margin-top: 10px;
+}
+
+/* line 81, ../scss/base/sections/profile.scss */
+#asc-dashboard-rec-jobs .asc-recommended-job-row h5 {
+  text-transform: uppercase;
+}
+
+@media (max-width: 360px) {
+  /* line 86, ../scss/base/sections/profile.scss */
+  .asc-change-image-holder .asc-change-image-btn {
+    position: relative !important;
+    left: 0% !important;
+    width: 80% !important;
+  }
+
+  /* line 92, ../scss/base/sections/profile.scss */
+  #asc-client-record-profile-view .asc-change-image-holder img {
+    max-width: 100%;
+    position: relative;
+    right: 0px;
+    width: 100%;
+    display: table;
+    font-size: 10px;
+    margin-top: 13px;
+  }
+}
+/* line 108, ../scss/base/sections/profile.scss */
+#asc-resume-controls .btn {
+  font-size: 14px;
+  padding: 2px 5px;
+}
+
+/* line 4, ../scss/base/sections/about-us.scss */
+._about-us {
+  margin-top: 120px;
+}
+@media (max-width: 767px) {
+  /* line 4, ../scss/base/sections/about-us.scss */
+  ._about-us {
+    margin-top: 30px;
+  }
+}
+/* line 13, ../scss/base/sections/about-us.scss */
+._about-us section.section {
+  padding-bottom: 50px;
+}
+/* line 18, ../scss/base/sections/about-us.scss */
+._about-us section.posts {
+  padding-top: 80px;
+}
+@media (max-width: 767px) {
+  /* line 18, ../scss/base/sections/about-us.scss */
+  ._about-us section.posts {
+    padding-top: 40px;
+  }
+}
+/* line 24, ../scss/base/sections/about-us.scss */
+._about-us section.culture {
+  padding-top: 0;
+}
+
+/* line 34, ../scss/base/sections/about-us.scss */
+#articleinfo .asc-post-content ul {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+/* line 42, ../scss/base/sections/about-us.scss */
+article.locations div.map-container div.map-wrap div.map-image {
+  position: relative;
+}
+
+/* line 47, ../scss/base/sections/about-us.scss */
+#play-btn-img1 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180px;
+  left: 50%;
+  margin: -90px 0 0 -77px;
+  position: absolute;
+  top: 50%;
+  transition: color 0.25s ease 0.05s;
+  z-index: 201;
+  text-decoration: none !important;
+}
+
+/* line 60, ../scss/base/sections/about-us.scss */
+#play-btn-img2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180px;
+  left: 50%;
+  margin: -90px 0 0 -77px;
+  position: absolute;
+  top: 50%;
+  transition: color 0.25s ease 0.05s;
+  z-index: 201;
+  text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../scss/base/sections/staff.scss */
+  ._staff > .container {
+    padding: 0 20px;
+  }
+}
+/* line 13, ../scss/base/sections/staff.scss */
+._staff .asc-staff-header {
+  height: 360px;
+  margin: 0 0 50px;
+  position: relative;
+  background-image: url("/img/team/team-banner.jpg");
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.8) 100%), url("/img/team/team-banner.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.8))), url("/img/team/team-banner.jpg") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.8) 100%), url("/img/team/team-banner.jpg") no-repeat;
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.8) 100%), url("/img/team/team-banner.jpg") no-repeat;
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.8) 100%), url("/img/team/team-banner.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.8) 100%), url("/img/team/team-banner.jpg") no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 24, ../scss/base/sections/staff.scss */
+._staff #staff-title {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 74%;
+  margin: 20px 0 0;
+  left: 50%;
+  margin-left: -37%;
+}
+/* line 32, ../scss/base/sections/staff.scss */
+._staff #staff-title h5 {
+  color: white;
+  border-bottom-color: white;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 39, ../scss/base/sections/staff.scss */
+._staff #staff-title p {
+  margin-bottom: 40px;
+  color: white;
+}
+@media (max-width: 767px) {
+  /* line 45, ../scss/base/sections/staff.scss */
+  ._staff #staff-title p {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 24, ../scss/base/sections/staff.scss */
+  ._staff #staff-title {
+    width: 90%;
+    margin-left: -45%;
+  }
+  /* line 54, ../scss/base/sections/staff.scss */
+  ._staff #staff-title p {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+/* line 61, ../scss/base/sections/staff.scss */
+._staff #employee_slider {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+/* line 6, ../scss/base/sections/auth.scss */
+#asc-signin-btn {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #2AB3D0;
+  color: #2AB3D0;
+}
+
+/* line 12, ../scss/base/sections/auth.scss */
+div.input-icon input {
+  border-bottom-right-radius: 1px;
+}
+
+/* line 17, ../scss/base/sections/auth.scss */
+.asc-create-account-option {
+  max-width: 640px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 23, ../scss/base/sections/auth.scss */
+.asc-create-account-option #asc-init-signin {
+  margin: 0;
+  text-align: center;
+}
+/* line 28, ../scss/base/sections/auth.scss */
+.asc-create-account-option #asc-init-signin p {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+@media (max-width: 639px) {
+  /* line 28, ../scss/base/sections/auth.scss */
+  .asc-create-account-option #asc-init-signin p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+/* line 41, ../scss/base/sections/auth.scss */
+.asc-create-account-option #asc-init-signin a {
+  text-decoration: none;
+  color: white;
+}
+/* line 45, ../scss/base/sections/auth.scss */
+.asc-create-account-option div.button-wrap {
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../scss/base/sections/auth.scss */
+  #signindiv {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* line 55, ../scss/base/sections/auth.scss */
+  #signindiv .asc-signin-data-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 64, ../scss/base/sections/auth.scss */
+#forgot_password .asc-signin-data-container {
+  background: white;
+  padding: 10px 20px 20px;
+}
+/* line 68, ../scss/base/sections/auth.scss */
+#forgot_password #asc-signup-top-header {
+  background: none;
+  border: none;
+  margin: 0;
+}
+/* line 73, ../scss/base/sections/auth.scss */
+#forgot_password #asc-signup-top-header h4 {
+  color: #2AB3D0;
+  text-transform: uppercase;
+  font-size: .9em;
+  margin: 0;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+/* line 86, ../scss/base/sections/auth.scss */
+#forgot_password #asc_form_forgotpassword input {
+  border: 1px solid #cccccc;
+}
+/* line 91, ../scss/base/sections/auth.scss */
+#forgot_password #asc-signup-footer {
+  margin: 0;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#forgot_password #asc-signup-footer:before, #forgot_password #asc-signup-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#forgot_password #asc-signup-footer:after {
+  clear: both;
+}
+
+/* line 104, ../scss/base/sections/auth.scss */
+#change_password .asc-signin-data-container {
+  background: white;
+  padding: 10px 20px 20px;
+}
+/* line 110, ../scss/base/sections/auth.scss */
+#change_password #asc-signup-top-header {
+  background: none;
+  border: none;
+  margin: 0;
+}
+/* line 116, ../scss/base/sections/auth.scss */
+#change_password #asc-signup-top-header h4 {
+  color: #2AB3D0;
+  text-transform: uppercase;
+  font-size: .9em;
+  margin: 0;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+/* line 131, ../scss/base/sections/auth.scss */
+#change_password #asc_form_change_password input {
+  border: 1px solid #cccccc;
+  width: 100%;
+}
+/* line 136, ../scss/base/sections/auth.scss */
+#change_password #asc_form_change_password input:last-of-type {
+  margin-top: 10px;
+}
+/* line 142, ../scss/base/sections/auth.scss */
+#change_password #asc-signup-footer {
+  margin: 0;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+#change_password #asc-signup-footer:before, #change_password #asc-signup-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+#change_password #asc-signup-footer:after {
+  clear: both;
+}
+
+/* line 3, ../scss/base/sections/signup.scss */
+#asc-signup-container label {
+  color: #878787;
+}
+/* line 6, ../scss/base/sections/signup.scss */
+#asc-signup-container .asc-signup-picture-btn {
+  background: none repeat scroll 0 0 transparent;
+  color: #2AB3D0;
+  border: 1px solid #2AB3D0;
+}
+/* line 12, ../scss/base/sections/signup.scss */
+#asc-signup-container .asc-edit-edit {
+  padding: 10px 10px;
+  margin-left: 8px;
+}
+/* line 18, ../scss/base/sections/signup.scss */
+#asc-signup-container .intl-tel-input .flag-dropdown {
+  height: 33px;
+}
+
+/* line 23, ../scss/base/sections/signup.scss */
+#asc-application-requirements {
+  font-size: 12px;
+  line-height: 14px;
+  width: 35%;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+/* line 31, ../scss/base/sections/signup.scss */
+#asc-signup-container textarea {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 36, ../scss/base/sections/signup.scss */
+.p-caption {
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 0px;
+}
+
+/* line 42, ../scss/base/sections/signup.scss */
+.asc-signin {
+  font-size: 14px;
+  color: #2AB3D0;
+}
+
+/* line 46, ../scss/base/sections/signup.scss */
+.btn.btn-block {
+  display: inline-block;
+}
+
+/* line 50, ../scss/base/sections/signup.scss */
+.asc-dynamic-picklist {
+  background: none;
+  line-height: 25px;
+}
+
+/* line 56, ../scss/base/sections/signup.scss */
+#unsubscribe-all {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* line 62, ../scss/base/sections/signup.scss */
+.asc-disclosure {
+  font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+/* line 66, ../scss/base/sections/signup.scss */
+.asc-disclosure div:nth-child(2) {
+  font-weight: 300;
+}
+
+/* line 72, ../scss/base/sections/signup.scss */
+#asc-other-info .communication-preferences .communication-options-row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 8, ../scss/base/sections/errors.scss */
+#asc-404 {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../scss/base/sections/errors.scss */
+#asc-404 h1 {
+  font-size: 140px;
+  line-height: 1em;
+  font-weight: 200;
+}
+/* line 17, ../scss/base/sections/errors.scss */
+#asc-404 p {
+  margin-bottom: 30px;
+}
+
+/* line 6, ../scss/base/sections/info.scss */
+.asc-info-page {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+/* line 12, ../scss/base/sections/info.scss */
+.asc-info-page h2 {
+  color: #072942;
+  font-size: 30px;
+  line-height: 1em;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1199px) {
+  /* line 1, ../scss/base/sections/job.scss */
+  #client-position-content {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* line 10, ../scss/base/sections/job.scss */
+  client-position-sidebar {
+    float: none;
+    width: 100;
+  }
+}
+
+/* line 23, ../scss/base/sections/job.scss */
+#asc-public-profile-bottom-right .position a {
+  text-decoration: none;
+}
+
+/* line 30, ../scss/base/sections/job.scss */
+.jvectormap-label {
+  z-index: 1031;
+}
+
+/** For specific client changes only, always ignored by git **/
+/* FONTS*/
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/fonts/proximanova-regular-webfont.eot");
+  src: url("/fonts/proximanova-regular-webfont.eot") format("embedded-opentype"), url("/fonts/proximanova-regular-webfont.woff") format("woff"), url("/fonts/proximanova-regular-webfont.ttf") format("truetype"), url("/fonts/proximanova-regular-webfont.svg") format("svg");
+}
+@font-face {
+  font-family: 'MontserratBlack';
+  src: url("/fonts/MontserratBlack.eot");
+  src: url("/fonts/MontserratBlack.eot") format("embedded-opentype"), url("/fonts/MontserratBlack.woff2") format("woff2"), url("/fonts/MontserratBlack.woff") format("woff"), url("/fonts/MontserratBlack.ttf") format("truetype"), url("/fonts/MontserratBlack.svg#MontserratBlack") format("svg");
+}
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("/fonts/MontserratBold.eot");
+  src: url("/fonts/MontserratBold.eot") format("embedded-opentype"), url("/fonts/MontserratBold.woff2") format("woff2"), url("/fonts/MontserratBold.woff") format("woff"), url("/fonts/MontserratBold.ttf") format("truetype"), url("/fonts/MontserratBold.svg#MontserratBold") format("svg");
+}
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url("/fonts/MontserratExtraBold.eot");
+  src: url("/fonts/MontserratExtraBold.eot") format("embedded-opentype"), url("/fonts/MontserratExtraBold.woff2") format("woff2"), url("/fonts/MontserratExtraBold.woff") format("woff"), url("/fonts/MontserratExtraBold.ttf") format("truetype"), url("/fonts/MontserratExtraBold.svg#MontserratExtraBold") format("svg");
+}
+@font-face {
+  font-family: 'MontserratHairline';
+  src: url("/fonts/MontserratHairline.eot");
+  src: url("/fonts/MontserratHairline.eot") format("embedded-opentype"), url("/fonts/MontserratHairline.woff2") format("woff2"), url("/fonts/MontserratHairline.woff") format("woff"), url("/fonts/MontserratHairline.ttf") format("truetype"), url("/fonts/MontserratHairline.svg#MontserratHairline") format("svg");
+}
+@font-face {
+  font-family: 'MontserratLight';
+  src: url("/fonts/MontserratLight.eot");
+  src: url("/fonts/MontserratLight.eot") format("embedded-opentype"), url("/fonts/MontserratLight.woff2") format("woff2"), url("/fonts/MontserratLight.woff") format("woff"), url("/fonts/MontserratLight.ttf") format("truetype"), url("/fonts/MontserratLight.svg#MontserratLight") format("svg");
+}
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("/fonts/MontserratRegular.eot");
+  src: url("/fonts/MontserratRegular.eot") format("embedded-opentype"), url("/fonts/MontserratRegular.woff2") format("woff2"), url("/fonts/MontserratRegular.woff") format("woff"), url("/fonts/MontserratRegular.ttf") format("truetype"), url("/fonts/MontserratRegular.svg#MontserratRegular") format("svg");
+}
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url("/fonts/MontserratSemiBold.eot");
+  src: url("/fonts/MontserratSemiBold.eot") format("embedded-opentype"), url("/fonts/MontserratSemiBold.woff2") format("woff2"), url("/fonts/MontserratSemiBold.woff") format("woff"), url("/fonts/MontserratSemiBold.ttf") format("truetype"), url("/fonts/MontserratSemiBold.svg#MontserratSemiBold") format("svg");
+}
+@font-face {
+  font-family: 'MontserratUltraLight';
+  src: url("/fonts/MontserratUltraLight.eot");
+  src: url("/fonts/MontserratUltraLight.eot") format("embedded-opentype"), url("/fonts/MontserratUltraLight.woff2") format("woff2"), url("/fonts/MontserratUltraLight.woff") format("woff"), url("/fonts/MontserratUltraLight.ttf") format("truetype"), url("/fonts/MontserratUltraLight.svg#MontserratUltraLight") format("svg");
+}
+/* line 84, ../scss/base/talentcommunity.scss */
+body, h1, h2, h3, h4, h5, h6, a, p, div, ul, li, em, strong, span {
+  font-family: 'MontserratLight', sans-serif;
+}
+
+/********** SVG LOGO STYLES **********/
+/* line 92, ../scss/base/talentcommunity.scss */
+.logo {
+  position: relative;
+  display: inline-block;
+  padding: 25px 15px;
+}
+/* line 97, ../scss/base/talentcommunity.scss */
+.logo .logo__ascendify,
+.logo .logo__ascendify-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 100%;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 19.77%;
+}
+/* line 113, ../scss/base/talentcommunity.scss */
+.logo .ascendify,
+.logo .ascendify-white {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 140px;
+}
+
+/* line 126, ../scss/base/talentcommunity.scss */
+.logo__ascendify {
+  background-image: url("/img/header/logo-ascendify.svg");
+}
+
+/* line 129, ../scss/base/talentcommunity.scss */
+.logo__ascendify-white {
+  background-image: url("/img/header/logo-ascendify-white.svg");
+}
+
+@media (min-width: 768px) {
+  /* line 134, ../scss/base/talentcommunity.scss */
+  .logo {
+    padding: 0px 15px;
+  }
+}
+/********** BUTTON STYLES **********/
+/* line 141, ../scss/base/talentcommunity.scss */
+a.inverted, a.standard {
+  border-radius: 30px;
+  border-style: solid;
+  font-family: "MontserratSemiBold", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-width: 2px;
+  padding: 9px 12px;
+}
+/* line 154, ../scss/base/talentcommunity.scss */
+a.inverted {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+/* line 159, ../scss/base/talentcommunity.scss */
+a.standard {
+  border-color: #2AB3D0;
+  color: #2AB3D0;
+}
+
+/********** HEADER NAV BAR STYLES **********/
+/* line 167, ../scss/base/talentcommunity.scss */
+nav#main-nav {
+  position: absolute;
+  height: 60px;
+  z-index: 300;
+  transition: top .5s ease;
+}
+/* line 173, ../scss/base/talentcommunity.scss */
+nav#main-nav #asc-settings-menu .dropdown.open #asc-main-user-menu,
+nav#main-nav .nav > li > a:focus {
+  background-color: transparent;
+}
+/* line 178, ../scss/base/talentcommunity.scss */
+nav#main-nav #asc-settings-menu #asc-header-user-menu {
+  right: inherit;
+}
+
+/* line 183, ../scss/base/talentcommunity.scss */
+.icon {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  background-color: #2AB3D0;
+  border-radius: 50%;
+}
+
+/* line 191, ../scss/base/talentcommunity.scss */
+.icon__close {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 100%;
+  background-size: cover;
+  height: 0;
+  padding: 0% 0% 100%;
+  background-image: url("/img/header/icon-close-x.svg");
+}
+
+/* line 207, ../scss/base/talentcommunity.scss */
+.nav {
+  height: 30px;
+  width: 100%;
+  position: relative;
+  top: -50px;
+}
+/* line 214, ../scss/base/talentcommunity.scss */
+.nav .ascendify .logo__ascendify {
+  visibility: hidden;
+}
+/* line 217, ../scss/base/talentcommunity.scss */
+.nav .ascendify .logo__ascendify-white {
+  visibility: visible;
+}
+/* line 222, ../scss/base/talentcommunity.scss */
+.nav .logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 25px;
+  padding: 0px;
+}
+/* line 236, ../scss/base/talentcommunity.scss */
+.nav .logo__ascendify:hover,
+.nav .logo__ascendify-white:hover {
+  cursor: pointer;
+}
+/* line 241, ../scss/base/talentcommunity.scss */
+.nav .nav__btn--close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+/* line 251, ../scss/base/talentcommunity.scss */
+.nav .nav__links {
+  position: fixed;
+  top: 0px;
+  left: 100vw;
+  display: block;
+  width: 100%;
+  background-color: #ebebeb;
+  height: 100vh;
+  overflow-y: hidden;
+  transition: left 0.5s ease;
+  padding-top: 59px;
+}
+/* line 263, ../scss/base/talentcommunity.scss */
+.nav .nav__links:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 59px;
+  background-color: #ffffff;
+  top: 0px;
+  right: 0px;
+  cursor: default;
+}
+/* line 274, ../scss/base/talentcommunity.scss */
+.nav .nav__links.on {
+  left: 0px;
+  transition: left 0.5s ease;
+}
+/* line 280, ../scss/base/talentcommunity.scss */
+.nav .nav__links a#signin {
+  display: inline-block;
+  margin: 25px 0px 25px 35px;
+  border-width: 3px;
+  padding: 7px 18px;
+  font-family: "MontserratSemiBold", sans-serif;
+  color: #2AB3D0;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 290, ../scss/base/talentcommunity.scss */
+.nav .nav__links a.section__nav {
+  display: block;
+  width: 100%;
+  padding: 25px 40px 23px;
+  border-bottom: 1px solid #ffffff;
+  font-family: "MontserratSemiBold", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #082A41;
+  cursor: pointer;
+}
+/* line 302, ../scss/base/talentcommunity.scss */
+.nav .nav__links a.section__nav span {
+  visibility: visible;
+  color: #2AB3D0;
+}
+/* line 310, ../scss/base/talentcommunity.scss */
+.nav .standard {
+  visibility: visible;
+  border-color: #2AB3D0 !important;
+}
+/* line 314, ../scss/base/talentcommunity.scss */
+.nav .user-settings {
+  position: absolute;
+  top: 350px;
+  margin-left: 35px;
+}
+
+/* line 320, ../scss/base/talentcommunity.scss */
+.nav__btn {
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  right: 35px;
+  cursor: pointer;
+}
+/* line 327, ../scss/base/talentcommunity.scss */
+.nav__btn label {
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 331, ../scss/base/talentcommunity.scss */
+.nav__btn label span {
+  display: block;
+  width: 21px;
+  height: 8px;
+  border-top: 3px solid #eee;
+}
+
+@media (min-width: 640px) {
+  /* line 343, ../scss/base/talentcommunity.scss */
+  .nav .logo .ascendify {
+    width: 150px;
+  }
+  /* line 347, ../scss/base/talentcommunity.scss */
+  .nav .nav__links {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 354, ../scss/base/talentcommunity.scss */
+  .nav {
+    width: auto;
+  }
+  /* line 358, ../scss/base/talentcommunity.scss */
+  .nav .logo .ascendify {
+    width: 180px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 366, ../scss/base/talentcommunity.scss */
+  nav#main-nav {
+    height: 180px;
+    padding: 45px 0px;
+  }
+  /* line 370, ../scss/base/talentcommunity.scss */
+  nav#main-nav #asc-settings-menu #asc-header-user-menu {
+    right: -6px;
+  }
+
+  /* line 374, ../scss/base/talentcommunity.scss */
+  .nav {
+    top: 0px;
+  }
+  /* line 377, ../scss/base/talentcommunity.scss */
+  .nav .logo {
+    left: 90px;
+  }
+  /* line 380, ../scss/base/talentcommunity.scss */
+  .nav .nav__btn {
+    display: none;
+  }
+  /* line 383, ../scss/base/talentcommunity.scss */
+  .nav .nav__btn--close {
+    display: none;
+  }
+  /* line 386, ../scss/base/talentcommunity.scss */
+  .nav .nav__links {
+    display: inline;
+    position: relative;
+    float: right;
+    top: 18px;
+    left: inherit;
+    width: 80%;
+    max-height: 210px;
+    padding-right: 200px;
+    padding-top: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    text-align: right;
+  }
+  /* line 400, ../scss/base/talentcommunity.scss */
+  .nav .nav__links:before {
+    position: inherit;
+    background-color: transparent;
+  }
+  /* line 405, ../scss/base/talentcommunity.scss */
+  .nav .nav__links .active {
+    border-top: 3px solid #fff;
+  }
+  /* line 410, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a#signin {
+    position: absolute;
+    top: 9px;
+    right: 90px;
+    margin: 0px;
+    padding: 9px 18px;
+    font-family: "MontserratRegular", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  /* line 422, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a.section__nav {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    border-bottom: none;
+    margin: 9px 15px;
+    padding: 9px 0px 0px;
+    font-family: "MontserratRegular", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  /* line 434, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a.section__nav.on:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    width: 98%;
+    border-top: 3px solid #FFFFFF;
+  }
+  /* line 443, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a.section__nav span {
+    visibility: hidden;
+  }
+  /* line 449, ../scss/base/talentcommunity.scss */
+  .nav .standard {
+    display: none;
+  }
+  /* line 452, ../scss/base/talentcommunity.scss */
+  .nav .inverted {
+    display: block;
+    border-color: #fff !important;
+    color: #fff;
+  }
+  /* line 457, ../scss/base/talentcommunity.scss */
+  .nav .user-settings {
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 468, ../scss/base/talentcommunity.scss */
+  .nav .logo {
+    left: 90px;
+  }
+  /* line 471, ../scss/base/talentcommunity.scss */
+  .nav .logo .ascendify {
+    width: 206px;
+  }
+  /* line 475, ../scss/base/talentcommunity.scss */
+  .nav .nav__links {
+    width: 70%;
+  }
+  /* line 479, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a:last-of-type {
+    font-size: 13px;
+  }
+  /* line 482, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a.section__nav {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1440px) {
+  /* line 492, ../scss/base/talentcommunity.scss */
+  .nav .logo {
+    left: 100px;
+  }
+  /* line 495, ../scss/base/talentcommunity.scss */
+  .nav .nav__links {
+    padding-right: 210px;
+    width: 65%;
+  }
+  /* line 500, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a#signin {
+    right: 100px;
+  }
+  /* line 503, ../scss/base/talentcommunity.scss */
+  .nav .nav__links a.section__nav {
+    margin: 9px 17px;
+    font-size: 14px;
+  }
+  /* line 509, ../scss/base/talentcommunity.scss */
+  .nav .user-settings {
+    right: 140px;
+  }
+}
+/********** NAVBAR SCROLL-DOWN STYLES **********/
+/* line 518, ../scss/base/talentcommunity.scss */
+body.step > nav#main-nav {
+  top: -110px;
+  transition: top .5s ease;
+}
+
+/* line 524, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > nav#main-nav {
+  top: 0px;
+}
+
+/* line 529, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down.return > nav#main-nav {
+  top: -110px;
+}
+
+/* line 535, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > nav#main-nav,
+body.step.scrolled-down.return > nav#main-nav {
+  position: fixed;
+  background: #FFFFFF;
+  opacity: 1;
+  webkit-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.45);
+  transition: top .5s ease;
+  height: 60px;
+  padding: 0px;
+}
+/* line 547, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down .background-gradient,
+body.step.scrolled-down.return .background-gradient {
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+/* line 552, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > .nav,
+body.step.scrolled-down.return > .nav {
+  top: 0px;
+  height: 9px;
+}
+/* line 555, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > .nav .nav__btn > label > span,
+body.step.scrolled-down.return > .nav .nav__btn > label > span {
+  border-top: 3px solid #2AB3D0;
+}
+/* line 559, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > .nav .inverted,
+body.step.scrolled-down.return > .nav .inverted {
+  display: inline-block;
+  border-radius: 30px;
+  border-style: solid;
+  font-family: "MontserratRegular", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: #2AB3D0 !important;
+  color: #2AB3D0;
+  border-width: 2px;
+  padding: 6px 10px;
+}
+/* line 572, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down > .nav .standard,
+body.step.scrolled-down.return > .nav .standard {
+  padding: 9px 17px;
+}
+/* line 578, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down .ascendify .logo__ascendify,
+body.step.scrolled-down.return .ascendify .logo__ascendify {
+  visibility: visible;
+}
+/* line 581, ../scss/base/talentcommunity.scss */
+body.step.scrolled-down .ascendify .logo__ascendify-white,
+body.step.scrolled-down.return .ascendify .logo__ascendify-white {
+  visibility: hidden;
+}
+@media (min-width: 1024px) {
+  /* line 587, ../scss/base/talentcommunity.scss */
+  body.step.scrolled-down nav#main-nav,
+  body.step.scrolled-down.return nav#main-nav {
+    height: 70px;
+  }
+  /* line 591, ../scss/base/talentcommunity.scss */
+  body.step.scrolled-down .nav .nav__links,
+  body.step.scrolled-down.return .nav .nav__links {
+    top: 8px;
+  }
+  /* line 594, ../scss/base/talentcommunity.scss */
+  body.step.scrolled-down .nav .nav__links a#signin,
+  body.step.scrolled-down.return .nav .nav__links a#signin {
+    color: #2AB3D0;
+  }
+  /* line 597, ../scss/base/talentcommunity.scss */
+  body.step.scrolled-down .nav .nav__links a.section__nav,
+  body.step.scrolled-down.return .nav .nav__links a.section__nav {
+    color: #2AB3D0;
+  }
+  /* line 601, ../scss/base/talentcommunity.scss */
+  body.step.scrolled-down .nav .nav__links a.section__nav.on:before,
+  body.step.scrolled-down.return .nav .nav__links a.section__nav.on:before {
+    border-top: 3px solid #2AB3D0;
+  }
+}
+
+/********** BUBBLE PATTERN TRANSITION STYLES **********/
+/* line 614, ../scss/base/talentcommunity.scss */
+section.pattern--blue, section.pattern--gray, section.pattern--white, .hero-wrap.pattern--blue, .hero-wrap.pattern--gray, .hero-wrap.pattern--white {
+  position: relative;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+/* line 622, ../scss/base/talentcommunity.scss */
+section.pattern--blue:after, section.pattern--gray:after, section.pattern--white:after, .hero-wrap.pattern--blue:after, .hero-wrap.pattern--gray:after, .hero-wrap.pattern--white:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  height: 130px;
+  width: 100%;
+}
+/* line 630, ../scss/base/talentcommunity.scss */
+section.pattern--blue:after, .hero-wrap.pattern--blue:after {
+  background-image: url("/static-assets/stuff/bubbles-blue-sm.png");
+}
+/* line 633, ../scss/base/talentcommunity.scss */
+section.pattern--gray:after, .hero-wrap.pattern--gray:after {
+  background-image: url("/static-assets/stuff/bubbles-gray-sm.png");
+}
+/* line 636, ../scss/base/talentcommunity.scss */
+section.pattern--white:after, .hero-wrap.pattern--white:after {
+  background-image: url("/static-assets/stuff/bubbles-white-sm.png");
+}
+
+@media (min-width: 767px) {
+  /* line 643, ../scss/base/talentcommunity.scss */
+  section.pattern--blue, section.pattern--gray, section.pattern--white, .hero-wrap.pattern--blue, .hero-wrap.pattern--gray, .hero-wrap.pattern--white {
+    padding-bottom: 306px;
+  }
+  /* line 648, ../scss/base/talentcommunity.scss */
+  section.pattern--blue:after, section.pattern--gray:after, section.pattern--white:after, .hero-wrap.pattern--blue:after, .hero-wrap.pattern--gray:after, .hero-wrap.pattern--white:after {
+    height: 306px;
+  }
+  /* line 652, ../scss/base/talentcommunity.scss */
+  section.pattern--blue:after, .hero-wrap.pattern--blue:after {
+    background-image: url("/static-assets/stuff/bubbles-blue.png");
+  }
+  /* line 655, ../scss/base/talentcommunity.scss */
+  section.pattern--gray:after, .hero-wrap.pattern--gray:after {
+    background-image: url("/static-assets/stuff/bubbles-gray.png");
+  }
+  /* line 658, ../scss/base/talentcommunity.scss */
+  section.pattern--white:after, .hero-wrap.pattern--white:after {
+    background-image: url(/static-assets/stuff/bubbles-white.png);
+  }
+}
+/********** CONTAINER STYLES **********/
+/* line 666, ../scss/base/talentcommunity.scss */
+#main_container {
+  padding-bottom: 0;
+  /*** HOME PAGE STYLES ***/
+  /*** CAREERS PAGE STYLES ***/
+  /*** MEET OUR TEAMS PAGE STYLES ***/
+  /*** MISCELLANEOUS OVERRIDES ***/
+  /*** JOB POSITION PAGE ***/
+  /*** JOB POSITION PAGE ***/
+  /*** PROFILE VIEW PAGE ***/
+}
+/* line 669, ../scss/base/talentcommunity.scss */
+#main_container section.section {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width: 767px) {
+  /* line 674, ../scss/base/talentcommunity.scss */
+  #main_container section.section > .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+/* line 681, ../scss/base/talentcommunity.scss */
+#main_container .hero-wrap .hero-controls {
+  max-width: 695px;
+}
+/* line 684, ../scss/base/talentcommunity.scss */
+#main_container .hero-wrap .hero-controls h1, #main_container .hero-wrap .hero-controls h5, #main_container .hero-wrap .hero-controls p, #main_container .hero-wrap .hero-controls a {
+  text-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+/* line 690, ../scss/base/talentcommunity.scss */
+#main_container .asc-panel {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.14);
+}
+/* line 692, ../scss/base/talentcommunity.scss */
+#main_container .asc-panel .play-button {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  font-size: 180px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 200;
+}
+/* line 707, ../scss/base/talentcommunity.scss */
+#main_container .asc-panel .play-button:hover {
+  color: rgba(242, 242, 242, 0.6);
+  text-decoration: none;
+}
+/* line 714, ../scss/base/talentcommunity.scss */
+#main_container .background-gradient {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+  background: -moz-linear-gradient(top, #072942 0%, #072942 1%, #244c6a 25%, rgba(125, 185, 232, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #072942 0%, #072942 1%, #244c6a 25%, rgba(125, 185, 232, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #072942 0%, #072942 1%, #244c6a 25%, rgba(125, 185, 232, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#072942', endColorstr='#007db9e8',GradientType=0 );
+  /* IE6-9 */
+  transition: opacity .2s ease;
+}
+/* line 727, ../scss/base/talentcommunity.scss */
+#main_container .section.join-community {
+  padding: 40px 0px 90px;
+}
+/* line 731, ../scss/base/talentcommunity.scss */
+#main_container ::-webkit-input-placeholder,
+#main_container ::-moz-placeholder,
+#main_container :-ms-input-placeholder,
+#main_container :-moz-placeholder {
+  /* Firefox 18- */
+  color: #AAA;
+}
+/* line 739, ../scss/base/talentcommunity.scss */
+#main_container #signup-page #signup-title {
+  position: relative;
+  text-align: center;
+  top: 120px;
+}
+@media (max-width: 639px) {
+  /* line 739, ../scss/base/talentcommunity.scss */
+  #main_container #signup-page #signup-title {
+    font-size: 21px;
+  }
+}
+/* line 749, ../scss/base/talentcommunity.scss */
+#main_container #background-image {
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 758, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box {
+  margin-top: -65px;
+  padding-top: 0px;
+  padding-bottom: 325px;
+  background-color: #2AB3D0;
+}
+/* line 764, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #browse-teams-list,
+#main_container #homepage section.home-search-box #job-skill-search,
+#main_container #homepage section.home-search-box ul.browse-jobs,
+#main_container #homepage section.home-search-box ul.dropdown-menu {
+  width: 360px;
+}
+/* line 771, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #career-search-form,
+#main_container #homepage section.home-search-box ul.browse-jobs {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+/* line 778, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #browse-teams-list,
+#main_container #homepage section.home-search-box #job-skill-search {
+  background-color: #fff;
+  color: #777;
+  height: 50px;
+  padding: 0px 20px;
+}
+/* line 785, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #browse-teams-list + i,
+#main_container #homepage section.home-search-box #job-skill-search + i {
+  position: absolute;
+  top: 8px;
+}
+/* line 791, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #career-search-form {
+  text-align: right;
+}
+/* line 795, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box #job-search-submit {
+  position: relative;
+  top: 2px;
+  right: 35px;
+  color: #2AB3D0;
+}
+/* line 802, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.browse-jobs {
+  margin: 0px;
+  padding-left: 20px;
+  text-align: left;
+}
+/* line 807, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.browse-jobs #browse-teams-list {
+  padding: 13px 20px;
+  float: left;
+}
+/* line 811, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.browse-jobs #browse-teams-list:hover {
+  cursor: pointer;
+}
+/* line 815, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.browse-jobs #browse-teams-list i#browse-icon {
+  position: absolute;
+  top: 11px;
+  right: 19px;
+  font-size: 30px;
+  color: #2AB3D0;
+}
+/* line 825, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.dropdown-menu {
+  left: initial;
+}
+/* line 828, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box ul.dropdown-menu > li > a {
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* line 834, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.home-search-box .container {
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  /* line 839, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #browse-teams-list {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 843, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #career-search-form {
+    text-align: inherit;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 849, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #browse-teams-list,
+  #main_container #homepage section.home-search-box #job-skill-search,
+  #main_container #homepage section.home-search-box ul.dropdown-menu {
+    width: 305px;
+  }
+  /* line 855, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #career-search-form, #main_container #homepage section.home-search-box ul.browse-jobs {
+    position: relative;
+    float: none;
+    margin: 0 auto 25px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 758, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box {
+    margin-top: 0px;
+    padding-bottom: 130px;
+  }
+  /* line 867, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #career-search-form,
+  #main_container #homepage section.home-search-box ul.browse-jobs {
+    width: 80%;
+  }
+  /* line 872, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #browse-teams-list,
+  #main_container #homepage section.home-search-box #job-skill-search,
+  #main_container #homepage section.home-search-box ul.dropdown-menu {
+    width: 100%;
+  }
+  /* line 878, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box i#job-search-submit {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+  }
+}
+@media (max-width: 639px) {
+  /* line 886, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.home-search-box #career-search-form,
+  #main_container #homepage section.home-search-box ul.browse-jobs {
+    width: 90%;
+  }
+}
+/* line 893, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.content-panels {
+  padding-top: 70px;
+}
+/* line 896, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.content-panels .panel-bottom {
+  min-height: 225px;
+  padding: 30px;
+}
+/* line 900, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.content-panels .panel-bottom p {
+  min-height: 100px;
+}
+/* line 903, ../scss/base/talentcommunity.scss */
+#main_container #homepage section.content-panels .panel-bottom a {
+  text-decoration: none;
+}
+@media (max-width: 1199px) {
+  /* line 896, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom {
+    min-height: 250px;
+  }
+  /* line 909, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom p {
+    min-height: 125px;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 896, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom {
+    min-height: 300px;
+  }
+  /* line 915, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom p {
+    min-height: 175px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 896, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom {
+    min-height: inherit;
+  }
+  /* line 921, ../scss/base/talentcommunity.scss */
+  #main_container #homepage section.content-panels .panel-bottom p {
+    min-height: 90px;
+  }
+}
+/* line 930, ../scss/base/talentcommunity.scss */
+#main_container #careers {
+  margin-top: 0;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 930, ../scss/base/talentcommunity.scss */
+  #main_container #careers {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 938, ../scss/base/talentcommunity.scss */
+  #main_container #careers .map-container {
+    display: none;
+  }
+}
+/* line 944, ../scss/base/talentcommunity.scss */
+#main_container #careers #asc-job-map-mapslider {
+  display: none;
+}
+/* line 948, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-map {
+  height: 500px;
+  margin: 0 -15px;
+  border: none;
+}
+/* line 953, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-map .leaflet-tile-container.leaflet-zoom-animated {
+  left: 1px;
+}
+/* line 956, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-map .jvectormap-zoomin, #main_container #careers #jobs-map .jvectormap-zoomout {
+  background: none repeat scroll 0 0 #072942;
+}
+/* line 958, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-map .jvectormap-zoomin:hover, #main_container #careers #jobs-map .jvectormap-zoomout:hover {
+  background: none repeat scroll 0 0 #051b2b;
+}
+/* line 962, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-map .jvectormap-marker {
+  fill: #2AB3D0;
+}
+/* line 968, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-sidebar #map-nav-search i {
+  background: #2AB3D0;
+}
+/* line 971, ../scss/base/talentcommunity.scss */
+#main_container #careers #jobs-sidebar .submenu-dropdown-inner .search-wrap button {
+  top: 35px;
+  height: 34px;
+  background: #2AB3D0;
+}
+/* line 978, ../scss/base/talentcommunity.scss */
+#main_container #careers #listofjobs_holder {
+  height: auto;
+}
+/* line 982, ../scss/base/talentcommunity.scss */
+#main_container #careers #listofjobs_holder #listofjobs .asc-pubtile-content {
+  width: 75%;
+}
+@media (max-width: 639px) {
+  /* line 982, ../scss/base/talentcommunity.scss */
+  #main_container #careers #listofjobs_holder #listofjobs .asc-pubtile-content {
+    width: 100%;
+  }
+}
+/* line 993, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters {
+  top: -350px;
+  width: 30%;
+  padding: 25px;
+  background-color: #072942;
+  opacity: .85;
+}
+/* line 1000, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .asc-carreers-title-h5 {
+  width: 100%;
+  font-size: .9em !important;
+  font-weight: 600;
+  color: #2AB3D0 !important;
+}
+/* line 1008, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .careers-title h3 {
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+/* line 1015, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .careers-title + div > * {
+  display: inline-block;
+}
+/* line 1018, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .careers-title + div a {
+  color: #E0E5E2;
+  float: right;
+}
+/* line 1024, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .asc-dynamic-picklist-title {
+  color: #ccc !important;
+}
+/* line 1026, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .filters .asc-dynamic-picklist-title i {
+  font-size: 16px;
+  margin-top: 2px;
+}
+/* line 1033, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .module.jobs-module {
+  margin-top: 10px;
+}
+/* line 1036, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .module.jobs-module .asc-panel {
+  margin-top: 0px;
+  padding: 5px 5px 25px;
+}
+/* line 1040, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .module.jobs-module .asc-panel h5 {
+  padding-bottom: 15px;
+}
+/* line 1041, ../scss/base/talentcommunity.scss */
+#main_container #careers .content .module.jobs-module .asc-panel p {
+  padding-bottom: 20px;
+}
+/* line 1045, ../scss/base/talentcommunity.scss */
+#main_container #careers .content #candidate-custom, #main_container #careers .content #job-location, #main_container #careers .content .jobs-module.asc-panel {
+  background: none;
+  box-shadow: none;
+}
+/* line 1048, ../scss/base/talentcommunity.scss */
+#main_container #careers .content #candidate-custom h5, #main_container #careers .content #candidate-custom p, #main_container #careers .content #job-location h5, #main_container #careers .content #job-location p, #main_container #careers .content .jobs-module.asc-panel h5, #main_container #careers .content .jobs-module.asc-panel p {
+  color: #fff;
+}
+/* line 1050, ../scss/base/talentcommunity.scss */
+#main_container #careers .content #candidate-custom h5:not(p), #main_container #careers .content #candidate-custom p:not(p), #main_container #careers .content #job-location h5:not(p), #main_container #careers .content #job-location p:not(p), #main_container #careers .content .jobs-module.asc-panel h5:not(p), #main_container #careers .content .jobs-module.asc-panel p:not(p) {
+  font-size: 18px;
+}
+/* line 1052, ../scss/base/talentcommunity.scss */
+#main_container #careers .content #candidate-custom a, #main_container #careers .content #job-location a, #main_container #careers .content .jobs-module.asc-panel a {
+  text-decoration: none;
+  background-color: #2AB3D0;
+  color: #fff;
+  border-radius: 2px;
+}
+/* line 1060, ../scss/base/talentcommunity.scss */
+#main_container #careers .content #client-job-menu-system {
+  background: none;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+}
+@media (max-width: 1023px) {
+  /* line 992, ../scss/base/talentcommunity.scss */
+  #main_container #careers .content {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 992, ../scss/base/talentcommunity.scss */
+  #main_container #careers .content {
+    margin-top: 75px;
+  }
+  /* line 1073, ../scss/base/talentcommunity.scss */
+  #main_container #careers .content .filters {
+    width: 100%;
+    top: 0;
+  }
+}
+/* line 1082, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams, #main_container #ascendify-life {
+  /* TEAMS GRID */
+}
+/* line 1084, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb, #main_container #ascendify-life .team-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  min-height: 285px;
+}
+/* line 1093, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-box, #main_container #ascendify-life .team-thumb .team-box {
+  display: table;
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  height: 285px;
+  z-index: 4;
+}
+/* line 1101, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-box .team-label, #main_container #meet-our-teams .team-thumb .team-box .focus-label, #main_container #ascendify-life .team-thumb .team-box .team-label, #main_container #ascendify-life .team-thumb .team-box .focus-label {
+  color: #fff;
+  display: table-cell;
+  font-size: 28px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  transition: color .4s ease-out;
+  vertical-align: middle;
+}
+/* line 1112, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-description, #main_container #ascendify-life .team-thumb .team-description {
+  transition: z-index .3s ease-out .5s;
+  display: block;
+  height: 285px;
+  min-height: 285px;
+}
+/* line 1117, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-description > div, #main_container #ascendify-life .team-thumb .team-description > div {
+  width: 100%;
+  display: table;
+  height: 50%;
+  margin: 0 auto;
+  padding: 15px 8px;
+}
+/* line 1123, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-description > div a.btn-primary, #main_container #ascendify-life .team-thumb .team-description > div a.btn-primary {
+  color: transparent;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  background: none;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'MontserratLight', sans-serif;
+  transition: color .5s ease-out;
+}
+/* line 1134, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-description > div:first-child, #main_container #ascendify-life .team-thumb .team-description > div:first-child {
+  border-bottom: 2px solid transparent;
+  transition: border-color .5s ease-out;
+}
+/* line 1138, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .team-description > div:hover, #main_container #ascendify-life .team-thumb .team-description > div:hover {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+/* line 1143, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb .veil, #main_container #ascendify-life .team-thumb .veil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: color .4s ease-out;
+  background-color: rgba(7, 7, 22, 0.35);
+  z-index: 3;
+}
+/* line 1154, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover:not(.mission) .team-box .team-label, #main_container #meet-our-teams .team-thumb:hover:not(.mission) .veil, #main_container #ascendify-life .team-thumb:hover:not(.mission) .team-box .team-label, #main_container #ascendify-life .team-thumb:hover:not(.mission) .veil {
+  color: transparent;
+}
+/* line 1157, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover:not(.mission) .team-description, #main_container #ascendify-life .team-thumb:hover:not(.mission) .team-description {
+  z-index: 10;
+  transition: z-index .4s ease-out;
+}
+/* line 1163, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover .team-label, #main_container #ascendify-life .team-thumb:hover .team-label {
+  display: none;
+}
+/* line 1166, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover .team-description, #main_container #ascendify-life .team-thumb:hover .team-description {
+  position: relative;
+}
+/* line 1168, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover .team-description > div, #main_container #ascendify-life .team-thumb:hover .team-description > div {
+  border-color: white;
+}
+/* line 1170, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams .team-thumb:hover .team-description > div > a, #main_container #ascendify-life .team-thumb:hover .team-description > div > a {
+  color: white;
+}
+/* line 1179, ../scss/base/talentcommunity.scss */
+#main_container #meet-our-teams section > .container {
+  width: 90%;
+}
+@media (max-width: 767px) {
+  /* line 1179, ../scss/base/talentcommunity.scss */
+  #main_container #meet-our-teams section > .container {
+    width: 95%;
+  }
+}
+/* line 1188, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life h3 {
+  font-family: 'MontserratLight', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  color: #11B3D5;
+  border: none;
+}
+/* line 1197, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values h5 {
+  font-family: 'MontserratLight', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 300;
+  border: none;
+  margin-bottom: 40px;
+}
+/* line 1206, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .lists {
+  text-align: center;
+}
+/* line 1209, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .mission {
+  text-align: center;
+  width: 70%;
+  position: relative;
+  margin: 20px auto 50px;
+}
+/* line 1214, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .mission p {
+  margin-top: 50px;
+  font-size: 22px;
+  line-height: 35px;
+}
+/* line 1220, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .value-icon {
+  position: relative;
+  width: 19.5%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 1227, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .value-icon i {
+  font-size: 40px;
+}
+/* line 1229, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .value-icon i:hover {
+  font-size: 55px;
+}
+/* line 1233, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.values .value-icon p {
+  padding-top: 25px;
+  font-family: 'MontserratLight', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+}
+@media (max-width: 767px) {
+  /* line 1220, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .value-icon {
+    width: 32%;
+  }
+}
+@media (max-width: 639px) {
+  /* line 1220, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .value-icon {
+    width: 49%;
+  }
+}
+@media (max-width: 639px) {
+  /* line 1249, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .philosophy {
+    width: 90%;
+  }
+  /* line 1251, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .philosophy p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  /* line 1257, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .value-icon span > i {
+    font-size: 32px;
+  }
+  /* line 1260, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.values .value-icon p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+/* line 1268, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container {
+  margin: 0;
+  width: 100%;
+}
+/* line 1272, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] {
+  padding: 0;
+  max-height: 350px;
+  height: 285px;
+}
+/* line 1277, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission {
+  background: none;
+  max-height: 350px;
+}
+/* line 1281, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission .team-box {
+  width: 100.5%;
+  padding: 0 20px;
+  text-align: center;
+  position: absolute;
+  display: table;
+  margin: 0;
+  transition: opacity 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.1s, width 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s, padding 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
+}
+/* line 1290, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission .team-box .team-label {
+  color: white;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "MontserratHairline", sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  transition: opacity .5s ease;
+}
+/* line 1300, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission .team-description {
+  width: 100%;
+}
+/* line 1303, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission .team-description > ul {
+  list-style: disc;
+  padding-left: 50px;
+}
+/* line 1307, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission .team-description > ul > li {
+  width: 100%;
+  display: none;
+  color: transparent;
+  transition: color 1s ease .6s;
+  text-align: left;
+}
+/* line 1317, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission:hover .team-box {
+  width: 0px;
+  padding: 0px;
+  opacity: 0;
+}
+/* line 1321, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission:hover .team-box .team-label {
+  opacity: 0;
+  display: none;
+}
+/* line 1326, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission:hover .team-description {
+  z-index: 0;
+  position: relative;
+  display: table;
+}
+/* line 1330, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission:hover .team-description > ul {
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 1334, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.philosophies div.section-container div[class^=col] .team-thumb.mission:hover .team-description > ul > li {
+  display: block;
+  color: #2AB3D0;
+  transition: color .25s ease 1s;
+  margin: 0 auto 8px;
+  position: relative;
+  width: 75%;
+}
+/* line 1350, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life article.video .vid-col {
+  margin: 0 auto;
+  float: none;
+}
+/* line 1354, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life article.video h5 {
+  margin: 0 0 0 15px;
+}
+/* line 1357, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life article.video li {
+  line-height: 1.7em;
+}
+/* line 1360, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life article.video .lists {
+  margin-top: 20px;
+}
+/* line 1365, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .lists.container {
+  padding-top: 30px;
+}
+/* line 1369, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .perk-item {
+  text-align: center;
+  min-height: 325px;
+}
+/* line 1373, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .perk-item > div.perk-image {
+  margin-bottom: 30px;
+}
+/* line 1375, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .perk-item > div.perk-image > img {
+  width: 90px;
+  height: auto;
+  position: relative;
+}
+/* line 1381, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .perk-item strong {
+  font-family: 'MontserratLight', sans-serif;
+  color: #000;
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: 500;
+}
+/* line 1388, ../scss/base/talentcommunity.scss */
+#main_container #ascendify-life section.section.perks .perk-item p {
+  font-family: 'MontserratLight', sans-serif;
+  line-height: 21px;
+  font-size: 16px;
+  color: #000;
+  margin-top: 8px;
+}
+@media (max-width: 1023px) {
+  /* line 1369, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.section.perks .perk-item {
+    min-height: 350px;
+    padding: 0 25px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1369, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.section.perks .perk-item {
+    width: 100%;
+    min-height: inherit;
+    float: none;
+    margin-bottom: 50px;
+  }
+  /* line 1405, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.section.perks .perk-item div.perk-image {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1411, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.section.perks .hero-wrap {
+    height: 400px;
+  }
+  /* line 1413, ../scss/base/talentcommunity.scss */
+  #main_container #ascendify-life section.section.perks .hero-wrap .hero-control {
+    bottom: initial;
+  }
+}
+@media (max-width: 767px) {
+  /* line 666, ../scss/base/talentcommunity.scss */
+  #main_container {
+    top: 75px;
+  }
+  /* line 1423, ../scss/base/talentcommunity.scss */
+  #main_container .hero-wrap {
+    height: 500px;
+  }
+  /* line 1425, ../scss/base/talentcommunity.scss */
+  #main_container .hero-wrap .hero-controls {
+    bottom: initial;
+  }
+}
+@media (max-width: 639px) {
+  /* line 1431, ../scss/base/talentcommunity.scss */
+  #main_container #background-image {
+    top: 0;
+  }
+}
+/* line 1437, ../scss/base/talentcommunity.scss */
+#main_container #asc-client-record-profile-view #asc-profile-skills-holder .asc-label-skills {
+  background: none repeat scroll 0 0 #072942;
+}
+/* line 1441, ../scss/base/talentcommunity.scss */
+#main_container #asc-settings-menu #asc-header-user-menu #about-me-info {
+  text-align: left;
+}
+/* line 1447, ../scss/base/talentcommunity.scss */
+#main_container #staff_view #background-image {
+  z-index: -1;
+}
+/* line 1451, ../scss/base/talentcommunity.scss */
+#main_container #staff_view ._staff {
+  margin-top: -50px;
+  background-color: #fff;
+}
+/* line 1456, ../scss/base/talentcommunity.scss */
+#main_container #staff_view .hero-wrap {
+  height: 600px;
+}
+/* line 1459, ../scss/base/talentcommunity.scss */
+#main_container #staff_view .hero-wrap.pattern--white {
+  padding-top: 125px;
+}
+/* line 1462, ../scss/base/talentcommunity.scss */
+#main_container #staff_view .hero-wrap.pattern--white:after {
+  bottom: -11px;
+}
+/* line 1466, ../scss/base/talentcommunity.scss */
+#main_container #staff_view .hero-wrap .hero-controls {
+  top: 160px;
+}
+@media (max-width: 767px) {
+  /* line 1472, ../scss/base/talentcommunity.scss */
+  #main_container #staff_view ._staff {
+    margin-top: 0px;
+  }
+  /* line 1475, ../scss/base/talentcommunity.scss */
+  #main_container #staff_view .hero-wrap {
+    height: 450px;
+  }
+  /* line 1478, ../scss/base/talentcommunity.scss */
+  #main_container #staff_view .hero-wrap .hero-controls {
+    top: 70px;
+  }
+}
+/* line 1487, ../scss/base/talentcommunity.scss */
+#main_container #job_view #background-image {
+  z-index: 0;
+}
+/* line 1491, ../scss/base/talentcommunity.scss */
+#main_container #job_view .hero-wrap {
+  height: 500px;
+}
+/* line 1494, ../scss/base/talentcommunity.scss */
+#main_container #job_view .hero-wrap.pattern--white {
+  padding-top: 125px;
+}
+/* line 1497, ../scss/base/talentcommunity.scss */
+#main_container #job_view .hero-wrap.pattern--white:after {
+  bottom: -11px;
+}
+/* line 1503, ../scss/base/talentcommunity.scss */
+#main_container #job_view .page-content {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  /* line 1511, ../scss/base/talentcommunity.scss */
+  #main_container #job_view .hero-wrap {
+    height: 50px;
+  }
+  /* line 1513, ../scss/base/talentcommunity.scss */
+  #main_container #job_view .hero-wrap.pattern--white {
+    padding-top: 0px;
+  }
+}
+/* line 1522, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #background-image {
+  z-index: -1;
+}
+/* line 1526, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #profile {
+  background-color: white;
+  margin-bottom: 100px;
+}
+/* line 1532, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #asc-client-record-profile-view.page-content {
+  margin-top: 0px;
+}
+/* line 1535, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #asc-client-record-profile-view #asc-candidate-expanded-image {
+  text-align: center;
+}
+/* line 1538, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #asc-client-record-profile-view #asc-profile-skill-div {
+  margin-top: 25px;
+}
+/* line 1541, ../scss/base/talentcommunity.scss */
+#main_container #profile_view #asc-client-record-profile-view #asc-profile-skills-holder {
+  height: auto;
+  margin: 20px 0px;
+}
+/* line 1548, ../scss/base/talentcommunity.scss */
+#main_container #profile_view .hero-wrap.pattern--white {
+  padding-top: 125px;
+}
+/* line 1551, ../scss/base/talentcommunity.scss */
+#main_container #profile_view .hero-wrap.pattern--white:after {
+  bottom: -11px;
+}
+@media (max-width: 1023px) {
+  /* line 1559, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view #asc-user-expanded-tabs {
+    margin-top: 90px;
+  }
+  /* line 1562, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view #asc-candidate-expanded-image > div {
+    max-width: 200px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1570, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view #asc-candidate-expanded-image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  /* line 1579, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view #asc-record-expanded-header {
+    text-align: center;
+  }
+  /* line 1583, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view #asc-user-expanded-tabs > li {
+    float: none;
+    display: inline-block;
+  }
+  /* line 1588, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #asc-client-record-profile-view .asc-candidate-image {
+    height: 250px;
+  }
+  /* line 1592, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view #background-image {
+    height: 400px;
+    z-index: -1;
+  }
+  /* line 1597, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view .hero-wrap {
+    height: 50px;
+  }
+  /* line 1599, ../scss/base/talentcommunity.scss */
+  #main_container #profile_view .hero-wrap.pattern--white {
+    padding-top: 0px;
+  }
+}
+/* line 1609, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #asc-signin-container.page-content,
+#main_container #sign_in_up #asc-signup-container.page-content {
+  margin-top: 11px;
+}
+/* line 1613, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #asc-signin-container {
+  border: 1px solid #e8e8e8;
+  box-shadow: none;
+}
+@media (max-width: 767px) {
+  /* line 1617, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up #asc-signup-container {
+    margin-top: -25px;
+  }
+}
+/* line 1622, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #asc-upload-resume .upload-info p.p-quote {
+  line-height: 36px !important;
+}
+@media (max-width: 767px) {
+  /* line 1622, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up #asc-upload-resume .upload-info p.p-quote {
+    padding-top: 30px;
+    line-height: 30px !important;
+  }
+}
+/* line 1630, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #background-image {
+  height: 400px;
+  z-index: 0;
+}
+/* line 1634, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #signindiv, #main_container #sign_in_up #signup {
+  background-color: #ffffff;
+}
+/* line 1637, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #signup-title {
+  text-align: center;
+}
+/* line 1639, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up #signup-title h1 {
+  line-height: 45px;
+}
+/* line 1643, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up .asc-create-account-option {
+  margin: 50px auto;
+}
+/* line 1646, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up .content {
+  position: relative;
+  background-color: #ffffff;
+}
+/* line 1651, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up .hero-wrap.pattern--white {
+  padding-top: 125px;
+}
+/* line 1654, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up .hero-wrap.pattern--white:after {
+  bottom: -11px;
+}
+/* line 1659, ../scss/base/talentcommunity.scss */
+#main_container #sign_in_up .page-content {
+  margin-top: 7px;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  /* line 1664, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up #asc-signup-form {
+    padding: 50px 25px 25px;
+  }
+  /* line 1667, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up #background-image {
+    height: 350px;
+  }
+  /* line 1670, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up #signindiv {
+    margin: 0px;
+    padding: 25px;
+  }
+  /* line 1674, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up .hero-wrap {
+    height: 255px;
+  }
+  /* line 1677, ../scss/base/talentcommunity.scss */
+  #main_container #sign_in_up .hero-wrap.pattern--white {
+    padding-top: 140px;
+  }
+}
+
+/********** FOOTER STYLES **********/
+/* line 1687, ../scss/base/talentcommunity.scss */
+footer {
+  margin-top: 0px;
+  margin-bottom: 0 !important;
+}
+/* line 1691, ../scss/base/talentcommunity.scss */
+footer #footer-outer {
+  padding: 30px 0;
+  background-color: #072942;
+  position: relative;
+}
+/* line 1696, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container {
+  max-width: 900px;
+  padding: 0;
+}
+/* line 1700, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact,
+footer #footer-outer .container .footer-logo,
+footer #footer-outer .container .footer-social {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 1706, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact h5, footer #footer-outer .container .footer-contact a,
+footer #footer-outer .container .footer-logo h5,
+footer #footer-outer .container .footer-logo a,
+footer #footer-outer .container .footer-social h5,
+footer #footer-outer .container .footer-social a {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'MontserratUltraLight', sans-serif !important;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-transform: none;
+}
+/* line 1715, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact a,
+footer #footer-outer .container .footer-logo a,
+footer #footer-outer .container .footer-social a {
+  transition: opacity .3s ease, color .3s ease;
+  text-decoration: none;
+}
+/* line 1719, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact a:hover,
+footer #footer-outer .container .footer-logo a:hover,
+footer #footer-outer .container .footer-social a:hover {
+  color: #2AB3D0;
+  opacity: .5;
+}
+/* line 1726, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-logo,
+footer #footer-outer .container .footer-social {
+  width: 20%;
+}
+/* line 1731, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact,
+footer #footer-outer .container .footer-social {
+  margin-top: 7px;
+}
+/* line 1736, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact {
+  width: 58.66%;
+  text-align: center;
+}
+/* line 1740, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-contact a {
+  color: #2AB3D0;
+}
+/* line 1745, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-social {
+  float: right;
+}
+/* line 1748, ../scss/base/talentcommunity.scss */
+footer #footer-outer .container .footer-social i {
+  padding: 5px;
+  font-size: 20px;
+}
+@media (max-width: 1199px) {
+  /* line 1756, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-logo,
+  footer #footer-outer .container .footer-social {
+    width: 20.67%;
+  }
+  /* line 1761, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-contact {
+    width: 57.66%;
+  }
+}
+@media (max-width: 1023px) {
+  /* line 1696, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container {
+    width: 95%;
+  }
+  /* line 1769, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-logo,
+  footer #footer-outer .container .footer-social {
+    width: 22.67%;
+  }
+  /* line 1774, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-contact {
+    width: 53.66%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1780, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-logo,
+  footer #footer-outer .container .footer-contact,
+  footer #footer-outer .container .footer-social {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* line 1787, ../scss/base/talentcommunity.scss */
+  footer #footer-outer .container .footer-contact {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 1795, ../scss/base/talentcommunity.scss */
+#to-top {
+  z-index: 99;
+  position: fixed;
+  right: 33px;
+  bottom: 17px;
+  height: 30px;
+  background-color: #444;
+  transition: background-color 0.1s linear, bottom 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+/* line 1803, ../scss/base/talentcommunity.scss */
+#to-top.hidetop {
+  bottom: -30px;
+}
+/* line 1806, ../scss/base/talentcommunity.scss */
+#to-top i {
+  line-height: 29px !important;
+  width: 29px !important;
+  height: 29px !important;
+  font-size: 14px !important;
+  top: 0px !important;
+  left: 0px !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  color: #fff;
+}
+/* line 1817, ../scss/base/talentcommunity.scss */
+#to-top:hover {
+  background-color: #11b3d5;
+}
+/* line 1819, ../scss/base/talentcommunity.scss */
+#to-top:hover i {
+  color: #fff;
+}
+
+/*******************************************/
+/********* BEGIN RESPONSIVE DESIGN *********/
+/*******************************************/
+/* mobile */
+@media (orientation: landscape) {
+  /* line 1834, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage #background-image, body[data-device-type="mobile"] #main_container.mobile #ascendify-life #background-image, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams #background-image {
+    height: 500px;
+  }
+  /* line 1837, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #ascendify-life .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams .hero-wrap {
+    height: 450px;
+    margin-top: -350px;
+  }
+  /* line 1841, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage .hero-wrap .hero-controls, body[data-device-type="mobile"] #main_container.mobile #ascendify-life .hero-wrap .hero-controls, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams .hero-wrap .hero-controls {
+    bottom: 275px !important;
+  }
+}
+@media (orientation: portrait) {
+  /* line 1847, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage #background-image, body[data-device-type="mobile"] #main_container.mobile #ascendify-life #background-image, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams #background-image {
+    height: 500px;
+  }
+  /* line 1850, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #ascendify-life .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams .hero-wrap {
+    height: 350px;
+    margin-top: -375px;
+  }
+  /* line 1853, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage .hero-wrap .hero-controls, body[data-device-type="mobile"] #main_container.mobile #ascendify-life .hero-wrap .hero-controls, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams .hero-wrap .hero-controls {
+    bottom: 200px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1859, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #homepage #career-search-form i#job-search-submit, body[data-device-type="mobile"] #main_container.mobile #ascendify-life #career-search-form i#job-search-submit, body[data-device-type="mobile"] #main_container.mobile #meet-our-teams #career-search-form i#job-search-submit {
+    top: 17px;
+  }
+}
+/* line 1866, ../scss/base/talentcommunity.scss */
+body[data-device-type="mobile"] #main_container.mobile #sign_in_up #background-image, body[data-device-type="mobile"] #main_container.mobile #job_view #background-image {
+  height: 600px;
+}
+@media (orientation: landscape) {
+  /* line 1870, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 1875, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white .hero-controls, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white .hero-controls {
+    bottom: 300px !important;
+  }
+  /* line 1878, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white .hero-wrap {
+    height: 0px;
+  }
+}
+@media (orientation: portrait) {
+  /* line 1884, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white {
+    margin-top: -450px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 1889, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white .hero-controls, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white .hero-controls {
+    bottom: 300px !important;
+  }
+  /* line 1892, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile #sign_in_up .hero-wrap.pattern--white .hero-wrap, body[data-device-type="mobile"] #main_container.mobile #job_view .hero-wrap.pattern--white .hero-wrap {
+    height: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1831, ../scss/base/talentcommunity.scss */
+  body[data-device-type="mobile"] #main_container.mobile {
+    top: 0px;
+  }
+}
+
+/* tablet */
+/* line 1907, ../scss/base/talentcommunity.scss */
+nav#main-nav.tablet #client-nav-system ul.nav.navbar-nav {
+  width: 132px;
+}
+
+/* line 1915, ../scss/base/talentcommunity.scss */
+#main_container.tablet #homepage #background-image,
+#main_container.tablet #meet-our-teams #background-image,
+#main_container.tablet #ascendify-life #background-image {
+  height: 600px;
+}
+/* line 1918, ../scss/base/talentcommunity.scss */
+#main_container.tablet #homepage #career-search-form i#job-search-submit,
+#main_container.tablet #meet-our-teams #career-search-form i#job-search-submit,
+#main_container.tablet #ascendify-life #career-search-form i#job-search-submit {
+  top: 2px;
+}
+@media (orientation: portrait) {
+  /* line 1922, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #homepage .hero-wrap,
+  #main_container.tablet #meet-our-teams .hero-wrap,
+  #main_container.tablet #ascendify-life .hero-wrap {
+    margin-top: -425px;
+  }
+  /* line 1924, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #homepage .hero-wrap .hero-controls,
+  #main_container.tablet #meet-our-teams .hero-wrap .hero-controls,
+  #main_container.tablet #ascendify-life .hero-wrap .hero-controls {
+    bottom: 325px !important;
+  }
+}
+@media (orientation: landscape) {
+  /* line 1930, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #homepage .hero-wrap,
+  #main_container.tablet #meet-our-teams .hero-wrap,
+  #main_container.tablet #ascendify-life .hero-wrap {
+    margin-top: -425px;
+  }
+  /* line 1932, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #homepage .hero-wrap .hero-controls,
+  #main_container.tablet #meet-our-teams .hero-wrap .hero-controls,
+  #main_container.tablet #ascendify-life .hero-wrap .hero-controls {
+    bottom: 325px !important;
+  }
+}
+/* line 1940, ../scss/base/talentcommunity.scss */
+#main_container.tablet #profile_view #background-image,
+#main_container.tablet #staff_view #background-image {
+  height: 600px;
+}
+@media (orientation: portrait) {
+  /* line 1944, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #profile_view .hero-wrap,
+  #main_container.tablet #staff_view .hero-wrap {
+    margin-top: -525px;
+  }
+  /* line 1946, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #profile_view .hero-wrap .hero-controls,
+  #main_container.tablet #staff_view .hero-wrap .hero-controls {
+    bottom: 325px !important;
+  }
+}
+@media (orientation: landscape) {
+  /* line 1952, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #profile_view .hero-wrap,
+  #main_container.tablet #staff_view .hero-wrap {
+    margin-top: -525px;
+  }
+  /* line 1954, ../scss/base/talentcommunity.scss */
+  #main_container.tablet #profile_view .hero-wrap .hero-controls,
+  #main_container.tablet #staff_view .hero-wrap .hero-controls {
+    bottom: 325px !important;
+  }
+}
+/* line 1962, ../scss/base/talentcommunity.scss */
+#main_container.tablet #sign_in_up .hero-wrap.pattern--white, #main_container.tablet #job_view .hero-wrap.pattern--white {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 1966, ../scss/base/talentcommunity.scss */
+#main_container.tablet #sign_in_up .hero-wrap.pattern--white .hero-controls, #main_container.tablet #job_view .hero-wrap.pattern--white .hero-controls {
+  bottom: 300px !important;
+}
+/* line 1969, ../scss/base/talentcommunity.scss */
+#main_container.tablet #sign_in_up .hero-wrap.pattern--white .hero-wrap, #main_container.tablet #job_view .hero-wrap.pattern--white .hero-wrap {
+  height: 0px;
+}
+
+/* desktop */
+/* line 1979, ../scss/base/talentcommunity.scss */
+#main_container.desktop #ascendify-life .hero-wrap {
+  height: 600px;
+}
+@media (max-width: 767px) {
+  /* line 1979, ../scss/base/talentcommunity.scss */
+  #main_container.desktop #ascendify-life .hero-wrap {
+    height: 450px;
+  }
+}
+/* line 1985, ../scss/base/talentcommunity.scss */
+#main_container.desktop #ascendify-life .hero-wrap .hero-controls {
+  top: 175px;
+}
+@media (max-width: 767px) {
+  /* line 1985, ../scss/base/talentcommunity.scss */
+  #main_container.desktop #ascendify-life .hero-wrap .hero-controls {
+    top: 150px;
+  }
+}
+/* line 1995, ../scss/base/talentcommunity.scss */
+#main_container.desktop #homepage #background-image, #main_container.desktop #meet-our-teams #background-image {
+  height: 750px;
+}
+@media (max-width: 767px) {
+  /* line 1995, ../scss/base/talentcommunity.scss */
+  #main_container.desktop #homepage #background-image, #main_container.desktop #meet-our-teams #background-image {
+    height: 500px;
+  }
+}
+/* line 2003, ../scss/base/talentcommunity.scss */
+#main_container.desktop #homepage .hero-wrap, #main_container.desktop #meet-our-teams .hero-wrap {
+  height: 750px;
+}
+@media (max-width: 767px) {
+  /* line 2003, ../scss/base/talentcommunity.scss */
+  #main_container.desktop #homepage .hero-wrap, #main_container.desktop #meet-our-teams .hero-wrap {
+    height: 450px;
+  }
+}
+/* line 2009, ../scss/base/talentcommunity.scss */
+#main_container.desktop #homepage .hero-wrap .hero-controls, #main_container.desktop #meet-our-teams .hero-wrap .hero-controls {
+  top: 275px;
+}
+@media (max-width: 767px) {
+  /* line 2009, ../scss/base/talentcommunity.scss */
+  #main_container.desktop #homepage .hero-wrap .hero-controls, #main_container.desktop #meet-our-teams .hero-wrap .hero-controls {
+    top: 150px;
+  }
+}
+
+/* general */
+@media (max-width: 767px) {
+  /* line 2025, ../scss/base/talentcommunity.scss */
+  ._careers.page-content, #signup-page {
+    margin-top: 70px;
+  }
+
+  /* line 2028, ../scss/base/talentcommunity.scss */
+  #signindiv {
+    margin-top: 110px;
+  }
+}
+/*******************************************/
+/********** END RESPONSIVE DESIGN **********/
+/*******************************************/
+/* from/inspired by Hover.css */
+/* Icon Bounce */
+/* line 2039, ../scss/base/talentcommunity.scss */
+.hvr-icon-bounce {
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition: color .3s ease-out;
+}
+
+/* line 2052, ../scss/base/talentcommunity.scss */
+.hvr-icon-bounce:before {
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/* line 2070, ../scss/base/talentcommunity.scss */
+.hvr-icon-bounce:hover:before, .hvr-icon-bounce:focus:before, .hvr-icon-bounce:active:before {
+  color: #072942;
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* line 2077, ../scss/base/talentcommunity.scss */
+#ascvideo {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 30;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+/* line 2086, ../scss/base/talentcommunity.scss */
+#ascvideo #iframe-player-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  height: 410px;
+  width: 800px;
+}
+@media (max-width: 767px) {
+  /* line 2086, ../scss/base/talentcommunity.scss */
+  #ascvideo #iframe-player-1 {
+    width: 90%;
+  }
+}
+
+/* line 11, ../scss/base/sections/styleguide.scss */
+section.styleguide-section {
+  margin: 30px 0;
+}
+/* line 14, ../scss/base/sections/styleguide.scss */
+section.styleguide-section h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+/* line 20, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-description p {
+  margin: 20px 0 20px;
+}
+/* line 25, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-content {
+  padding: 30px 0;
+}
+/* line 29, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-example {
+  margin-bottom: 20px;
+}
+/* line 47, ../scss/base/config/mixins.scss */
+section.styleguide-section div.section-example:before, section.styleguide-section div.section-example:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+section.styleguide-section div.section-example:after {
+  clear: both;
+}
+/* line 32, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-example p.example-label {
+  float: left;
+  width: 160px;
+  text-align: right;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 38, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-example p.example-label span.example-caption {
+  font-size: 12px;
+}
+/* line 42, ../scss/base/sections/styleguide.scss */
+section.styleguide-section div.section-example div.example {
+  margin-left: 190px;
+}
+
+/* line 47, ../scss/base/config/mixins.scss */
+section.styleguide-section.colors ul:before, section.styleguide-section.colors ul:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 53, ../scss/base/config/mixins.scss */
+section.styleguide-section.colors ul:after {
+  clear: both;
+}
+/* line 56, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li {
+  height: 120px;
+  margin: 0 10px 10px;
+  float: left;
+}
+/* line 60, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li span.swatch {
+  display: block;
+  height: 90px;
+  width: 90px;
+  border: 5px solid white;
+}
+/* line 66, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li p {
+  font-size: 13px;
+  margin: 5px 0 0;
+  font-weight: normal;
+}
+/* line 74, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-primary span.swatch {
+  background: #2AB3D0;
+}
+/* line 79, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-primary-lighten span.swatch {
+  background: #3cbcd8;
+}
+/* line 84, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-primary-darken span.swatch {
+  background: #26a1bb;
+}
+/* line 89, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-secondary span.swatch {
+  background: #072942;
+}
+/* line 94, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-secondary-lighten span.swatch {
+  background: #093759;
+}
+/* line 99, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-secondary-darken span.swatch {
+  background: #051b2b;
+}
+/* line 104, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-bg span.swatch {
+  background: #fff;
+}
+/* line 109, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-bg-darken span.swatch {
+  background: #f2f2f2;
+}
+/* line 114, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-bg-dark span.swatch {
+  background: #b3b3b3;
+}
+/* line 119, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-bg-border span.swatch {
+  background: #d9d9d9;
+}
+/* line 124, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-bg-darken-border span.swatch {
+  background: #d9d9d9;
+}
+/* line 129, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text span.swatch {
+  background: #072942;
+}
+/* line 134, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text-darken span.swatch {
+  background: #051b2b;
+}
+/* line 139, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text-lighten span.swatch {
+  background: #093759;
+}
+/* line 144, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text-med span.swatch {
+  background: #878787;
+}
+/* line 149, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text-light span.swatch {
+  background: #c7c7c7;
+}
+/* line 154, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-text-link span.swatch {
+  background: #1d9ff2;
+}
+/* line 159, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-success span.swatch {
+  background: #98ca4a;
+}
+/* line 164, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-danger span.swatch {
+  background: #DA4F49;
+}
+/* line 169, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-error span.swatch {
+  background: #c9533e;
+}
+/* line 174, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-facebook span.swatch {
+  background: #3b5998;
+}
+/* line 179, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.colors li.color-linkedin span.swatch {
+  background: #0e76a8;
+}
+
+/* line 191, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons div.button-wrap {
+  margin: 0 0 20px;
+}
+/* line 197, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-primary span.swatch {
+  background: #2AB3D0;
+}
+/* line 202, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-primary-text span.swatch {
+  background: white;
+}
+/* line 207, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-secondary span.swatch {
+  background: #072942;
+}
+/* line 212, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-secondary-text span.swatch {
+  background: white;
+}
+/* line 217, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-plain span.swatch {
+  background: #edeff2;
+}
+/* line 222, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-plain-text span.swatch {
+  background: #072942;
+}
+/* line 227, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-default span.swatch {
+  background: #2AB3D0;
+}
+/* line 232, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-default-text span.swatch {
+  background: #2AB3D0;
+}
+/* line 237, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-success span.swatch {
+  background: #98ca4a;
+}
+/* line 242, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-success-text span.swatch {
+  background: white;
+}
+/* line 247, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-danger span.swatch {
+  background: #DA4F49;
+}
+/* line 252, ../scss/base/sections/styleguide.scss */
+section.styleguide-section.buttons li.color-btn-danger-text span.swatch {
+  background: white;
+}
