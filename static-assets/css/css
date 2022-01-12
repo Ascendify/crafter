@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+.asc-grip
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/grip.png);
+}
+
+.icons-close
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icon-close.png);
+}
+/*
+.icon-remove
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icon-close.png);
+}
+*/
+.asc-facebook-logo
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icons/facebook.png);
+}
+
+.asc-linkedin-logo
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icons/linkedin.png);
+}
+
+.asc-default-person
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/person.png);
+}
+
+.icons-check
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icon-check.png);
+}
+
+.asc-icon-search
+{
+	background-image:url(https://store.ascendify.com/prod/src/app/img/icons/search.png);
+}
