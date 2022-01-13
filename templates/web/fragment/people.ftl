@@ -31,7 +31,10 @@
         	        
         	        <!-- </ul> -->
         	        
-        	        </div><div id="slideRight" class="slideArrow"><i class="fa fa-angle-right" style="margin-top: 55px;"></i></div>
+        	        </div>
+        	        
+        	        
+        	        <div id="slideRight" class="slideArrow"><i class="fa fa-angle-right" style="margin-top: 55px;"></i></div>
         
     
             </div>
