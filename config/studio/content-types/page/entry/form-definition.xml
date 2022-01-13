@@ -250,29 +250,6 @@
 						</constraint>
 					</constraints>
 				</field>
-				<field>
-					<type>repeat</type>
-					<id>repeatable_o</id>
-					<iceId></iceId>
-					<title>Repeatable</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-					</fields>
-				</field>
 			</fields>
 		</section>
 	</sections>
