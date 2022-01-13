@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2022-01-13T17:17:15.730Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T17:22:45.669Z</lastModifiedDate_dt>
-  <disabled>false</disabled>
-  <heroText_s><![CDATA[Join our Company]]></heroText_s>
-  <heroJoin_s><![CDATA[JOIN!]]></heroJoin_s>
-  <heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2022-01-13T17:31:23.642Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T17:31:23.642Z</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<heroText_s>Join our Company</heroText_s>
+	<heroJoin_s>JOIN!</heroJoin_s>
+	<heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
+	<actions_o item-list="true"/>
 </page>
