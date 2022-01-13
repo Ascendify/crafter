@@ -193,27 +193,27 @@
 			</fields>
 		</section>
 		<section>
-			<title>Main Content</title>
+			<title>Hero System</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>input</type>
-					<id>title_t</id>
-					<iceId>title</iceId>
-					<title>Title</title>
+					<id>heroText_s</id>
+					<iceId></iceId>
+					<title>Hero Text</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>500</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>500</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -226,11 +226,16 @@
 							<value>false</value>
 							<type>boolean</type>
 						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -241,59 +246,49 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte</type>
-					<id>body_html</id>
-					<iceId>main</iceId>
-					<title>Body</title>
+					<type>image-picker</type>
+					<id>heroImage_s</id>
+					<iceId></iceId>
+					<title>Hero Image</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
 							<name>height</name>
-							<value>300</value>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>forceRootBlockPTag</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>forcePTags</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>forceBRTags</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>supportedChannels</name>
+							<name>thumbnailHeight</name>
 							<value></value>
-							<type>supportedChannels</type>
-						</property>
-						<property>
-							<name>rteConfiguration</name>
-							<value>generic</value>
-							<type>string</type>
+							<type>int</type>
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>desktopImages</value>
+							<value></value>
 							<type>datasource:image</type>
 						</property>
 						<property>
-							<name>videoManager</name>
+							<name>readonly</name>
 							<value></value>
-							<type>datasource:video</type>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
