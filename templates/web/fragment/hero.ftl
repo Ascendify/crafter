@@ -4,7 +4,7 @@
 	<div class="hero-wrap pattern--blue">
 		<div class="hero-controls">
 		 
-			<@crafter.h1>${hero.heroText_s}</@crafter.h1>
+			<@crafter.h1>${model.heroText_s}</@crafter.h1>
 			<@crafter.a href="/signup" class="inverted safari_redirect_link" $field="heroJoin_s">${contentModel.heroJoin_s}</@crafter.a>
            
            
