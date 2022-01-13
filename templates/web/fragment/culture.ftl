@@ -40,9 +40,9 @@
 						</div>          
 					</div>        
 					<div class="col-sm-4 col-md-4">
-						<h5 class="hr">OUR CULTURE</h5>
-						<p>We’re a small, world-class agile team and we expect you to be at top of your game. We offer a competitive benefits package, a great office, and all the latest tools you need to produce your best work. Ascendify is committed to the learning and development of our employees. We'll support you with off-site courses and hands-on training in the application. Your role will grow as the company grows, in whatever ways best suit your skills and interests.</p>
-						<p>Ascendify is located at 580 California Street, just a short walk away from BART and Muni stations, and right near everything the Financial District has to offer.</p>
+						<@crafter.h5 class="hr">${contentModel.cultureTitle_s}</@crafter.h5>
+						<@crafter.p>${contentModel.cultureText_html}</@crafter.p>
+						
 					</div>
 				</div>
 			</article>        
