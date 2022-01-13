@@ -98,53 +98,8 @@
 				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
 			</div>
 			<div class="section-container container">
-				<div class="content-panels row">
-					<div class="col-sm-4 col-md-4">
-						<div class="asc-panel">
-						<!-- 
-						Panel image
-						These panels use background images
-						Background images should be specified inline
-						should not be smaller than 318x173px
-						-->
-						<div class="panel-image" style="background-image: url('/static-assets/img/panel-4.jpg');"></div>
-						<div class="panel-bottom">
-							<h2>Current Openings:</h2>
-							<p>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</p>
-							<a href="https://talent.ascendify.com/careers" class="standard safari_redirect_link">Search Jobs &nbsp; <i class="fa fa-angle-double-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<div class="asc-panel">
-						<div class="panel-image panel-video">
-							<a href="https://talent.ascendify.com/#ascvideo" data-src="Ke_TefcWMYo">
-							  <div class="video-preview" style="background-image: url('/static-assets/img/panel-5.jpg'); height: 195px; width: 100%; background-size: cover; background-repeat: no-repeat"></div>
-							  <span id="play-btn2" class="play-button fa fa-play-circle-o"></span>
-							</a>
-						</div>
-						<div class="panel-bottom">
-							<h2>Ascendify Life:</h2>
-							<p>Hear from our awesome team of Ascenders about what life is like here.</p>
-							<a href="https://talent.ascendify.com/who-we-are" class="standard">About us &nbsp; <i class="fa fa-angle-double-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-md-4">
-					<div class="asc-panel">
-						<div class="panel-image">
-							<div class="panel-image" style="background-image: url('/static-assets/img/panel-3.jpg');"></div>
-						</div>
-						<div class="panel-bottom">
-							<h2>In the News:</h2>
-							<p>See what the industry has to say about how we're radically changing the way companies recruit and manage talent.</p>
-							<a href="https://www.ascendify.com/news/" class="standard" target="_blank">News &nbsp; <i class="fa fa-angle-double-right"></i></a>
-						</div>
-
-					</div>
-				</div>
-			</div>         
-		</div>
+	            <!-- DROP GOES HERE -->
+	    	</div>
 	</section>
 	<section class="section our-people">
 		<div class="section-container container">
