@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:11:27.342Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:11:37.610Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s><![CDATA[JOIN OUR TEAM BOB]]></heroJoin_s>
@@ -232,6 +232,6 @@
   </peopleDrop_o>
   <careers_s>Careers</careers_s>
   <teams_s>Teams</teams_s>
-  <ascendifyLife_s>Ascendify Life</ascendifyLife_s>
+  <ascendifyLife_s><![CDATA[ASCENDIFY LIFE]]></ascendifyLife_s>
   <signin_s>Sign In</signin_s>
 </page>
