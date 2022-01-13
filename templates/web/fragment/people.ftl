@@ -17,7 +17,7 @@
         	          <!-- Drag Drop example -->
                     <@crafter.renderComponentCollection
                       $field="peopleDrop_o"
-                      $containerAttributes={ "class": "bob" }
+                      $containerAttributes={ "style": "width:100%; height:120px" }
                        $itemAttributes={ "style": "width: 120px; height: 120px;float:left" }
                       
                     />
