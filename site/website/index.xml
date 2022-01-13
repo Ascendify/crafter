@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2022-01-13T20:33:39.596Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T20:39:05.539Z</lastModifiedDate_dt>
-  <disabled>false</disabled>
-  <heroText_s>Ready for the ride of your life?</heroText_s>
-  <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
-  <heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
-  <actions_o item-list="true">
-    <item datasource="TODO" inline="true">
-      <key>e074f9a6-7849-4bfa-b413-8d6a9af71ff1</key>
-      <value>New actionCall</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="e074f9a6-7849-4bfa-b413-8d6a9af71ff1">
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2022-01-13T20:43:23.807Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T20:43:23.807Z</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<heroText_s>Ready for the ride of your life?</heroText_s>
+	<heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
+	<heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
+	<actions_o item-list="true">	<item datasource="TODO" inline="true">	<key>e074f9a6-7849-4bfa-b413-8d6a9af71ff1</key>
+	<value>New actionCall</value>
+	<disableFlattening>false</disableFlattening>
+<component id="e074f9a6-7849-4bfa-b413-8d6a9af71ff1">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
         <internal-name><![CDATA[New actionCall]]></internal-name>
@@ -38,12 +36,10 @@
         <actionText_html>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</actionText_html>
         <actionLink_s><![CDATA[SEARCH JOBS >>]]></actionLink_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>bd2e3192-4826-46f5-a767-32ecb5c505e4</key>
-      <value>New actionCall</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="bd2e3192-4826-46f5-a767-32ecb5c505e4">
+	</item>	<item datasource="TODO" inline="true">	<key>bd2e3192-4826-46f5-a767-32ecb5c505e4</key>
+	<value>New actionCall</value>
+	<disableFlattening>false</disableFlattening>
+<component id="bd2e3192-4826-46f5-a767-32ecb5c505e4">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
         <internal-name><![CDATA[New actionCall]]></internal-name>
@@ -57,12 +53,10 @@
         <actionText_html><![CDATA[Hear from our awesome team of Ascenders about what life is like here.]]></actionText_html>
         <actionLink_s><![CDATA[ABOUT US >>]]></actionLink_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>a733968f-5040-469e-978b-c8b3e95f8b92</key>
-      <value>New actionCall</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="a733968f-5040-469e-978b-c8b3e95f8b92">
+	</item>	<item datasource="TODO" inline="true">	<key>a733968f-5040-469e-978b-c8b3e95f8b92</key>
+	<value>New actionCall</value>
+	<disableFlattening>false</disableFlattening>
+<component id="a733968f-5040-469e-978b-c8b3e95f8b92">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
         <internal-name><![CDATA[New actionCall]]></internal-name>
@@ -76,24 +70,18 @@
         <actionText_html><![CDATA[See what the industry has to say about how we're radically changing the way companies recruit and manage talent.]]></actionText_html>
         <actionLink_s><![CDATA[NEWS >>]]></actionLink_s>
       </component>
-    </item>
-  </actions_o>
-  <cultureSlides_o item-list="true">
-    <item>
-      <image_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</image_s>
-    </item>
-  </cultureSlides_o>
-  <navImage_s>/static-assets/img/ascendify-new-white.png</navImage_s>
-  <peopleSliderTitle_s>Our People</peopleSliderTitle_s>
-  <peopleSiderHeadline_s>Check out what the Ascenders have to say about life at Ascendify.</peopleSiderHeadline_s>
-  <cultureTitle_s>Our Culture</cultureTitle_s>
-  <cultureText_html>&lt;p&gt;We&amp;rsquo;re a small, world-class agile team and we expect you to be at top of your game. We offer a competitive benefits package, a great office, and all the latest tools you need to produce your best work. Ascendify is committed to the learning and development of our employees. We'll support you with off-site courses and hands-on training in the application. Your role will grow as the company grows, in whatever ways best suit your skills and interests. Ascendify is located at 580 California Street, just a short walk away from BART and Muni stations, and right near everything the Financial District has to offer.&lt;/p&gt;</cultureText_html>
-  <peopleDrop_o item-list="true">
-    <item datasource="TODO" inline="true">
-      <key>2df46847-5239-4d1f-a3ea-3e088e6e6459</key>
-      <value>New person</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2df46847-5239-4d1f-a3ea-3e088e6e6459">
+	</item></actions_o>
+	<cultureSlides_o item-list="true">	<item>	<image_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</image_s>
+	</item></cultureSlides_o>
+	<navImage_s>/static-assets/img/ascendify-new-white.png</navImage_s>
+	<peopleSliderTitle_s>Our People</peopleSliderTitle_s>
+	<peopleSiderHeadline_s>Check out what the Ascenders have to say about life at Ascendify.</peopleSiderHeadline_s>
+	<cultureTitle_s>Our Culture</cultureTitle_s>
+	<cultureText_html>&lt;p&gt;We&amp;rsquo;re a small, world-class agile team and we expect you to be at top of your game. We offer a competitive benefits package, a great office, and all the latest tools you need to produce your best work. Ascendify is committed to the learning and development of our employees. We'll support you with off-site courses and hands-on training in the application. Your role will grow as the company grows, in whatever ways best suit your skills and interests. Ascendify is located at 580 California Street, just a short walk away from BART and Muni stations, and right near everything the Financial District has to offer.&lt;/p&gt;</cultureText_html>
+	<peopleDrop_o item-list="true">	<item datasource="TODO" inline="true">	<key>2df46847-5239-4d1f-a3ea-3e088e6e6459</key>
+	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2df46847-5239-4d1f-a3ea-3e088e6e6459">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <no-template-required/>
@@ -109,11 +97,9 @@
         <createdDate>2022-01-13T20:33:20.892Z</createdDate>
         <lastModifiedDate>2022-01-13T20:33:20.892Z</lastModifiedDate>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>8b688474-2f58-4092-8140-52f1f715d91b</key>
-      <value>New person</value>
-      <component id="8b688474-2f58-4092-8140-52f1f715d91b">
+	</item>	<item datasource="TODO" inline="true">	<key>8b688474-2f58-4092-8140-52f1f715d91b</key>
+	<value>New person</value>
+<component id="8b688474-2f58-4092-8140-52f1f715d91b">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -125,12 +111,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_0ee4c100000000313453.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-
-    <item datasource="TODO" inline="true">
-      <key>bfd415d1-51e6-4651-a709-3812a6172b6e</key>
-      <value>New person</value>
-      <component id="bfd415d1-51e6-4651-a709-3812a6172b6e">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>bfd415d1-51e6-4651-a709-3812a6172b6e</key>
+	<value>New person</value>
+<component id="bfd415d1-51e6-4651-a709-3812a6172b6e">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -142,11 +126,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_0f64c100000000313384.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>33de68c0-daf7-4104-a865-b3729fd1eec3</key>
-      <value>New person</value>
-      <component id="33de68c0-daf7-4104-a865-b3729fd1eec3">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>33de68c0-daf7-4104-a865-b3729fd1eec3</key>
+	<value>New person</value>
+<component id="33de68c0-daf7-4104-a865-b3729fd1eec3">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -158,11 +141,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_b76dc100000000289861.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>fd877ba3-e6f1-477f-8d41-da8820c03213</key>
-      <value>New person</value>
-      <component id="fd877ba3-e6f1-477f-8d41-da8820c03213">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>fd877ba3-e6f1-477f-8d41-da8820c03213</key>
+	<value>New person</value>
+<component id="fd877ba3-e6f1-477f-8d41-da8820c03213">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -174,11 +156,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_e97fa100000000031726.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c</key>
-      <value>New person</value>
-      <component id="f19ff634-e4dd-4426-9bbc-bf66dbe54b0c">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c</key>
+	<value>New person</value>
+<component id="f19ff634-e4dd-4426-9bbc-bf66dbe54b0c">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -190,12 +171,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_2ec74100000000031752.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-
-    <item datasource="TODO" inline="true">
-      <key>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</key>
-      <value>New person</value>
-      <component id="33a4af6e-7c31-4c25-9d3e-8e6fdf44f845">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</key>
+	<value>New person</value>
+<component id="33a4af6e-7c31-4c25-9d3e-8e6fdf44f845">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -207,11 +186,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_24722100000008290032.png]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>eac53836-a374-473e-a96c-bc0112865560</key>
-      <value>New person</value>
-      <component id="eac53836-a374-473e-a96c-bc0112865560">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>eac53836-a374-473e-a96c-bc0112865560</key>
+	<value>New person</value>
+<component id="eac53836-a374-473e-a96c-bc0112865560">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
         <internal-name><![CDATA[New person]]></internal-name>
@@ -223,6 +201,10 @@
         <person_s><![CDATA[/static-assets/img/cusr_50858100000006467449.png]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-    </item>
-  </peopleDrop_o>
+	<disableFlattening>false</disableFlattening>
+	</item></peopleDrop_o>
+	<careers_s>Careers</careers_s>
+	<teams_s>Teams</teams_s>
+	<ascendifyLife_s>Ascendify Life</ascendifyLife_s>
+	<signin_s>Sign In</signin_s>
 </page>
