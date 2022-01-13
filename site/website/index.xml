@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T17:31:23.642Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T17:37:15.766Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T17:37:20.520Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Join our Company</heroText_s>
   <heroJoin_s>JOIN!</heroJoin_s>
@@ -48,11 +48,11 @@
         <file-name>854096e5-4cdf-4847-a1f1-18cd30c438cd.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T17:32:22.702Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T17:37:15.766Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-13T17:37:20.520Z</lastModifiedDate_dt>
         <objectId>854096e5-4cdf-4847-a1f1-18cd30c438cd</objectId>
         <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
         <actionHeader_s><![CDATA[TITLE 2]]></actionHeader_s>
-        <actionText_html>Text goes here</actionText_html>
+        <actionText_html><![CDATA[Text 2]]></actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
     </item>
