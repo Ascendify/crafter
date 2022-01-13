@@ -16,7 +16,7 @@
         	          <!-- Drag Drop example -->
                     <@crafter.renderComponentCollection
                       $field="peopleDrop_o"
-                      $containerAttributes={ "class": "content-panels row" }
+                      $containerAttributes={ "class": "" }
                       
                     />
         	        <!--
