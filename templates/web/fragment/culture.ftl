@@ -42,7 +42,7 @@
 					<div class="col-sm-4 col-md-4">
 						<@crafter.h5 $field="cultureTitle_2">${contentModel.cultureTitle_s}</@crafter.h5>
 						
-						<@crafter.p $field="cultureText_html">${contentModel.cultureText_html}</@crafter.p>
+						<@crafter.div $field="cultureText_html">${contentModel.cultureText_html}</@crafter.div>
 						
 					</div>
 				</div>
