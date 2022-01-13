@@ -99,7 +99,8 @@
 			</div>
 			<crafter.div class="section-container container">
 	            <!-- DROP GOES HERE -->
-	            <@crafter.renderComponentCollection $field="actionDropSection_o" />
+	        <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderComponentCollection&check_keywords=yes&area=default -->
+<@crafter.renderComponentCollection $field="features_o" $containerAttributes={ "class": "features-container" } $itemAttributes={ "data-custom-attribute": "true" } />
 	         
 	    	</crafter.div>
 	</section>
