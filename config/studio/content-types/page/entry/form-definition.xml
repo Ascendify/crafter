@@ -202,7 +202,7 @@
 					<id>actionDropSection_o</id>
 					<iceId></iceId>
 					<title>Action Drop Section</title>
-					<description></description>
+					<description>reference</description>
 					<defaultValue>nothing</defaultValue>
 					<help></help>
 					<properties>
