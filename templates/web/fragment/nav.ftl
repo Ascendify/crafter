@@ -11,7 +11,7 @@
 	</div>
 	<div class="logo">
 		<div class="ascendify">
-			<a href="https://talent.ascendify.com/" class="logo__ascendify-white" style="background-url:{'/static-assets/img/ascendify-new-white.png')"></a>
+			<a href="https://talent.ascendify.com/" class="logo__ascendify-white" style="background-url:('/static-assets/img/ascendify-new-white.png')"></a>
 			<a href="https://talent.ascendify.com/" class="logo__ascendify"></a>
 		</div>
 	</div>
