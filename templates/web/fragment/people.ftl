@@ -1,3 +1,4 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <section class="section our-people">
 	<div class="section-container container">
 		<div class="row">
@@ -16,7 +17,7 @@
         	          <!-- Drag Drop example -->
                     <@crafter.renderComponentCollection
                       $field="peopleDrop_o"
-                      $containerAttributes={ "class": "" }
+                      $containerAttributes={ "class": "bob" }
                       
                     />
                     
