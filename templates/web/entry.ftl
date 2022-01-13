@@ -185,56 +185,22 @@
 								<li data-target="#slideshow" data-slide-to="11" class=""></li>
 								<li data-target="#slideshow" data-slide-to="11" class=""></li>
 							</ol>
-							<div class="carousel-inner">
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-11.jpg">
-										<!-- 
-										Captions
-										Captions should be included as a sibling of <img>
-										<div class="carousel-caption">Example caption</div>
-										-->
+\                                <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -->
+                                <@crafter.renderRepeatGroup
+                                  $field="cultureSlides_o"
+                                  $containerAttributes={'class': 'carousel-inner'};
+                                  item, index
+                                >
+                                <div class="item">
+									<@crafter.img $field="image_s" alt="Ascendify photo show image" src="${item.image_s}" />
 								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-1.jpg">
-								</div>
-								<div class="item active">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-2.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-3.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-13.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-4.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-15.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-5.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-6.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-7.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-8.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-9.jpg">
-								</div>
-								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/img/slider-14.jpg">
-								</div>
-							</div>
-							<a class="left carousel-control" href="https://talent.ascendify.com/#slideshow" data-slide="prev">
+                                </@crafter.renderRepeatGroup>
+                                							
+							
+							<a class="left carousel-control" href="#" data-slide="prev">
 								<span class="fa fa-angle-left"></span>
 							</a>
-							<a class="right carousel-control" href="https://talent.ascendify.com/#slideshow" data-slide="next">
+							<a class="right carousel-control" href="#" data-slide="next">
 								<span class="fa fa-angle-right"></span>
 							</a>
 						</div>          
