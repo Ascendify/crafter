@@ -1,5 +1,3 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
-
 <@crafter.div id="background-image" $field="heroImage_s" style="background-image: url('${contentModel.heroImage_s}');"> 
 		<div class="background-gradient"></div>
 	</@crafter.div>
