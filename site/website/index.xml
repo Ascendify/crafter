@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T18:49:36.530Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T18:55:30.782Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T18:55:49.884Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -67,10 +67,10 @@
         <file-name>a733968f-5040-469e-978b-c8b3e95f8b92.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T18:55:30.779Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T18:55:30.779Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-13T18:55:49.884Z</lastModifiedDate_dt>
         <objectId>a733968f-5040-469e-978b-c8b3e95f8b92</objectId>
         <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
-        <actionHeader_s>Action Title</actionHeader_s>
+        <actionHeader_s><![CDATA[IN THE NEWS]]></actionHeader_s>
         <actionText_html>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
