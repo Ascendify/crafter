@@ -1,45 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/entry</content-type>
-	<display-template>/templates/web/entry.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<placeInNav>false</placeInNav>
-	<file-name>index.xml</file-name>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T18:18:29.060Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T18:18:29.060Z</lastModifiedDate_dt>
-	<disabled>false</disabled>
-	<heroText_s>Ready for the ride of your life?</heroText_s>
-	<heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
-	<heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
-	<actions_o item-list="true">	<item datasource="TODO" inline="true">	<key>854096e5-4cdf-4847-a1f1-18cd30c438cd</key>
-	<value>New actionCall</value>
-	<disableFlattening>false</disableFlattening>
-<component id="854096e5-4cdf-4847-a1f1-18cd30c438cd">
-        <content-type>/component/actioncall</content-type>
-        <display-template>/templates/web/fragment/actionCall.ftl</display-template>
-        <internal-name><![CDATA[New actionCall]]></internal-name>
-        <file-name>854096e5-4cdf-4847-a1f1-18cd30c438cd.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T17:32:22.702Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T17:42:03.722Z</lastModifiedDate_dt>
-        <objectId>854096e5-4cdf-4847-a1f1-18cd30c438cd</objectId>
-        <actionImage_s><![CDATA[/static-assets/img/cusr_e97fa100000000031726.jpg]]></actionImage_s>
-        <actionHeader_s><![CDATA[TITLE 2]]></actionHeader_s>
-        <actionText_html><![CDATA[Text 2]]></actionText_html>
-        <actionLink_s>click here</actionLink_s>
-      </component>
-	</item>	<item datasource="TODO" inline="true">	<key>bd2e3192-4826-46f5-a767-32ecb5c505e4</key>
-	<value>New actionCall</value>
-	<disableFlattening>false</disableFlattening>
-<component id="bd2e3192-4826-46f5-a767-32ecb5c505e4">
+  <content-type>/page/entry</content-type>
+  <display-template>/templates/web/entry.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <placeInNav>false</placeInNav>
+  <file-name>index.xml</file-name>
+  <internal-name>Home</internal-name>
+  <orderDefault_f>-1</orderDefault_f>
+  <objectGroupId>8d7f</objectGroupId>
+  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+  <folder-name/>
+  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
+  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+  <lastModifiedDate>2022-01-13T18:18:29.060Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-13T18:22:06.651Z</lastModifiedDate_dt>
+  <disabled>false</disabled>
+  <heroText_s>Ready for the ride of your life?</heroText_s>
+  <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
+  <heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
+  <actions_o item-list="true">
+    <item datasource="TODO" inline="true">
+      <key>bd2e3192-4826-46f5-a767-32ecb5c505e4</key>
+      <value>New actionCall</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="bd2e3192-4826-46f5-a767-32ecb5c505e4">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
         <internal-name><![CDATA[New actionCall]]></internal-name>
@@ -53,10 +38,12 @@
         <actionText_html>Text goes here</actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
-	</item>	<item datasource="TODO" inline="true">	<key>872f1545-37f3-4805-96c7-2015ed12106a</key>
-	<value>New actionCall</value>
-	<disableFlattening>false</disableFlattening>
-<component id="872f1545-37f3-4805-96c7-2015ed12106a">
+    </item>
+    <item datasource="TODO" inline="true">
+      <key>872f1545-37f3-4805-96c7-2015ed12106a</key>
+      <value>New actionCall</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="872f1545-37f3-4805-96c7-2015ed12106a">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
         <internal-name><![CDATA[New actionCall]]></internal-name>
@@ -70,7 +57,11 @@
         <actionText_html><![CDATA[Text 3]]></actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
-	</item></actions_o>
-	<cultureSlides_o item-list="true">	<item>	<image_s>/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/slider-2.jpeg</image_s>
-	</item></cultureSlides_o>
+    </item>
+  </actions_o>
+  <cultureSlides_o item-list="true">
+    <item>
+      <image_s>/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/slider-2.jpeg</image_s>
+    </item>
+  </cultureSlides_o>
 </page>
