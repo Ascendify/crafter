@@ -195,8 +195,8 @@
 					<iceId></iceId>
 					<title>actionText</title>
 					<description></description>
-					<defaultValue>Text goes here</defaultValue>
-					<help></help>
+					<defaultValue>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</defaultValue>
+					<help>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</help>
 					<properties>
 						<property>
 							<name>width</name>
@@ -210,7 +210,7 @@
 						</property>
 						<property>
 							<name>autoGrow</name>
-							<value>false</value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 						<property>
