@@ -4,7 +4,7 @@
 	<div class="hero-wrap pattern--blue">
 		<div class="hero-controls">
 		
-			<@crafter.h1 $field="title_t"></@crafter.h1>
+			<@crafter.h1 $field="heroText_s">${$model.heroText_s}</@crafter.h1>
 			<@crafter.div $field="body_html">${contentModel.body_html}</@crafter.div>
 			
 			
