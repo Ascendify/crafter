@@ -1,5 +1,5 @@
 <form>
-	<title>A Page</title>
+	<title>Home Page</title>
 	<description>A Simple Page</description>
 	<objectType>page</objectType>
 	<content-type>/page/entry</content-type>
@@ -144,21 +144,21 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>title_s</id>
+					<id>heroText_s</id>
 					<iceId></iceId>
-					<title>title</title>
+					<title>Hero Text</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>size</name>
-							<value>200</value>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>200</value>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -190,67 +190,115 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>input</type>
+					<id>heroJoin_s</id>
+					<iceId></iceId>
+					<title>Hero Join</title>
+					<description>Call to action</description>
+					<defaultValue>Join Now!</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>heroImage_s</id>
+					<iceId></iceId>
+					<title>Hero Image</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value>upload</value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
-					<id>desktopImages</id>
-					<title>Desktop Images</title>
+					<id>upload</id>
+					<title>Upload</title>
 					<interface>image</interface>
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>dropTargets</type>
-					<id>actionDataDrop</id>
-					<title>Action Data Drop</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>allowShared</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>allowEmbedded</name>
-							<value>false</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableBrowse</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableSearch</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>baseRepositoryPath</name>
-							<value>/site/components</value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>baseBrowsePath</name>
-							<value>/site/components</value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>contentTypes</name>
-							<value>/component/actioncall</value>
-								<type>contentTypes</type>
-						</property>
-						<property>
-							<name>tags</name>
-							<value></value>
-								<type>string</type>
+							<value>/static-assets/img</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
