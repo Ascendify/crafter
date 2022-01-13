@@ -55,14 +55,14 @@
 			<div id="ascvideo" style="display: none;">
 				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
 			</div>
-
-	            <!-- Drag Drop example -->
-                <@crafter.renderComponentCollection
-                  $field="actions_o"
-                  $containerAttributes={ "class": "section-container container" }
-                  $itemAttributes={ "class": "col-sm-4 col-md-4" }
-                />
-        
+                <div class="section-container container">
+    	            <!-- Drag Drop example -->
+                    <@crafter.renderComponentCollection
+                      $field="actions_o"
+                      $containerAttributes={ "class": "content-panels row" }
+                      $itemAttributes={ "class": "col-sm-4 col-md-4" }
+                    />
+                </div>
 	  
 	</section>
 	<section class="section our-people">
