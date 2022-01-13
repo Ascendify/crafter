@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T17:47:54.569Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T17:58:21.588Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T17:58:25.370Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Join our Company</heroText_s>
   <heroJoin_s>JOIN!</heroJoin_s>
@@ -80,7 +80,7 @@
   </actions_o>
   <cultureSlides_o item-list="true">
     <item>
-      <image_s><![CDATA[/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/slider-2.jpeg]]></image_s>
+      <image_s><![CDATA[/static-assets/img/cusr_0ee4c100000000313453.jpg]]></image_s>
     </item>
   </cultureSlides_o>
 </page>
