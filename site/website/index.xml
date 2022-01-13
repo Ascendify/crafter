@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:33:39.596Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T20:38:55.026Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T20:39:02.342Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -127,6 +127,22 @@
       </component>
     </item>
     <item datasource="TODO" inline="true">
+      <key>fd877ba3-e6f1-477f-8d41-da8820c03213</key>
+      <value>New person</value>
+      <component id="fd877ba3-e6f1-477f-8d41-da8820c03213">
+        <content-type>/component/person</content-type>
+        <display-template>/templates/web/fragment/person.ftl</display-template>
+        <internal-name><![CDATA[New person]]></internal-name>
+        <file-name>fd877ba3-e6f1-477f-8d41-da8820c03213.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2022-01-13T20:36:41.254Z</createdDate_dt>
+        <lastModifiedDate_dt>2022-01-13T20:38:55.026Z</lastModifiedDate_dt>
+        <objectId>fd877ba3-e6f1-477f-8d41-da8820c03213</objectId>
+        <person_s><![CDATA[/static-assets/img/cusr_e97fa100000000031726.jpg]]></person_s>
+        <name_s>Person Name</name_s>
+      </component>
+    </item>
+    <item datasource="TODO" inline="true">
       <key>bfd415d1-51e6-4651-a709-3812a6172b6e</key>
       <value>New person</value>
       <component id="bfd415d1-51e6-4651-a709-3812a6172b6e">
@@ -174,22 +190,7 @@
         <name_s>Person Name</name_s>
       </component>
     </item>
-    <item datasource="TODO" inline="true">
-      <key>fd877ba3-e6f1-477f-8d41-da8820c03213</key>
-      <value>New person</value>
-      <component id="fd877ba3-e6f1-477f-8d41-da8820c03213">
-        <content-type>/component/person</content-type>
-        <display-template>/templates/web/fragment/person.ftl</display-template>
-        <internal-name><![CDATA[New person]]></internal-name>
-        <file-name>fd877ba3-e6f1-477f-8d41-da8820c03213.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T20:36:41.254Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T20:38:55.026Z</lastModifiedDate_dt>
-        <objectId>fd877ba3-e6f1-477f-8d41-da8820c03213</objectId>
-        <person_s><![CDATA[/static-assets/img/cusr_e97fa100000000031726.jpg]]></person_s>
-        <name_s>Person Name</name_s>
-      </component>
-    </item>
+
     <item datasource="TODO" inline="true">
       <key>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</key>
       <value>New person</value>
