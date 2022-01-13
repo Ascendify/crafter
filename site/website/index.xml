@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:13:20.208Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:13:41.237Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s><![CDATA[JOIN OUR TEAM BOB]]></heroJoin_s>
@@ -212,23 +212,7 @@
         <name_s>Person Name</name_s>
       </component>
     </item>
-    <item datasource="TODO" inline="true">
-      <key>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</key>
-      <value>New person</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="33a4af6e-7c31-4c25-9d3e-8e6fdf44f845">
-        <content-type>/component/person</content-type>
-        <display-template>/templates/web/fragment/person.ftl</display-template>
-        <internal-name><![CDATA[New person]]></internal-name>
-        <file-name>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T20:36:46.138Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T20:38:11.407Z</lastModifiedDate_dt>
-        <objectId>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</objectId>
-        <person_s><![CDATA[/static-assets/img/cusr_24722100000008290032.png]]></person_s>
-        <name_s>Person Name</name_s>
-      </component>
-    </item>
+
     <item datasource="TODO" inline="true">
       <key>eac53836-a374-473e-a96c-bc0112865560</key>
       <value>New person</value>
