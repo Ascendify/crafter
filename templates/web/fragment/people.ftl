@@ -18,7 +18,7 @@
                     <@crafter.renderComponentCollection
                       $field="peopleDrop_o"
                       $containerAttributes={ "style": "width:100%; height:120px" }
-                       $itemAttributes={ "style": "width: 120px; height: 120px;float:left" }
+                       $itemAttributes={ "style": "width: 120px; height: 120px;float:left;margin-left:3px" }
                       
                     />
                     
