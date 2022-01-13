@@ -99,7 +99,7 @@
 			</div>
 			<crafter.div class="section-container container">
 	            <!-- DROP GOES HERE -->
-	            <@crafter.renderComponentCollection $field="bios_o" />
+	            <@crafter.renderComponentCollection $field="actionDropSection_o" />
 	         
 	    	</crafter.div>
 	</section>
