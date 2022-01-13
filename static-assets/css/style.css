@@ -796,7 +796,7 @@ article.video.video-thumbnails .video-wrap.playing .play-button {
 /* line 57, ../scss/base/components/articles.scss */
 article.video.video-thumbnails .video-preview {
   position: absolute;
-  background: url("/static-assets/stuff/video-large.jpg") no-repeat;
+  background: url("/static-assets/img/video-large.jpg") no-repeat;
   background-size: cover;
   z-index: 200;
 }
@@ -4615,15 +4615,15 @@ section.pattern--blue:after, section.pattern--gray:after, section.pattern--white
 }
 /* line 630, ../scss/base/talentcommunity.scss */
 section.pattern--blue:after, .hero-wrap.pattern--blue:after {
-  background-image: url("/static-assets/stuff/bubbles-blue-sm.png");
+  background-image: url("/static-assets/img/bubbles-blue-sm.png");
 }
 /* line 633, ../scss/base/talentcommunity.scss */
 section.pattern--gray:after, .hero-wrap.pattern--gray:after {
-  background-image: url("/static-assets/stuff/bubbles-gray-sm.png");
+  background-image: url("/static-assets/img/bubbles-gray-sm.png");
 }
 /* line 636, ../scss/base/talentcommunity.scss */
 section.pattern--white:after, .hero-wrap.pattern--white:after {
-  background-image: url("/static-assets/stuff/bubbles-white-sm.png");
+  background-image: url("/static-assets/img/bubbles-white-sm.png");
 }
 
 @media (min-width: 767px) {
@@ -4637,15 +4637,15 @@ section.pattern--white:after, .hero-wrap.pattern--white:after {
   }
   /* line 652, ../scss/base/talentcommunity.scss */
   section.pattern--blue:after, .hero-wrap.pattern--blue:after {
-    background-image: url("/static-assets/stuff/bubbles-blue.png");
+    background-image: url("/static-assets/img/bubbles-blue.png");
   }
   /* line 655, ../scss/base/talentcommunity.scss */
   section.pattern--gray:after, .hero-wrap.pattern--gray:after {
-    background-image: url("/static-assets/stuff/bubbles-gray.png");
+    background-image: url("/static-assets/img/bubbles-gray.png");
   }
   /* line 658, ../scss/base/talentcommunity.scss */
   section.pattern--white:after, .hero-wrap.pattern--white:after {
-    background-image: url(/static-assets/stuff/bubbles-white.png);
+    background-image: url(/static-assets/img/bubbles-white.png);
   }
 }
 /********** CONTAINER STYLES **********/
