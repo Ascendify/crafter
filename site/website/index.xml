@@ -13,14 +13,15 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T19:07:55.295Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T19:07:55.295Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-01-13T19:11:00.954Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T19:11:00.954Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<heroText_s>Ready for the ride of your life?</heroText_s>
 	<heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
 	<heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
 	<actions_o item-list="true">	<item datasource="TODO" inline="true">	<key>e074f9a6-7849-4bfa-b413-8d6a9af71ff1</key>
 	<value>New actionCall</value>
+	<disableFlattening>false</disableFlattening>
 <component id="e074f9a6-7849-4bfa-b413-8d6a9af71ff1">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
@@ -35,7 +36,6 @@
         <actionText_html>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</actionText_html>
         <actionLink_s><![CDATA[SEARCH JOBS >>]]></actionLink_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>bd2e3192-4826-46f5-a767-32ecb5c505e4</key>
 	<value>New actionCall</value>
 	<disableFlattening>false</disableFlattening>
@@ -55,6 +55,7 @@
       </component>
 	</item>	<item datasource="TODO" inline="true">	<key>a733968f-5040-469e-978b-c8b3e95f8b92</key>
 	<value>New actionCall</value>
+	<disableFlattening>false</disableFlattening>
 <component id="a733968f-5040-469e-978b-c8b3e95f8b92">
         <content-type>/component/actioncall</content-type>
         <display-template>/templates/web/fragment/actionCall.ftl</display-template>
@@ -69,7 +70,6 @@
         <actionText_html><![CDATA[See what the industry has to say about how we're radically changing the way companies recruit and manage talent.]]></actionText_html>
         <actionLink_s><![CDATA[NEWS >>]]></actionLink_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item></actions_o>
 	<cultureSlides_o item-list="true">	<item>	<image_s>/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/slider-2.jpeg</image_s>
 	</item></cultureSlides_o>
