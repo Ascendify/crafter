@@ -1,6 +1,6 @@
 <@crafter.div id="background-image" style="background-image: url('${contentModel.heroImage_s}');"> 
 		<div class="background-gradient"></div>
-	</div>
+	</@crafter.div>
 	<div class="hero-wrap pattern--blue">
 		<div class="hero-controls">
 		 
@@ -10,4 +10,4 @@
             
           
         </div>
-	</@crafter.div>
+	</div>
