@@ -6,11 +6,11 @@
 						Background images should be specified inline
 						should not be smaller than 318x173px
 						-->
-						<div class="panel-image" style="background-image: url('/static-assets/img/panel-4.jpg');"></div>
+						<crafter.div class="panel-image" $field="actionImage_s" style="background-image: url('${contentModel.actionImage_s}');"></crafter.div>
 						<div class="panel-bottom">
-							<h2>Current Openings:</h2>
-							<p>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</p>
-							<a href="https://talent.ascendify.com/careers" class="standard safari_redirect_link">Search Jobs &nbsp; <i class="fa fa-angle-double-right"></i></a>
+							<crafter.h2>${contentModel.actionHeader_s}</crafter.h2>
+							<crafter.p>${contentModel.actionText_html}</crafter.p>
+							<crafter.a href="https://talent.ascendify.com/careers" class="standard safari_redirect_link">${contentModel.actionLink_s} <i class="fa fa-angle-double-right"></i></crafter.a>
 						</div>
 					</div>
 				</div>
