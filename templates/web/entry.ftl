@@ -101,7 +101,7 @@
 	            <!-- DROP GOES HERE -->
 	        <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderComponentCollection&check_keywords=yes&area=default -->
 <@crafter.renderComponentCollection $field="actionDropSection_o" $containerAttributes={ "class": "features-actionDropSection_o" } $itemAttributes={ "data-custom-attribute": "true" } />
-	         
+	         ${contentModel.actionDropSection_o}
 	    	</crafter.div>
 	</section>
 	<section class="section our-people">
