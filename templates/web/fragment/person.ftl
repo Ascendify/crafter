@@ -1,3 +1,5 @@
-<li style="width: 120px; height: 120px;">
-    <img src="/static-assets/img/cusr_24722100000008290032.png" alt="employee profile image" class="link first">
-</li>
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+<@crafter.li style="width: 120px; height: 120px;">
+    <img $field="person_s" src="${contentModel.person_s}" alt="${contentModel.name_s}" class="link first">
+</@crafter.li>
