@@ -100,7 +100,7 @@
 			<div class="section-container container">
 	            <!-- DROP GOES HERE -->
 	            
-	            ${contentModel.actionGroup_o}
+	         
 	    	</div>
 	</section>
 	<section class="section our-people">
