@@ -14,9 +14,9 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T21:14:23.822Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:17:23.347Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:34:20.715Z</lastModifiedDate_dt>
   <disabled>false</disabled>
-  <heroText_s>Ready for the ride of your life?</heroText_s>
+  <heroText_s><![CDATA[Jump jump jump]]></heroText_s>
   <heroJoin_s>JOIN OUR TEAM BOB</heroJoin_s>
   <heroImage_s>/static-assets/img/home-hero.jpg</heroImage_s>
   <actions_o item-list="true">
