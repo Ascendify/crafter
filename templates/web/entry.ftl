@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <#include "/templates/web/fragments/head.ftl">
+    <#include "/templates/web/fragment/head.ftl">
     <#-- Insert your head markup here -->
     <@crafter.head />
   </head>
@@ -58,7 +58,7 @@
 	<div id="main_container" class="desktop">
 		<div id="homepage" class="_landing landing_content">
             
-            <#include "/templates/web/fragments/hero.ftl">
+            <#include "/templates/web/fragment/hero.ftl">
             
             
 	<div class="content">
