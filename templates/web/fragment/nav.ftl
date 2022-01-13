@@ -29,10 +29,10 @@
 			<div class="icon__close"></div>
 		</div>
 		<@crafter.a href="#/careers" class="section__nav safari_redirect_link" id="careers" $field="careers_s">${contentModel.careers_s}</@crafter.a>
-		<@crafter.a href="#/teams" class="section__nav" id="teams" $field="teams_s">${contentModel.teams_s}<span>.</span></@crafter.a>
-		<@crafter.a href="#/who-we-are" class="section__nav" id="life" $field="ascendifyLife_s">${contentModel.ascendifyLife_s}<span>.</span></@crafter.a>
+		<@crafter.a href="#/teams" class="section__nav" id="teams" $field="teams_s">${contentModel.teams_s}</@crafter.a>
+		<@crafter.a href="#/who-we-are" class="section__nav" id="life" $field="ascendifyLife_s">${contentModel.ascendifyLife_s}</@crafter.a>
 
-        <a href="#/signin" id="signin" class="inverted standard safari_redirect_link" $field="signin_s">${contentModel.signin_s}</a>
+        <@crafter.a href="#/signin" id="signin" class="inverted standard safari_redirect_link" $field="signin_s">${contentModel.signin_s}</@crafter.a>
 
 		
     </div>
