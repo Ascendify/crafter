@@ -2,8 +2,8 @@
 	<div class="section-container container">
 		<div class="row">
     	  <div class="people-content col-sm-offset-1 col-sm-10">
-				<@crafter.h5>${contentModel.peopleSliderTitle_s}</@crafter.h5>
-				<@crafter.p class="p-quote">${contentModel.peopleSliderTitle_s}</@crafter.p>
+				<@crafter.h5 $field="peopleSliderTitle_s">${contentModel.peopleSliderTitle_s}</@crafter.h5>
+				<@crafter.p $field="peopleSliderHeadline_s" class="p-quote">${contentModel.peopleSliderHeadline_s}</@crafter.p>
 			</div>
 		</div>
     	<div id="people-slider">
