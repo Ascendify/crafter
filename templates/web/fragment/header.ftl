@@ -1,5 +1,5 @@
     
-    <title>${contentModel.title_t}</title>
+    <title>Ascendify | Talent Community</title>
     <meta charset="utf-8"/>
 
     <meta http-equiv="imagetoolbar" content="no">
