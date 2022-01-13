@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T18:18:29.060Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T18:22:06.651Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T18:22:09.833Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -36,25 +36,6 @@
         <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
         <actionHeader_s>Action Title</actionHeader_s>
         <actionText_html>Text goes here</actionText_html>
-        <actionLink_s>click here</actionLink_s>
-      </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>872f1545-37f3-4805-96c7-2015ed12106a</key>
-      <value>New actionCall</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="872f1545-37f3-4805-96c7-2015ed12106a">
-        <content-type>/component/actioncall</content-type>
-        <display-template>/templates/web/fragment/actionCall.ftl</display-template>
-        <internal-name><![CDATA[New actionCall]]></internal-name>
-        <file-name>872f1545-37f3-4805-96c7-2015ed12106a.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T17:32:12.986Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T17:42:12.232Z</lastModifiedDate_dt>
-        <objectId>872f1545-37f3-4805-96c7-2015ed12106a</objectId>
-        <actionImage_s><![CDATA[/static-assets/img/cusr_b76dc100000000289861.jpg]]></actionImage_s>
-        <actionHeader_s><![CDATA[THIS 3]]></actionHeader_s>
-        <actionText_html><![CDATA[Text 3]]></actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
     </item>
