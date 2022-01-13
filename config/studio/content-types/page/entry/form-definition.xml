@@ -244,7 +244,7 @@
 					<iceId></iceId>
 					<title>Hero Image</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>/static-assets/img/home-hero.jpg</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -269,7 +269,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>upload</value>
+							<value>upload,repo</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -471,6 +471,24 @@
 							<name>tags</name>
 							<value></value>
 								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>repo</id>
+					<title>repo</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
 						</property>
 					</properties>
 				</datasource>
