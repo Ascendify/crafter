@@ -1,3 +1,4 @@
+	<#import "/templates/system/common/crafter.ftl" as crafter />
 	<div id="cookies-acceptance-wrapper" class="row" style="display: none;">
 		<div class="col-sm-8 message">
 			We use cookies to help us offer you the best online experince. By continuing to use our website and/or clicking OK, you're agreeing to our use of cookies in accordance with our cookies policy
@@ -11,10 +12,9 @@
 	</div>
 	<div class="logo">
 		<div class="ascendify">
-			<a href="/" class="logo__ascendify-white">
+			<@crafter.a href="/" class="logo__ascendify-white">
 			    <@crafter.img $field="navImage_s" src="${contentModel.navImage_s}"/>
-			</a>
-			<a href="https://talent.ascendify.com/" class="logo__ascendify"></a>
+			</@craftera>
 		</div>
 	</div>
 	<div class="nav__btn">
