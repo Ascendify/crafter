@@ -12,9 +12,9 @@
 	</div>
 	<div class="logo">
 		<div class="ascendify">
-			<@crafter.a href="/" class="logo__ascendify-white">
-			    <@crafter.img $field="navImage_s" src=(${contentModel.navImage_s})/>
-			</@craftera>
+			<a href="/" class="logo__ascendify-white">
+			    <@crafter.img $field="navImage_s" src="${contentModel.navImage_s}"/>
+			</a>
 		</div>
 	</div>
 	<div class="nav__btn">
