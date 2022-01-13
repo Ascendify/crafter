@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:13:53.782Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:14:06.903Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s><![CDATA[JOIN OUR TEAM BOB]]></heroJoin_s>
@@ -97,7 +97,7 @@
   </actions_o>
   <cultureSlides_o item-list="true">
     <item>
-      <image_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</image_s>
+      <image_s><![CDATA[/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/sit_redshirts3.jpg]]></image_s>
     </item>
   </cultureSlides_o>
   <navImage_s><![CDATA[/static-assets/images/8d7f21fa-5e09-00aa-8340-853b7db302da/ascendify logo.png]]></navImage_s>
