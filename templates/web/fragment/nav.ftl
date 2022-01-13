@@ -1,4 +1,4 @@
-	<#import "/templates/system/common/crafter.ftl" as crafter />
+<nav id="main-nav" class="nav" role="navigation">
 	<div id="cookies-acceptance-wrapper" class="row" style="display: none;">
 		<div class="col-sm-8 message">
 			We use cookies to help us offer you the best online experince. By continuing to use our website and/or clicking OK, you're agreeing to our use of cookies in accordance with our cookies policy
@@ -32,7 +32,8 @@
 		<a href="https://talent.ascendify.com/teams" class="section__nav" id="teams">Teams<span>.</span></a>
 		<a href="https://talent.ascendify.com/who-we-are" class="section__nav" id="life">Ascendify Life<span>.</span></a>
 
-					<a href="https://talent.ascendify.com/signin" id="signin" class="inverted standard safari_redirect_link">Sign In</a>
+        <a href="https://talent.ascendify.com/signin" id="signin" class="inverted standard safari_redirect_link">Sign In</a>
 
 		
-			</div>
+    </div>
+</nav>
