@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:13:48.906Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:13:53.782Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s><![CDATA[JOIN OUR TEAM BOB]]></heroJoin_s>
@@ -225,9 +225,9 @@
         <file-name>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T20:36:35.471Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T20:37:50.506Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-13T21:13:53.782Z</lastModifiedDate_dt>
         <objectId>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c</objectId>
-        <person_s><![CDATA[/static-assets/img/cusr_2ec74100000000031752.jpg]]></person_s>
+        <person_s><![CDATA[/static-assets/images/f19ff634-e4dd-4426-9bbc-bf66dbe54b0c/cartoonJason.png]]></person_s>
         <name_s>Person Name</name_s>
       </component>
     </item>
