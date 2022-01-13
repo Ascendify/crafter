@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T20:43:23.807Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T20:43:23.807Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T20:46:02.775Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<heroText_s>Ready for the ride of your life?</heroText_s>
 	<heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -99,6 +99,7 @@
       </component>
 	</item>	<item datasource="TODO" inline="true">	<key>8b688474-2f58-4092-8140-52f1f715d91b</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="8b688474-2f58-4092-8140-52f1f715d91b">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -111,9 +112,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_0ee4c100000000313453.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>bfd415d1-51e6-4651-a709-3812a6172b6e</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="bfd415d1-51e6-4651-a709-3812a6172b6e">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -126,9 +127,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_0f64c100000000313384.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>33de68c0-daf7-4104-a865-b3729fd1eec3</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="33de68c0-daf7-4104-a865-b3729fd1eec3">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -141,9 +142,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_b76dc100000000289861.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>fd877ba3-e6f1-477f-8d41-da8820c03213</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="fd877ba3-e6f1-477f-8d41-da8820c03213">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -156,9 +157,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_e97fa100000000031726.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="f19ff634-e4dd-4426-9bbc-bf66dbe54b0c">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -171,9 +172,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_2ec74100000000031752.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>33a4af6e-7c31-4c25-9d3e-8e6fdf44f845</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="33a4af6e-7c31-4c25-9d3e-8e6fdf44f845">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -186,9 +187,9 @@
         <person_s><![CDATA[/static-assets/img/cusr_24722100000008290032.png]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="TODO" inline="true">	<key>eac53836-a374-473e-a96c-bc0112865560</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="eac53836-a374-473e-a96c-bc0112865560">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -201,7 +202,6 @@
         <person_s><![CDATA[/static-assets/img/cusr_50858100000006467449.png]]></person_s>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item></peopleDrop_o>
 	<careers_s>Careers</careers_s>
 	<teams_s>Teams</teams_s>
