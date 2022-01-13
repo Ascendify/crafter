@@ -55,11 +55,11 @@
 			<div id="ascvideo" style="display: none;">
 				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
 			</div>
-			<@crafter.div class="section-container container">
+			<div class="section-container container">
 	            <!-- DROP GOES HERE -->
 	            <#include "/templates/web/fragment/hero.ftl">
     	    
-	    	</@crafter.div>
+	    	</div>
 	</section>
 	<section class="section our-people">
 		<div class="section-container container">
