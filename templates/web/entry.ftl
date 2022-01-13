@@ -192,7 +192,7 @@
                                   item, index
                                 >
                                 <div class="item">
-									<@crafter.img $field="image_s" alt="Ascendify photo show image" src="${item.image_s}" />
+									<@crafter.img $field="cultureSlides_o.image_s" alt="Ascendify photo show image" src="${item.image_s}" />
 								</div>
                                 </@crafter.renderRepeatGroup>
                                 							
