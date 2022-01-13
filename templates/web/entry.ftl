@@ -60,7 +60,7 @@
                 <@crafter.renderComponentCollection
                   $field="actions_o"
                   $containerAttributes={ "class": "section-container container" }
-                  $itemAttributes={ "class": "feature-container" }
+                  $itemAttributes={ "class": "col-sm-4 col-md-4" }
                 />
         
 	  
