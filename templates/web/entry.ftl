@@ -99,7 +99,7 @@
 			</div>
 			<div class="section-container container">
 	            <!-- DROP GOES HERE -->
-	            
+	            ${contentModel.actionDropSection_o}
 	         
 	    	</div>
 	</section>
