@@ -58,7 +58,7 @@
 	<div id="main_container" class="desktop">
 		<div id="homepage" class="_landing landing_content">
             
-            <#-- <#include "/templates/web/fragment/hero.ftl"> -->
+            <#include "/templates/web/fragment/hero.ftl">
             
             
 	<div class="content">
