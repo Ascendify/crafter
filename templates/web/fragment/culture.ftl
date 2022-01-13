@@ -39,11 +39,11 @@
 							</a>
 						</div>          
 					</div>        
-					<div class="col-sm-4 col-md-4">
+					<@crafter.div class="col-sm-4 col-md-4">
 						<@crafter.h5 class="hr" $field="cultureTitle_s">${contentModel.cultureTitle_s}</@crafter.h5>
 						<@crafter.p $field="cultureText_html">${contentModel.cultureText_html}</@crafter.p>
 						
-					</div>
+					</@crafter.div>
 				</div>
 			</article>        
 		</div>
