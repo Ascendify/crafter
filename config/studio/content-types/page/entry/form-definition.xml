@@ -192,13 +192,6 @@
 				</field>
 			</fields>
 		</section>
-		<section>
-			<title>Action Location</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-			</fields>
-		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
