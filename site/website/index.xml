@@ -13,13 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T02:50:35.838Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T02:50:35.838Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-01-13T02:53:57.576Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T02:53:57.576Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<title_s>Ascendify | Talent Community</title_s>
-	<actionDropSection_o item-list="true">	<item>	<key>/site/components/actioncall/b382e3b3-fa04-2195-48ef-d19a3af780f0.xml</key>
-	<value>First Call</value>
-	<include>/site/components/actioncall/b382e3b3-fa04-2195-48ef-d19a3af780f0.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></actionDropSection_o>
 </page>
