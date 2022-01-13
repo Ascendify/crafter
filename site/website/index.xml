@@ -13,8 +13,10 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T02:53:57.576Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T02:53:57.576Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-01-13T17:17:15.730Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T17:17:15.730Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
-	<title_s>Ascendify | Talent Community</title_s>
+	<heroText_s>Hero Text</heroText_s>
+	<heroJoin_s>Join Now!</heroJoin_s>
+	<heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
 </page>
