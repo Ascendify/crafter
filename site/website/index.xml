@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/entry</content-type>
-	<display-template>/templates/web/entry.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<placeInNav>false</placeInNav>
-	<file-name>index.xml</file-name>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T17:31:23.642Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T17:31:23.642Z</lastModifiedDate_dt>
-	<disabled>false</disabled>
-	<heroText_s>Join our Company</heroText_s>
-	<heroJoin_s>JOIN!</heroJoin_s>
-	<heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
-	<actions_o item-list="true"/>
+  <content-type>/page/entry</content-type>
+  <display-template>/templates/web/entry.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <placeInNav>false</placeInNav>
+  <file-name>index.xml</file-name>
+  <internal-name>Home</internal-name>
+  <orderDefault_f>-1</orderDefault_f>
+  <objectGroupId>8d7f</objectGroupId>
+  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+  <folder-name/>
+  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
+  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+  <lastModifiedDate>2022-01-13T17:31:23.642Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-13T17:32:02.344Z</lastModifiedDate_dt>
+  <disabled>false</disabled>
+  <heroText_s>Join our Company</heroText_s>
+  <heroJoin_s>JOIN!</heroJoin_s>
+  <heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
+  <actions_o item-list="true">
+    <item datasource="TODO" inline="true">
+      <key>c9fc6a82-5234-4e8c-9c81-d3ec70d5e34f</key>
+      <value>New actionCall</value>
+      <component id="c9fc6a82-5234-4e8c-9c81-d3ec70d5e34f">
+        <content-type>/component/actioncall</content-type>
+        <display-template>/templates/web/fragment/actionCall.ftl</display-template>
+        <internal-name><![CDATA[New actionCall]]></internal-name>
+        <file-name>c9fc6a82-5234-4e8c-9c81-d3ec70d5e34f.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2022-01-13T17:32:02.342Z</createdDate_dt>
+        <lastModifiedDate_dt>2022-01-13T17:32:02.342Z</lastModifiedDate_dt>
+        <objectId>c9fc6a82-5234-4e8c-9c81-d3ec70d5e34f</objectId>
+        <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
+        <actionHeader_s>Action Title</actionHeader_s>
+        <actionText_html>Text goes here</actionText_html>
+        <actionLink_s>click here</actionLink_s>
+      </component>
+    </item>
+  </actions_o>
 </page>
