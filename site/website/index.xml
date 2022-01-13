@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:46:02.775Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:12:38.149Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:12:49.359Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s><![CDATA[JOIN OUR TEAM BOB]]></heroJoin_s>
@@ -68,9 +68,9 @@
         <file-name>445e78e3-ea84-42cc-9599-429458657f5c.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T21:12:38.148Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T21:12:38.148Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-13T21:12:49.359Z</lastModifiedDate_dt>
         <objectId>445e78e3-ea84-42cc-9599-429458657f5c</objectId>
-        <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
+        <actionImage_s><![CDATA[/static-assets/images/445e78e3-ea84-42cc-9599-429458657f5c/sit_redshirts3.jpg]]></actionImage_s>
         <actionHeader_s>Action Title</actionHeader_s>
         <actionText_html>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</actionText_html>
         <actionLink_s>click here</actionLink_s>
