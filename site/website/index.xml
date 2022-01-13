@@ -14,9 +14,9 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T17:17:15.730Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T17:17:59.021Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T17:22:45.669Z</lastModifiedDate_dt>
   <disabled>false</disabled>
-  <heroText_s>Hero Text</heroText_s>
+  <heroText_s><![CDATA[Join our Company]]></heroText_s>
   <heroJoin_s><![CDATA[JOIN!]]></heroJoin_s>
   <heroImage_s>/static-assets/img/118845029_3215238855236348_3202855758229405989_n.jpeg</heroImage_s>
 </page>
