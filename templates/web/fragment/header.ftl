@@ -1,9 +1,3 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
-  <head>
-    <#-- Insert your head markup here -->
-    <@crafter.head />
-    
-    
     <meta http-equiv="imagetoolbar" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -36,6 +30,3 @@
 
 	<script type="text/javascript" src="/static-assets/js/core.js"></script>
 	<script type="text/javascript" src="/static-assets/js/jquery-1.9.1.min.js"></script>
-
-  </head>
-  
