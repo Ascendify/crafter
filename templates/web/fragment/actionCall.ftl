@@ -12,7 +12,7 @@
 		<div class="panel-bottom">
 			<@crafter.h2 $field="actionHeader_s">${contentModel.actionHeader_s}</@crafter.h2>
 			<@crafter.p $field="actionText_html">${contentModel.actionText_html}</@crafter.p>
-			<@crafter.a href="https://talent.ascendify.com/careers" class="standard safari_redirect_link" $field="actionLink_s">${contentModel.actionLink_s} <i class="fa fa-angle-double-right"></i></@crafter.a>
+			<@crafter.a href="https://talent.ascendify.com/careers" class="standard safari_redirect_link" $field="actionLink_s">${contentModel.actionLink_s}</@crafter.a>
 		</div>
 	</div>
 </@crafter.div>
