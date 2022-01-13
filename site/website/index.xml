@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:33:39.596Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T20:37:43.937Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T20:37:47.574Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -152,9 +152,9 @@
         <file-name>33de68c0-daf7-4104-a865-b3729fd1eec3.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T20:36:30.397Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T20:36:30.397Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-13T20:37:47.574Z</lastModifiedDate_dt>
         <objectId>33de68c0-daf7-4104-a865-b3729fd1eec3</objectId>
-        <person_s>/static-assets/img/cusr_4788e100000000626121.jpg</person_s>
+        <person_s><![CDATA[/static-assets/img/cusr_b76dc100000000289861.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
     </item>
