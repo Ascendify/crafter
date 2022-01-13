@@ -192,6 +192,36 @@
 				</field>
 			</fields>
 		</section>
+		<section>
+			<title>Action Location</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>repeat</type>
+					<id>actionGroup_o</id>
+					<iceId></iceId>
+					<title>Action Group</title>
+					<description></description>
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+					</fields>
+				</field>
+			</fields>
+		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
