@@ -95,7 +95,7 @@
 
 		<section class="section content-panels">
 			<div id="ascvideo" style="display: none;">
-				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/stuff/Ke_TefcWMYo.html"></iframe>
+				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
 			</div>
 			<div class="section-container container">
 				<div class="content-panels row">
@@ -107,7 +107,7 @@
 						Background images should be specified inline
 						should not be smaller than 318x173px
 						-->
-						<div class="panel-image" style="background-image: url('/static-assets/stuff/panel-4.jpg');"></div>
+						<div class="panel-image" style="background-image: url('/static-assets/img/panel-4.jpg');"></div>
 						<div class="panel-bottom">
 							<h2>Current Openings:</h2>
 							<p>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</p>
@@ -119,7 +119,7 @@
 					<div class="asc-panel">
 						<div class="panel-image panel-video">
 							<a href="https://talent.ascendify.com/#ascvideo" data-src="Ke_TefcWMYo">
-							  <div class="video-preview" style="background-image: url('/static-assets/stuff/panel-5.jpg'); height: 195px; width: 100%; background-size: cover; background-repeat: no-repeat"></div>
+							  <div class="video-preview" style="background-image: url('/static-assets/img/panel-5.jpg'); height: 195px; width: 100%; background-size: cover; background-repeat: no-repeat"></div>
 							  <span id="play-btn2" class="play-button fa fa-play-circle-o"></span>
 							</a>
 						</div>
@@ -133,7 +133,7 @@
 				<div class="col-sm-4 col-md-4">
 					<div class="asc-panel">
 						<div class="panel-image">
-							<div class="panel-image" style="background-image: url('/static-assets/stuff/panel-3.jpg');"></div>
+							<div class="panel-image" style="background-image: url('/static-assets/img/panel-3.jpg');"></div>
 						</div>
 						<div class="panel-bottom">
 							<h2>In the News:</h2>
@@ -154,7 +154,7 @@
 					<p class="p-quote">Check out what the Ascenders have to say about life at Ascendify.</p>
 				</div>
 			</div>
-			<div id="people-slider"><div id="slideDeck" style="height: 140px;"><div id="slideLeft" class="slideArrow"><i class="fa fa-angle-left" style="margin-top: 55px;"></i></div><div id="slideDeck_inner" style="width: 1050px; height: 130px;"><ul style="margin-left: -130px;"><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_24722100000008290032.png" id="ascendify_employee_profile_image_0" rel="cusr_24722100000008290032" alt="employee profile image" class="link first"></li><li class="hover" style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_c3483100000007476585.png" id="ascendify_employee_profile_image_1" rel="cusr_c3483100000007476585" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_e97c8100000008019201.png" id="ascendify_employee_profile_image_2" rel="cusr_e97c8100000008019201" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_50858100000006467449.png" id="ascendify_employee_profile_image_3" rel="cusr_50858100000006467449" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_e97fa100000000031726.jpg" id="ascendify_employee_profile_image_4" rel="cusr_e97fa100000000031726" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_4788e100000000626121.jpg" id="ascendify_employee_profile_image_5" rel="cusr_4788e100000000626121" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_2ec74100000000031752.jpg" id="ascendify_employee_profile_image_6" rel="cusr_2ec74100000000031752" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_0f64c100000000313384.jpg" id="ascendify_employee_profile_image_7" rel="cusr_0f64c100000000313384" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_b76dc100000000289861.jpg" id="ascendify_employee_profile_image_8" rel="cusr_b76dc100000000289861" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_ed219100000000312915.jpg" id="ascendify_employee_profile_image_9" rel="cusr_ed219100000000312915" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/stuff/cusr_0ee4c100000000313453.jpg" id="ascendify_employee_profile_image_10" rel="cusr_0ee4c100000000313453" alt="employee profile image" class="link"></li></ul></div><div id="slideRight" class="slideArrow"><i class="fa fa-angle-right" style="margin-top: 55px;"></i></div>
+			<div id="people-slider"><div id="slideDeck" style="height: 140px;"><div id="slideLeft" class="slideArrow"><i class="fa fa-angle-left" style="margin-top: 55px;"></i></div><div id="slideDeck_inner" style="width: 1050px; height: 130px;"><ul style="margin-left: -130px;"><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_24722100000008290032.png" id="ascendify_employee_profile_image_0" rel="cusr_24722100000008290032" alt="employee profile image" class="link first"></li><li class="hover" style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_c3483100000007476585.png" id="ascendify_employee_profile_image_1" rel="cusr_c3483100000007476585" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_e97c8100000008019201.png" id="ascendify_employee_profile_image_2" rel="cusr_e97c8100000008019201" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_50858100000006467449.png" id="ascendify_employee_profile_image_3" rel="cusr_50858100000006467449" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_e97fa100000000031726.jpg" id="ascendify_employee_profile_image_4" rel="cusr_e97fa100000000031726" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_4788e100000000626121.jpg" id="ascendify_employee_profile_image_5" rel="cusr_4788e100000000626121" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_2ec74100000000031752.jpg" id="ascendify_employee_profile_image_6" rel="cusr_2ec74100000000031752" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_0f64c100000000313384.jpg" id="ascendify_employee_profile_image_7" rel="cusr_0f64c100000000313384" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_b76dc100000000289861.jpg" id="ascendify_employee_profile_image_8" rel="cusr_b76dc100000000289861" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_ed219100000000312915.jpg" id="ascendify_employee_profile_image_9" rel="cusr_ed219100000000312915" alt="employee profile image" class="link"></li><li style="width: 120px; height: 120px;"><img src="/static-assets/img/cusr_0ee4c100000000313453.jpg" id="ascendify_employee_profile_image_10" rel="cusr_0ee4c100000000313453" alt="employee profile image" class="link"></li></ul></div><div id="slideRight" class="slideArrow"><i class="fa fa-angle-right" style="margin-top: 55px;"></i></div>
 <div class="popUp" id="asc-mini-profile-cusr_24722100000008290032">
 	<div class="popUp_info">
 		<p class="popUp_name">Vitaly Ivanchenko</p>
@@ -268,7 +268,7 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-11.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-11.jpg">
 										<!-- 
 										Captions
 										Captions should be included as a sibling of <img>
@@ -276,40 +276,40 @@
 										-->
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-1.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-1.jpg">
 								</div>
 								<div class="item active">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-2.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-2.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-3.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-3.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-13.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-13.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-4.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-4.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-15.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-15.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-5.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-5.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-6.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-6.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-7.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-7.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-8.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-8.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-9.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-9.jpg">
 								</div>
 								<div class="item">
-									<img alt="Ascendify photo show image" src="/static-assets/stuff/slider-14.jpg">
+									<img alt="Ascendify photo show image" src="/static-assets/img/slider-14.jpg">
 								</div>
 							</div>
 							<a class="left carousel-control" href="https://talent.ascendify.com/#slideshow" data-slide="prev">
@@ -351,7 +351,7 @@
 		</div>
 	</section>
 </div>
-<script src="/static-assets/stuff/iframe_api"></script><script id="video-thumbnail-script" type="text/javascript">
+<script src="/static-assets/img/iframe_api"></script><script id="video-thumbnail-script" type="text/javascript">
 $(function() {
 	$('#career-search-form').Ascendify('globalJobSearch',{
 		el: 'job-search-submit',
@@ -510,7 +510,7 @@ $(function() {
 		var ascendify_frontend_location = 'https://store.ascendify.com/fe/150';
 		var ascendify_system_type = 'live';
 	</script>
-	<script src="/static-assets/stuff/ckeditor.js.download"></script>
+	<script src="/static-assets/img/ckeditor.js.download"></script>
 	<script type="text/javascript">
 		$.ajax({
 			url: '/user/isUserLoggedin',
@@ -523,23 +523,23 @@ $(function() {
 		});
 	</script>
 
-	<script type="text/javascript" src="/static-assets/stuff/jquery-ui-1.10.2.custom.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/bootstrap.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/touchswipe.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/jquery.sharer.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/es5-shim.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/jquery-ui-1.10.2.custom.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/bootstrap.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/touchswipe.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/jquery.sharer.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/es5-shim.js.download"></script>
 
 			<!-- S3 BUCKET URL -->
 		<script type="text/javascript">
 			var ascendify_store = 'https://store.ascendify.com/prod';
 		</script>
-		<script src="/static-assets/stuff/ascendify.client.all.min.js.download" id="asc-script" type="text/javascript"></script>
-		<script type="text/javascript" src="/static-assets/stuff/utils.js.download"></script>
-		<script type="text/javascript" src="/static-assets/stuff/talentcommunity.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/respond.min.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/categorizr.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/ios-orientationchange-fix.min.js.download"></script>
-	<script type="text/javascript" src="/static-assets/stuff/jquery.color.js.download"></script>
+		<script src="/static-assets/img/ascendify.client.all.min.js.download" id="asc-script" type="text/javascript"></script>
+		<script type="text/javascript" src="/static-assets/img/utils.js.download"></script>
+		<script type="text/javascript" src="/static-assets/img/talentcommunity.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/respond.min.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/categorizr.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/ios-orientationchange-fix.min.js.download"></script>
+	<script type="text/javascript" src="/static-assets/img/jquery.color.js.download"></script>
 
 	<script type="text/javascript">
 	(function() {
