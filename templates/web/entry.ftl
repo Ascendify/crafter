@@ -10,7 +10,7 @@
     <@crafter.body_top />
 
 	<nav id="main-nav" class="nav" role="navigation">
-	    <#-- <#include "/templates/web/fragment/nav.ftl"> -->
+	    <#include "/templates/web/fragment/nav.ftl">
     </nav>
 
 	<div id="main_container" class="desktop">
@@ -55,7 +55,7 @@
 			<div id="ascvideo" style="display: none;">
 				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
 			</div>
-			<crafter.div class="section-container container">
+			<@crafter.div class="section-container container">
 	            <!-- DROP GOES HERE -->
 	            <#include "/templates/web/fragment/hero.ftl">
     	    
