@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <#-- <#include "/templates/web/fragment/head.ftl"> -->
+    <#include "/templates/web/fragment/head.ftl">
     <#-- Insert your head markup here -->
     <@crafter.head />
   </head>
