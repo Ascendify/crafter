@@ -52,9 +52,7 @@
  
 
 		<section class="section content-panels">
-			<div id="ascvideo" style="display: none;">
-				<iframe id="iframe-player-1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="410" src="/static-assets/img/Ke_TefcWMYo.html"></iframe>
-			</div>
+
                 <div class="section-container container">
     	            <!-- Drag Drop example -->
                     <@crafter.renderComponentCollection
