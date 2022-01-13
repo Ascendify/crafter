@@ -99,7 +99,7 @@
 			</div>
 			<crafter.div class="section-container container">
 	            <!-- DROP GOES HERE -->
-	            ${contentModel.actionDropSection_o}
+	         
 	         
 	    	</crafter.div>
 	</section>
