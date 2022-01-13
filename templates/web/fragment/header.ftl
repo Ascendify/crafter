@@ -1,3 +1,7 @@
+    
+    <title>${contentModel.title_t}</title>
+    <meta charset="utf-8"/>
+
     <meta http-equiv="imagetoolbar" content="no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
