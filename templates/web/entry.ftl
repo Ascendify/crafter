@@ -57,7 +57,7 @@
 			</div>
 			<div class="section-container container">
 	            <!-- DROP GOES HERE -->
-	            <#include "/templates/web/fragment/hero.ftl">
+	            <#-- <#include "/templates/web/fragment/hero.ftl"> -->
     	    
 	    	</div>
 	</section>
