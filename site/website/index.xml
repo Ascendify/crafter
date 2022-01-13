@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:33:39.596Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T20:34:09.128Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T20:34:11.301Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -108,23 +108,6 @@
         <folder-name/>
         <createdDate>2022-01-13T20:33:20.892Z</createdDate>
         <lastModifiedDate>2022-01-13T20:33:20.892Z</lastModifiedDate>
-      </component>
-    </item>
-
-    <item datasource="TODO" inline="true">
-      <key>65aba4e0-1aee-4b04-b4d7-2e3549403627</key>
-      <value>New person</value>
-      <component id="65aba4e0-1aee-4b04-b4d7-2e3549403627">
-        <content-type>/component/person</content-type>
-        <display-template>/templates/web/fragment/person.ftl</display-template>
-        <internal-name><![CDATA[New person]]></internal-name>
-        <file-name>65aba4e0-1aee-4b04-b4d7-2e3549403627.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T20:33:53.848Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T20:33:53.848Z</lastModifiedDate_dt>
-        <objectId>65aba4e0-1aee-4b04-b4d7-2e3549403627</objectId>
-        <person_s/>
-        <name_s>Person Name</name_s>
       </component>
     </item>
   </peopleDrop_o>
