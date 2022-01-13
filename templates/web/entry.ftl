@@ -59,7 +59,7 @@
 	            <!-- DROP GOES HERE -->
 	            <#include "/templates/web/fragment/hero.ftl">
     	    
-	    	</crafter.div>
+	    	</@crafter.div>
 	</section>
 	<section class="section our-people">
 		<div class="section-container container">
