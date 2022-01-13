@@ -3,9 +3,9 @@
 	</div>
 	<div class="hero-wrap pattern--blue">
 		<div class="hero-controls">
-		
+		 <@crafter.a href="/signup" class="inverted safari_redirect_link" $field="heroButton_s">${contentModel.heroButton_s}</@crafter.a>
 			<@crafter.h1 $field="heroText_s">${contentModel.heroText_s}</@crafter.h1>
-            <@crafter.a href="https://talent.ascendify.com/signup" class="inverted safari_redirect_link" $field="heroButton_s">${contentModel.heroButton_s}</@crafter.a>
+           
             
           
         </div>
