@@ -43,17 +43,12 @@
 		<a href="https://talent.ascendify.com/who-we-are" class="section__nav" id="life">Ascendify Life<span>.</span></a>
 
 					<a href="https://talent.ascendify.com/signin" id="signin" class="inverted standard safari_redirect_link">Sign In</a>
-			<script type="text/javascript">
-				checkLogin();
-			</script> 
+
 		
 			</div>
 
 	
 </nav>
-<script type="text/javascript">
-
-</script>
 
 	<div id="main_container" class="desktop">
 		<div id="homepage" class="_landing landing_content">
