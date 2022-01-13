@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-13T20:33:16.648Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-13T20:33:16.648Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-01-13T20:33:39.596Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-01-13T20:33:39.596Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<heroText_s>Ready for the ride of your life?</heroText_s>
 	<heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -129,6 +129,7 @@
       </component>
 	</item>	<item datasource="TODO" inline="true">	<key>e72a51cb-3e4a-48a1-b0bc-05cd45db7db8</key>
 	<value>New person</value>
+	<disableFlattening>false</disableFlattening>
 <component id="e72a51cb-3e4a-48a1-b0bc-05cd45db7db8">
         <content-type>/component/person</content-type>
         <display-template>/templates/web/fragment/person.ftl</display-template>
@@ -141,6 +142,5 @@
         <person_s/>
         <name_s>Person Name</name_s>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item></peopleDrop_o>
 </page>
