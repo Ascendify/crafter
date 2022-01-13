@@ -104,65 +104,17 @@
 			</fields>
 		</section>
 		<section>
-			<title>Hero Text</title>
+			<title>Hero</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
-				<field>
-					<type>input</type>
-					<id>heroText_s</id>
-					<iceId></iceId>
-					<title>heroText</title>
-					<description></description>
-					<defaultValue>Ready for the ride of your life</defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
 				<field>
 					<type>image-picker</type>
 					<id>heroImage_s</id>
 					<iceId></iceId>
 					<title>heroImage</title>
 					<description></description>
-					<defaultValue>/static-assets/img/home-hero.jpg</defaultValue>
+					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -206,21 +158,69 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>heroButton_s</id>
+					<id>heroText_s</id>
 					<iceId></iceId>
-					<title>heroButton</title>
+					<title>heroText</title>
 					<description></description>
-					<defaultValue>Join Us --&gt;</defaultValue>
+					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>size</name>
-							<value>200</value>
+							<value>500</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>200</value>
+							<value>500</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>heroJoin_s</id>
+					<iceId></iceId>
+					<title>heroJoin</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>250</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
