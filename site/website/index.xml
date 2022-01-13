@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T21:14:23.822Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T21:15:55.299Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T21:17:23.347Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>JOIN OUR TEAM BOB</heroJoin_s>
@@ -73,24 +73,6 @@
         <actionImage_s><![CDATA[/static-assets/images/445e78e3-ea84-42cc-9599-429458657f5c/sit_redshirts3.jpg]]></actionImage_s>
         <actionHeader_s><![CDATA[RED SHIRTS]]></actionHeader_s>
         <actionText_html><![CDATA[Check out some of our latest jobs, and see if you have what it takes to be an Ascender. <strong>TARGET</strong>]]></actionText_html>
-        <actionLink_s>click here</actionLink_s>
-      </component>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>8a516ccf-b08c-47ad-bc67-934f3fe7798b</key>
-      <value>New actionCall</value>
-      <component id="8a516ccf-b08c-47ad-bc67-934f3fe7798b">
-        <content-type>/component/actioncall</content-type>
-        <display-template>/templates/web/fragment/actionCall.ftl</display-template>
-        <internal-name><![CDATA[New actionCall]]></internal-name>
-        <file-name>8a516ccf-b08c-47ad-bc67-934f3fe7798b.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2022-01-13T21:13:20.208Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T21:13:20.208Z</lastModifiedDate_dt>
-        <objectId>8a516ccf-b08c-47ad-bc67-934f3fe7798b</objectId>
-        <actionImage_s>/static-assets/img/panel-4.jpg</actionImage_s>
-        <actionHeader_s>Action Title</actionHeader_s>
-        <actionText_html>Check out some of our latest jobs, and see if you have what it takes to be an Ascender.</actionText_html>
         <actionLink_s>click here</actionLink_s>
       </component>
     </item>
