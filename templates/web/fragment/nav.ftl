@@ -28,7 +28,7 @@
 		<div class="nav__btn--close">
 			<div class="icon__close"></div>
 		</div>
-		<a href="https://talent.ascendify.com/careers" class="section__nav safari_redirect_link" id="careers">Careers<span>.</span></a>
+		<@crafter.a href="https://talent.ascendify.com/careers" class="section__nav safari_redirect_link" id="careers" $field="careers_s">${contentModel.careers_s}<span>.</span></@crafter.a>
 		<a href="https://talent.ascendify.com/teams" class="section__nav" id="teams">Teams<span>.</span></a>
 		<a href="https://talent.ascendify.com/who-we-are" class="section__nav" id="life">Ascendify Life<span>.</span></a>
 
