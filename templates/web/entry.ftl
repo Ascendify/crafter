@@ -10,7 +10,7 @@
     <@crafter.body_top />
 
 	
-    <#-- <#include "/templates/web/fragment/nav.ftl"> -->
+    <#include "/templates/web/fragment/nav.ftl">
     
 
 	<div id="main_container" class="desktop">
