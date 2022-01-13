@@ -12,7 +12,7 @@
 	<div class="logo">
 		<div class="ascendify">
 			<a href="https://talent.ascendify.com/" class="logo__ascendify-white">
-			    <@crafter.img src="${model.navImage_s}">
+			    <@crafter.img src="${model.navImage_s}"/>
 			</a>
 			<a href="https://talent.ascendify.com/" class="logo__ascendify"></a>
 		</div>
