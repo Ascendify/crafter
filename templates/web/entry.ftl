@@ -9,9 +9,9 @@
   <body  data-device-type="desktop">
     <@crafter.body_top />
 
-	<nav id="main-nav" class="nav" role="navigation">
-	    <#include "/templates/web/fragment/nav.ftl">
-    </nav>
+	
+    <#include "/templates/web/fragment/nav.ftl">
+    
 
 	<div id="main_container" class="desktop">
 		<div id="homepage" class="_landing landing_content">
