@@ -5,6 +5,6 @@
 		<div class="hero-controls">
 		
 			<@crafter.h1 $field="heroText_s">${contentModel.heroText_s}</@crafter.h1>
-            <a href="https://talent.ascendify.com/signup" class="inverted safari_redirect_link">${contentModel.heroJoinTeam_s} »</a>
+            <@crafter.a href="https://talent.ascendify.com/signup" class="inverted safari_redirect_link" $field="heroJoinTeam_s">${contentModel.heroJoinTeam_s} »</@crafter.a>
         </div>
 	</div>
