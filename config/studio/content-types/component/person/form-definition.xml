@@ -92,7 +92,7 @@
 					<iceId></iceId>
 					<title>person</title>
 					<description>Person Image</description>
-					<defaultValue></defaultValue>
+					<defaultValue>/static-assets/img/cusr_4788e100000000626121.jpg</defaultValue>
 					<help></help>
 					<properties>
 						<property>
