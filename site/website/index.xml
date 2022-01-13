@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T20:24:52.298Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T20:25:44.156Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-13T20:25:47.785Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Ready for the ride of your life?</heroText_s>
   <heroJoin_s>Join our team &gt;&gt;</heroJoin_s>
@@ -88,5 +88,22 @@
   <peopleSiderHeadline_s>Check out what the Ascenders have to say about life at Ascendify.</peopleSiderHeadline_s>
   <cultureTitle_s>Our Culture</cultureTitle_s>
   <cultureText_html>&lt;p&gt;We&amp;rsquo;re a small, world-class agile team and we expect you to be at top of your game. We offer a competitive benefits package, a great office, and all the latest tools you need to produce your best work. Ascendify is committed to the learning and development of our employees. We'll support you with off-site courses and hands-on training in the application. Your role will grow as the company grows, in whatever ways best suit your skills and interests. Ascendify is located at 580 California Street, just a short walk away from BART and Muni stations, and right near everything the Financial District has to offer.&lt;/p&gt;</cultureText_html>
-  <peopleDrop_o item-list="true"/>
+  <peopleDrop_o item-list="true">
+    <item datasource="TODO" inline="true">
+      <key>e51243b3-dc38-4cc6-ba3c-5fde42a6b35b</key>
+      <value>New person</value>
+      <component id="e51243b3-dc38-4cc6-ba3c-5fde42a6b35b">
+        <content-type>/component/person</content-type>
+        <display-template>/templates/web/fragment/person.ftl</display-template>
+        <internal-name><![CDATA[New person]]></internal-name>
+        <file-name>e51243b3-dc38-4cc6-ba3c-5fde42a6b35b.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2022-01-13T20:25:47.784Z</createdDate_dt>
+        <lastModifiedDate_dt>2022-01-13T20:25:47.784Z</lastModifiedDate_dt>
+        <objectId>e51243b3-dc38-4cc6-ba3c-5fde42a6b35b</objectId>
+        <person_s/>
+        <name_s>Person Name</name_s>
+      </component>
+    </item>
+  </peopleDrop_o>
 </page>
