@@ -203,7 +203,7 @@
 					<iceId></iceId>
 					<title>Action Drop Section</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>nothing</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -213,7 +213,7 @@
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>4</value>
 							<type>int</type>
 						</property>
 						<property>
