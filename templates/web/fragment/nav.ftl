@@ -29,10 +29,10 @@
 			<div class="icon__close"></div>
 		</div>
 		<@crafter.a href="#/careers" class="section__nav safari_redirect_link" id="careers" $field="careers_s">${contentModel.careers_s}</@crafter.a>
-		<a href="https://talent.ascendify.com/teams" class="section__nav" id="teams">Teams<span>.</span></a>
-		<a href="https://talent.ascendify.com/who-we-are" class="section__nav" id="life">Ascendify Life<span>.</span></a>
+		<@crafter.a href="#/teams" class="section__nav" id="teams" $field="teams_s">${contentModel.teams_s}<span>.</span></@crafter.a>
+		<@crafter.a href="#/who-we-are" class="section__nav" id="life" $field="ascendifyLife_s">${contentModel.ascendifyLife_s}<span>.</span></@crafter.a>
 
-        <a href="https://talent.ascendify.com/signin" id="signin" class="inverted standard safari_redirect_link">Sign In</a>
+        <a href="#/signin" id="signin" class="inverted standard safari_redirect_link" $field="signin_s">${contentModel.signin_s}</a>
 
 		
     </div>
