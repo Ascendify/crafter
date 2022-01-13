@@ -4,7 +4,7 @@
 <html lang="en">
 	<head>
 
-		  <#include "/templates/web/fragments/head.ftl">
+		  <#include "/templates/web/fragment/head.ftl">
 		  
 		<@crafter.head/>
 	</head>
