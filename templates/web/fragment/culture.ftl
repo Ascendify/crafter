@@ -44,7 +44,7 @@
 						
 						<@crafter.p $field="cultureText_html">${contentModel.cultureText_html}</@crafter.p>
 						
-					</@div>
+					</div>
 				</div>
 			</article>        
 		</div>
