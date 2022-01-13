@@ -12,7 +12,7 @@
 	<nav id="main-nav" class="nav" role="navigation">
 
 
-	
+	    <#include "/templates/web/fragment/nav.ftl">
 </nav>
 
 	<div id="main_container" class="desktop">
