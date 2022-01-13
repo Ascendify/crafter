@@ -208,7 +208,7 @@
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value>0</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -279,17 +279,17 @@
 						</property>
 						<property>
 							<name>allowEmbedded</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
 							<name>enableBrowse</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 						<property>
 							<name>enableSearch</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 						<property>
