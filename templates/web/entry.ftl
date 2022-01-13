@@ -65,83 +65,14 @@
 			scrolled = true;
 		});
 
-		var checkScroll = function() {
-			if (scrolled) {
-				if (jQuerydoc.scrollTop() > 150 && !jQuerybody.hasClass('scrolled-down')) {
-
-					jQuerybody.addClass('step').delay(100).queue(function() {
-						jQuerybody.addClass('scrolled-down').dequeue();
-					});
-
-				} else if (jQuerydoc.scrollTop() <= 150 && jQuerybody.hasClass('step') && jQuerybody.hasClass('scrolled-down')) {
-
-					jQuerybody.addClass('return').delay(300).queue(function() {
-						jQuerybody.removeClass('scrolled-down step return').dequeue();
-					});
-				}
-
-				scrolled = false;
-			}
-		}
-		
-		setInterval(checkScroll, 100);
-
-
-		// Toggle Mobile Nav Menu
-		$('.nav__btn, .nav__btn--close').on('click', function() {
-			$('.nav__links').toggleClass('on');
-		});
-
-		$("#cookies-acceptance-wrapper").Ascendify('showCommunityCookieAcceptance',
-			{
-				community_id:'default',
-				success: function(response) {
-					var showPopup = response.data && response.data.show_popup,
-					privacy_policy_url = response.data && response.data.privacy_policy_url ? response.data.privacy_policy_url : "";
-					$mainNav = $("#main-nav"),
-					$tellMeMoreLink = $(".tell-me-more-link"),
-					$cookieWrapper = $("#cookies-acceptance-wrapper"),
-					$okButton = $(".ok-button");
-
-					if(showPopup) {
-						$cookieWrapper.show();
-						$mainNav.height( 140 );
-						$tellMeMoreLink.unbind('click').on('click', function() {
-							window.location= privacy_policy_url;
-						});
-						$okButton.unbind('click').on('click', function() {
-							$.ajax({
-								url: ascendify_server_location+"/communityapi/setCookiePopupAcceptance/"+ascendify_client_id,
-								dataType: 'jsonp',
-								success: function( json ) {
-									$mainNav.height(90);
-									$cookieWrapper.hide();
-								}
-							});
-						});
-					}
-				}
-			}
-		);
+	
 	});
 </script>
 
 	<div id="main_container" class="desktop">
 		<div id="homepage" class="_landing landing_content">
-	<div id="background-image" style="background-image: url('/static-assets/img/home-hero.jpg');">
-		<div class="background-gradient"></div>
-	</div>
-	<div class="hero-wrap pattern--blue">
-		<div class="hero-controls">
 		
-			<@crafter.h1 $field="title_t">${model.title_t}</@crafter.h1>
-			<@crafter.div $field="body_html">${contentModel.body_html}</@crafter.div>
-			
-			
-		  
-							<a href="https://talent.ascendify.com/signup" class="inverted safari_redirect_link">Join Our Team »</a>
-						</div>
-	</div>
+		 <#include "/templates/web/fragment/hero.ftl">
 	<div class="content">
 		<section class="home-search-box pattern--white">			
 			<div class="container">
