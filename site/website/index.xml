@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T21:34:33.069Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-17T18:50:36.301Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-17T18:50:48.657Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Jump jump jump</heroText_s>
   <heroJoin_s>JOIN OUR TEAM BOB</heroJoin_s>
@@ -31,11 +31,11 @@
         <file-name>bd2e3192-4826-46f5-a767-32ecb5c505e4.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T17:45:13.444Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T18:57:33.735Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-17T18:50:48.657Z</lastModifiedDate_dt>
         <objectId>bd2e3192-4826-46f5-a767-32ecb5c505e4</objectId>
         <actionImage_s><![CDATA[/static-assets/img/panel-5.jpg]]></actionImage_s>
         <actionHeader_s><![CDATA[ASCENDIFY LIFE:]]></actionHeader_s>
-        <actionText_html><![CDATA[Hear from our awesome team of Ascenders about what life is like here.]]></actionText_html>
+        <actionText_html><![CDATA[Hear from our awesome team of Ascenders about what life is like here. HERE WE GO]]></actionText_html>
         <actionLink_s><![CDATA[ABOUT US >>]]></actionLink_s>
       </component>
     </item>
