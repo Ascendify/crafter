@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T21:34:33.069Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-17T18:50:02.788Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-17T18:50:16.640Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Jump jump jump</heroText_s>
   <heroJoin_s>JOIN OUR TEAM BOB</heroJoin_s>
@@ -190,9 +190,9 @@
         <file-name>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T20:36:35.471Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T21:13:53.782Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-17T18:50:16.640Z</lastModifiedDate_dt>
         <objectId>f19ff634-e4dd-4426-9bbc-bf66dbe54b0c</objectId>
-        <person_s><![CDATA[/static-assets/images/f19ff634-e4dd-4426-9bbc-bf66dbe54b0c/cartoonJason.png]]></person_s>
+        <person_s><![CDATA[/static-assets/img/cusr_0ee4c100000000313453.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
     </item>
