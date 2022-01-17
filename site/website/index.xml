@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2022-01-13T21:34:33.069Z</lastModifiedDate>
-  <lastModifiedDate_dt>2022-01-13T22:05:32.839Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2022-01-17T18:50:02.788Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <heroText_s>Jump jump jump</heroText_s>
   <heroJoin_s>JOIN OUR TEAM BOB</heroJoin_s>
@@ -172,9 +172,9 @@
         <file-name>fd877ba3-e6f1-477f-8d41-da8820c03213.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2022-01-13T20:36:41.254Z</createdDate_dt>
-        <lastModifiedDate_dt>2022-01-13T22:04:44.597Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2022-01-17T18:50:02.788Z</lastModifiedDate_dt>
         <objectId>fd877ba3-e6f1-477f-8d41-da8820c03213</objectId>
-        <person_s><![CDATA[/static-assets/images/fd877ba3-e6f1-477f-8d41-da8820c03213/burns2.jpg]]></person_s>
+        <person_s><![CDATA[/static-assets/img/cusr_0ee4c100000000313453.jpg]]></person_s>
         <name_s>Person Name</name_s>
       </component>
     </item>
